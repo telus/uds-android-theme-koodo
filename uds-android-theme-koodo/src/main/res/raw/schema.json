@@ -173,28 +173,28 @@
       "anyOf": [
         {
           "const": "{palette.border.border1}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border2}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border3}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border4}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.none}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.border.zero}",
@@ -208,153 +208,153 @@
       "anyOf": [
         {
           "const": "{palette.color.amaranth}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.beeswax}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.bilbao}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.black}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.blue}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.burntSienna}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.cardinalPink}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.carouselPink}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.chathamsBlue}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.darkBlue}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.darkMosque}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.dove}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.flirt}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.gallery}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.hibiscus}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.iceberg}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mintTulip}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mortar}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mosque}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.notificationErrorBg}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\nUsed for error notifications, tbc if should be in palette",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\nUsed for error notifications, tbc if should be in palette"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\nUsed for error notifications, tbc if should be in palette",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\nUsed for error notifications, tbc if should be in palette"
         },
         {
           "const": "{palette.color.onahau}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.seaBuckthorn}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.silver}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.texas}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.transparent}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.trinidad}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.turquoise}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.wattle}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.wellRead}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.white}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.color.transparent}",
@@ -373,13 +373,13 @@
       "anyOf": [
         {
           "const": "{palette.duration.duration250}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.duration.duration300}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.duration.zero}",
@@ -393,58 +393,58 @@
       "anyOf": [
         {
           "const": "{palette.fontSize.size12}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size14}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size16}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size20}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size24}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size28}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size40}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size44}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size48}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size56}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size64}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontSize"
@@ -453,143 +453,143 @@
       "anyOf": [
         {
           "const": "{palette.icon.ArrowDownCircled}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.BoxOutline}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.BoxOutlineChecked}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Bullet}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Cart}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Check}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircledFilled}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircledNotFilled}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronDown}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronLeft}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronRight}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronUp}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CircledLine}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ExclamationOctagon}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ExclamationTriangle}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeClosed}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeOpened}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Hamburger}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Info}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.InfoSelected}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.InformationCircled}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Kebab}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.RadialOutline}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.RadialOutlineChecked}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Refresh}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Spyglass}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Times}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.TimesCircled}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.icon.none}",
@@ -603,8 +603,8 @@
       "anyOf": [
         {
           "const": "{palette.letterSpacing.default}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.letterSpacing.none}",
@@ -618,33 +618,33 @@
       "anyOf": [
         {
           "const": "{palette.lineHeight.multiply110}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply120}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply130}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply140}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply150}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply160}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#lineHeight"
@@ -653,18 +653,18 @@
       "anyOf": [
         {
           "const": "{palette.opacity.opacity3}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity5}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity8}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.opacity.opaque}",
@@ -678,23 +678,23 @@
       "anyOf": [
         {
           "const": "{palette.radius.none}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.pill32}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
         },
         {
           "const": "{palette.radius.radius12}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius4}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.radius.zero}",
@@ -713,8 +713,8 @@
       "anyOf": [
         {
           "const": "{palette.shadow.none}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.shadow.none}",
@@ -728,128 +728,128 @@
       "anyOf": [
         {
           "const": "{palette.size.size0}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size1}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\nFor special gap sizes. This is not part of the koodo spacing scale.",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the koodo spacing scale."
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\nFor special gap sizes. This is not part of the koodo spacing scale.",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the koodo spacing scale."
         },
         {
           "const": "{palette.size.size10}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size12}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size120}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size128}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component"
         },
         {
           "const": "{palette.size.size14}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\nAllows for the PaginationSideButton icon size",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\nAllows for the PaginationSideButton icon size"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\nAllows for the PaginationSideButton icon size",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\nAllows for the PaginationSideButton icon size"
         },
         {
           "const": "{palette.size.size140}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered"
         },
         {
           "const": "{palette.size.size15}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\nStepTracker knob diameter",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\nStepTracker knob diameter"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\nStepTracker knob diameter",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\nStepTracker knob diameter"
         },
         {
           "const": "{palette.size.size16}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size168}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n168 is the image size for xl screen size on the QuickLinksFeature component",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n168 is the image size for xl screen size on the QuickLinksFeature component"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n168 is the image size for xl screen size on the QuickLinksFeature component",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n168 is the image size for xl screen size on the QuickLinksFeature component"
         },
         {
           "const": "{palette.size.size184}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered"
         },
         {
           "const": "{palette.size.size2}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size20}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size24}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size32}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size36}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size4}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size40}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size48}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size64}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size72}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size8}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size80}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size96}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.size.none}",
@@ -903,8 +903,8 @@
       "anyOf": [
         {
           "const": "{palette.fontName.StagSans}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontName"
@@ -913,28 +913,28 @@
       "anyOf": [
         {
           "const": "{palette.fontWeight.weight300}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight400}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight500}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight600}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight700}",
-          "description": "@telus-uds/palette-koodo/v0.2.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.2.1 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.2.1` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontWeight"
