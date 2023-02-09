@@ -461,6 +461,12 @@
           "blue": 1,
           "alpha": 1
         },
+        "dividerColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
         "fontName": "StagSans",
         "fontSize": 14,
         "fontWeight": 600,
@@ -507,6 +513,12 @@
         "paddingRight": 16,
         "paddingTop": 8,
         "shadow": null,
+        "subtitleColor": {
+          "red": 0.00392,
+          "green": 0.28235,
+          "blue": 0.27843,
+          "alpha": 1
+        },
         "textAlign": "center",
         "width": null
       }
@@ -526,6 +538,11 @@
     },
     "ButtonGroupItem": {
       "appearances": {
+        "iconPosition": {
+          "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
+          "values": ["left", "right"],
+          "type": "state"
+        },
         "inactive": {
           "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
           "values": [true],
@@ -619,6 +636,14 @@
             "outerBorderGap": 1,
             "outerBorderWidth": 4
           }
+        },
+        {
+          "if": {
+            "iconPosition": "right"
+          },
+          "tokens": {
+            "iconSpace": 1
+          }
         }
       ],
       "tokens": {
@@ -646,9 +671,10 @@
         "fontName": "StagSans",
         "fontSize": 14,
         "fontWeight": 600,
+        "height": 36,
         "iconSize": 20,
         "iconSpace": 3,
-        "lineHeight": 1.5,
+        "lineHeight": 1.4,
         "minWidth": 0,
         "opacity": 1,
         "outerBackgroundColor": {
@@ -1568,6 +1594,7 @@
           },
           "tokens": {
             "itemFontSize": 20,
+            "itemIconSize": 20,
             "itemLineHeight": 1.4,
             "listGutter": 16
           }
@@ -1578,6 +1605,7 @@
           },
           "tokens": {
             "itemFontSize": 14,
+            "itemIconSize": 14,
             "listGutter": 10
           }
         },
@@ -4798,7 +4826,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.9.0",
+    "themeTokensVersion": "2.10.0",
     "name": "theme-koodo"
   }
 }
