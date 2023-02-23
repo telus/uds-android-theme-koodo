@@ -1,13 +1,29 @@
 {
   "components": {
     "ActivityIndicator": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "size": {
+          "description": "used for full-screen spinners",
+          "type": "variant",
+          "values": ["large"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "size": "large"
+          },
+          "tokens": {
+            "size": 48,
+            "thickness": 4
+          }
+        }
+      ],
       "tokens": {
         "color": {
           "red": 0.00392,
-          "green": 0.28235,
-          "blue": 0.27843,
+          "green": 0.41961,
+          "blue": 0.41569,
           "alpha": 1
         },
         "size": 40,
@@ -17,8 +33,26 @@
     "Box": {
       "appearances": {
         "background": {
-          "description": "Background colour of box. Transparent if not specified.",
-          "values": ["light", "lightest", "black"]
+          "description": "Background colour of box. White if not specified.",
+          "values": [
+            "lightest",
+            "lighter",
+            "light",
+            "dark",
+            "darker",
+            "darkest",
+            "critical",
+            "danger",
+            "warning",
+            "positive",
+            "brand",
+            "white",
+            "black",
+            "featurePrimary",
+            "featureSecondary",
+            "featureNeutral",
+            "featureBrand"
+          ]
         }
       },
       "rules": [
@@ -31,6 +65,19 @@
               "red": 1,
               "green": 1,
               "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "lighter"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.98039,
+              "green": 0.98039,
+              "blue": 0.98039,
               "alpha": 1
             }
           }
@@ -50,6 +97,123 @@
         },
         {
           "if": {
+            "background": "dark"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.4,
+              "green": 0.4,
+              "blue": 0.4,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "darker"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "darkest"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "critical"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.72157,
+              "green": 0.21569,
+              "blue": 0.24314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "danger"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.97255,
+              "green": 0.86667,
+              "blue": 0.8902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "warning"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.99608,
+              "green": 0.93333,
+              "blue": 0.78039,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "positive"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.89804,
+              "green": 0.96863,
+              "blue": 0.98431,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "brand"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "white"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "background": "black"
           },
           "tokens": {
@@ -60,14 +224,66 @@
               "alpha": 1
             }
           }
+        },
+        {
+          "if": {
+            "background": "featurePrimary"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.48627,
+              "green": 0.07451,
+              "blue": 0.4,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "featureSecondary"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.0902,
+              "green": 0.21176,
+              "blue": 0.4902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "featureNeutral"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "featureBrand"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
         }
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
         },
         "gradient": null
       }
@@ -994,8 +1210,57 @@
       }
     },
     "Divider": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "decorative": {
+          "description": "Use a decorative divider to highlight an element. Non-decorative dividers are for clearly identifying separation of content.",
+          "type": "variant",
+          "values": [true]
+        },
+        "inverse": {
+          "type": "variant",
+          "values": [true]
+        },
+        "weight": {
+          "type": "variant",
+          "values": ["thick"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "weight": "thick"
+          },
+          "tokens": {
+            "width": 2
+          }
+        },
+        {
+          "if": {
+            "decorative": true
+          },
+          "tokens": {
+            "color": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true
+          },
+          "tokens": {
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "color": {
           "red": 0.78824,
@@ -1794,16 +2059,22 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.75686,
-              "green": 0.94902,
-              "blue": 0.9098,
+              "red": 0.89804,
+              "green": 0.96863,
+              "blue": 0.98431,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
               "alpha": 1
             },
             "icon": "PaletteIconCheckCircledFilled",
             "iconColor": {
-              "red": 0.1451,
-              "green": 0.5451,
-              "blue": 0.04314,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
           }
@@ -1819,11 +2090,17 @@
               "blue": 0.78039,
               "alpha": 1
             },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
             "icon": "PaletteIconExclamationTriangle",
             "iconColor": {
-              "red": 0.98431,
-              "green": 0.68627,
-              "blue": 0.20392,
+              "red": 0.93333,
+              "green": 0.17255,
+              "blue": 0.4549,
               "alpha": 1
             }
           }
@@ -1839,6 +2116,12 @@
               "blue": 0.8902,
               "alpha": 1
             },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
             "icon": "PaletteIconExclamationOctagon",
             "iconColor": {
               "red": 0.87451,
@@ -1851,9 +2134,9 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0.98039,
+          "green": 0.90196,
+          "blue": 0.95686,
           "alpha": 1
         },
         "borderBottomWidth": 0,
@@ -1868,9 +2151,9 @@
         "borderRightWidth": 0,
         "borderTopWidth": 0,
         "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.48627,
+          "green": 0.07451,
+          "blue": 0.4,
           "alpha": 1
         },
         "dismissButtonGap": 16,
@@ -4380,8 +4663,33 @@
       }
     },
     "Tooltip": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "inverse": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "inverse": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.00392,
+              "green": 0.28235,
+              "blue": 0.27843,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "arrowBorderRadius": 0,
         "arrowOffset": 4,
@@ -4677,7 +4985,7 @@
       "appearances": {
         "space": {
           "description": "Index of the intended position on the spacing scale",
-          "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+          "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           "type": "state"
         },
         "viewport": {
@@ -4690,6 +4998,22 @@
         {
           "if": {
             "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "size": 120
+          }
+        },
+        {
+          "if": {
+            "space": 12
+          },
+          "tokens": {
+            "size": 120
+          }
+        },
+        {
+          "if": {
+            "space": 11
           },
           "tokens": {
             "size": 120
@@ -4777,7 +5101,7 @@
         },
         {
           "if": {
-            "space": 10,
+            "space": 11,
             "viewport": ["lg", "xl"]
           },
           "tokens": {
@@ -4786,7 +5110,7 @@
         },
         {
           "if": {
-            "space": 9,
+            "space": 10,
             "viewport": ["lg", "xl"]
           },
           "tokens": {
@@ -4795,7 +5119,7 @@
         },
         {
           "if": {
-            "space": 8,
+            "space": 9,
             "viewport": ["lg", "xl"]
           },
           "tokens": {
@@ -4804,11 +5128,29 @@
         },
         {
           "if": {
-            "space": 7,
+            "space": 8,
             "viewport": ["lg", "xl"]
           },
           "tokens": {
             "size": 64
+          }
+        },
+        {
+          "if": {
+            "space": 7,
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "size": 48
+          }
+        },
+        {
+          "if": {
+            "space": 6,
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "size": 40
           }
         },
         {
@@ -4826,7 +5168,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.10.0",
+    "themeTokensVersion": "2.11.0",
     "name": "theme-koodo"
   }
 }
