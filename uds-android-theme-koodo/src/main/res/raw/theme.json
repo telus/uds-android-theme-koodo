@@ -1750,7 +1750,7 @@
         },
         "fontName": "StagSans",
         "fontSize": 16,
-        "fontWeight": 700,
+        "fontWeight": 600,
         "gap": 8,
         "hintColor": {
           "red": 0,
@@ -1759,7 +1759,7 @@
           "alpha": 1
         },
         "hintFontName": "StagSans",
-        "hintFontSize": 14,
+        "hintFontSize": 16,
         "hintFontWeight": 400,
         "hintLineHeight": 1.4,
         "lineHeight": 1.4
