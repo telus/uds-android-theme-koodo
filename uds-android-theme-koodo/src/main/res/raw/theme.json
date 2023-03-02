@@ -1558,13 +1558,21 @@
     },
     "Icon": {
       "appearances": {
-        "colour": {
+        "color": {
           "type": "variant",
-          "values": ["primary", "secondary", "black", "white"]
+          "values": [
+            "brand",
+            "subtle",
+            "offer",
+            "success",
+            "danger",
+            "warning",
+            "inverse"
+          ]
         },
         "size": {
           "type": "variant",
-          "values": ["small"]
+          "values": ["micro", "small", "large", "extraLarge"]
         },
         "status": {
           "description": "Uses icon colour to communicate meaning to the user",
@@ -1575,6 +1583,14 @@
       "rules": [
         {
           "if": {
+            "size": "micro"
+          },
+          "tokens": {
+            "size": 16
+          }
+        },
+        {
+          "if": {
             "size": "small"
           },
           "tokens": {
@@ -1583,46 +1599,101 @@
         },
         {
           "if": {
-            "colour": "primary"
+            "size": "large"
+          },
+          "tokens": {
+            "size": 32
+          }
+        },
+        {
+          "if": {
+            "size": "extraLarge"
+          },
+          "tokens": {
+            "size": 48
+          }
+        },
+        {
+          "if": {
+            "color": "brand"
           },
           "tokens": {
             "color": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
           }
         },
         {
           "if": {
-            "colour": "secondary"
+            "color": "subtle"
           },
           "tokens": {
             "color": {
-              "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
+              "red": 0.4,
+              "green": 0.4,
+              "blue": 0.4,
               "alpha": 1
             }
           }
         },
         {
           "if": {
-            "colour": "black"
+            "color": "offer"
           },
           "tokens": {
             "color": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
           }
         },
         {
           "if": {
-            "colour": "white"
+            "color": "success"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "color": "danger"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.93333,
+              "green": 0.17255,
+              "blue": 0.4549,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "color": "warning"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "color": "inverse"
           },
           "tokens": {
             "color": {
@@ -1662,9 +1733,9 @@
       ],
       "tokens": {
         "color": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "scale": 1,
