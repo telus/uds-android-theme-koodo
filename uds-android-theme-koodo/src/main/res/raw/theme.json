@@ -917,13 +917,75 @@
       }
     },
     "Card": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "background": {
+          "description": "Defines background related attributes of Card",
+          "type": "variant",
+          "values": ["alternative", "subtle", "grid", "feature"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "background": "alternative"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.89804,
+              "green": 0.96863,
+              "blue": 0.98431,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "background": "subtle"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.98039,
+              "green": 0.90196,
+              "blue": 0.95686,
+              "alpha": 1
+            },
+            "borderRadius": 8
+          }
+        },
+        {
+          "if": {
+            "background": "grid"
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "borderRadius": 8,
+            "borderWidth": 1
+          }
+        },
+        {
+          "if": {
+            "background": "feature"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.97647,
+              "green": 0.96471,
+              "blue": 0.64706,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "backgroundColor": {
-          "red": 0.97647,
-          "green": 0.96471,
-          "blue": 0.64706,
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         },
         "borderColor": {
