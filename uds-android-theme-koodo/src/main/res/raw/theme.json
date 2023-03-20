@@ -34,6 +34,7 @@
       "appearances": {
         "background": {
           "description": "Background colour of box. White if not specified.",
+          "type": "variant",
           "values": [
             "lightest",
             "lighter",
@@ -1189,7 +1190,47 @@
           "type": "state"
         }
       },
-      "rules": [],
+      "rules": [
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "inputBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
+            "checked": true,
+            "inactive": true
+          },
+          "tokens": {
+            "iconBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "containerBackgroundColor": {
           "red": 0,
@@ -1941,6 +1982,11 @@
           "values": [true],
           "type": "state"
         },
+        "password": {
+          "description": "Password masked or not",
+          "type": "variant",
+          "values": [true]
+        },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
           "values": [true],
@@ -1954,6 +2000,73 @@
           },
           "tokens": {
             "outerBorderGap": 0
+          }
+        },
+        {
+          "if": {
+            "password": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
+            "password": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.00392,
+              "green": 0.28235,
+              "blue": 0.27843,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inactive": true,
+            "password": true
+          },
+          "tokens": {
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            }
           }
         }
       ],
@@ -4555,6 +4668,11 @@
           "values": [true],
           "type": "state"
         },
+        "password": {
+          "description": "capability that helps masking and unmasking text",
+          "type": "variant",
+          "values": [true]
+        },
         "validation": {
           "description": "Validation states for form inputs",
           "values": ["error", "success"],
@@ -4691,7 +4809,9 @@
         "paddingBottom": 10,
         "paddingLeft": 16,
         "paddingRight": 16,
-        "paddingTop": 10
+        "paddingTop": 10,
+        "passwordHideButtonIcon": "PaletteIconEyeMasked",
+        "passwordShowButtonIcon": "PaletteIconEyeUnmasked"
       }
     },
     "Timeline": {
@@ -5037,6 +5157,11 @@
           "type": "variant",
           "values": ["red"]
         },
+        "compact": {
+          "description": "Reduces line height on some body text styles. For data-rich content, not for flow content",
+          "type": "variant",
+          "values": [true]
+        },
         "inverse": {
           "description": "Styles the link white for use on dark backgrounds.",
           "type": "variant",
@@ -5044,7 +5169,20 @@
         },
         "size": {
           "type": "variant",
-          "values": ["small", "large", "h1", "h2", "h3", "h4", "display"]
+          "values": [
+            "micro",
+            "small",
+            "medium",
+            "large",
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "display1",
+            "display2"
+          ]
         },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
@@ -5082,7 +5220,34 @@
           },
           "tokens": {
             "fontSize": 20,
-            "lineHeight": 1.6
+            "lineHeight": 1.4
+          }
+        },
+        {
+          "if": {
+            "compact": true,
+            "size": "large"
+          },
+          "tokens": {
+            "lineHeight": 1.2
+          }
+        },
+        {
+          "if": {
+            "size": "medium"
+          },
+          "tokens": {
+            "fontSize": 16,
+            "lineHeight": 1.5
+          }
+        },
+        {
+          "if": {
+            "compact": true,
+            "size": "medium"
+          },
+          "tokens": {
+            "lineHeight": 1.25
           }
         },
         {
@@ -5091,28 +5256,76 @@
           },
           "tokens": {
             "fontSize": 14,
-            "lineHeight": 1.4
+            "lineHeight": 1.42857142857
           }
         },
         {
           "if": {
-            "size": "display"
+            "compact": true,
+            "size": "small"
+          },
+          "tokens": {
+            "lineHeight": 1.14285714286
+          }
+        },
+        {
+          "if": {
+            "size": "micro"
+          },
+          "tokens": {
+            "fontSize": 12,
+            "lineHeight": 1.33333333333
+          }
+        },
+        {
+          "if": {
+            "compact": true,
+            "size": "micro"
+          },
+          "tokens": {
+            "lineHeight": 1.33333333333
+          }
+        },
+        {
+          "if": {
+            "size": "display1"
           },
           "tokens": {
             "fontName": "StagSans",
-            "fontSize": 48,
+            "fontSize": 44,
             "fontWeight": 700,
+            "lineHeight": 1.22222222222
+          }
+        },
+        {
+          "if": {
+            "size": "display1",
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "fontSize": 70,
             "lineHeight": 1.2
           }
         },
         {
           "if": {
-            "size": "display",
+            "size": "display2"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.22222222222
+          }
+        },
+        {
+          "if": {
+            "size": "display2",
             "viewport": ["lg", "xl"]
           },
           "tokens": {
-            "fontSize": 64,
-            "lineHeight": 1.1
+            "fontSize": 54,
+            "lineHeight": 1.14285714286
           }
         },
         {
@@ -5121,9 +5334,9 @@
           },
           "tokens": {
             "fontName": "StagSans",
-            "fontSize": 44,
+            "fontSize": 34,
             "fontWeight": 700,
-            "lineHeight": 1.2
+            "lineHeight": 1.22222222222
           }
         },
         {
@@ -5132,8 +5345,8 @@
             "viewport": ["lg", "xl"]
           },
           "tokens": {
-            "fontSize": 40,
-            "lineHeight": 1.1
+            "fontSize": 44,
+            "lineHeight": 1.22222222222
           }
         },
         {
@@ -5148,18 +5361,9 @@
               "alpha": 1
             },
             "fontName": "StagSans",
-            "fontSize": 28,
+            "fontSize": 32,
             "fontWeight": 700,
-            "lineHeight": 1.3
-          }
-        },
-        {
-          "if": {
-            "size": "h2",
-            "viewport": ["lg", "xl"]
-          },
-          "tokens": {
-            "fontSize": 28
+            "lineHeight": 1.25
           }
         },
         {
@@ -5168,19 +5372,9 @@
           },
           "tokens": {
             "fontName": "StagSans",
-            "fontSize": 20,
-            "fontWeight": 700,
-            "lineHeight": 1.4
-          }
-        },
-        {
-          "if": {
-            "size": "h3",
-            "viewport": ["lg", "xl"]
-          },
-          "tokens": {
             "fontSize": 24,
-            "lineHeight": 1.3
+            "fontWeight": 700,
+            "lineHeight": 1.33333333333
           }
         },
         {
@@ -5189,9 +5383,31 @@
           },
           "tokens": {
             "fontName": "StagSans",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "lineHeight": 1.2
+          }
+        },
+        {
+          "if": {
+            "size": "h5"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 18,
+            "fontWeight": 700,
+            "lineHeight": 1.22222222222
+          }
+        },
+        {
+          "if": {
+            "size": "h6"
+          },
+          "tokens": {
+            "fontName": "StagSans",
             "fontSize": 16,
             "fontWeight": 700,
-            "lineHeight": 1.5
+            "lineHeight": 1.25
           }
         },
         {
@@ -5424,7 +5640,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.12.0",
+    "themeTokensVersion": "2.13.0",
     "name": "theme-koodo"
   }
 }
