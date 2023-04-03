@@ -470,8 +470,8 @@
     },
     "Button": {
       "appearances": {
-        "clear": {
-          "description": "Gives a button borders and a transparent background",
+        "danger": {
+          "description": "Indicates a user action that is destructive and will result in loss of information or cause significant monetary charges. Limit the use of the danger button whenever possible.",
           "type": "variant",
           "values": [true]
         },
@@ -480,39 +480,78 @@
           "values": [true],
           "type": "state"
         },
+        "inverse": {
+          "description": "Use inverse buttons on darker backgrounds. High and low priority buttons, and danger buttons, are available in inverse.",
+          "type": "variant",
+          "values": [true]
+        },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
           "values": [true],
           "type": "state"
         },
-        "rank": {
-          "description": "Prominence of the button. Use the default (\"primary\") button style for the main action on a page or in a form, and \"secondary\" style for secondary actions.",
+        "priority": {
+          "description": "Indicates the importance of the call-to-action. Limit the amount of high priority buttons on a page to prioritize meaningful user flows. Low priority styles are applied by default.",
           "type": "variant",
-          "values": ["secondary"]
+          "values": ["high", "low"]
         },
-        "rounded": {
-          "description": "Gives a button \"pill-style\" rounded sides",
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        },
+        "text": {
+          "description": "Text variant visually deprioritize the button styles",
           "type": "variant",
           "values": [true]
         },
-        "selected": {
-          "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
-          "values": [true],
-          "type": "state"
+        "width": {
+          "description": "Available in default or full-width. Default-width expands based on content Full-width expands to width of the container.",
+          "type": "variant",
+          "values": ["full"]
         }
       },
       "rules": [
         {
           "if": {
-            "rounded": true
+            "priority": "high"
           },
           "tokens": {
-            "borderRadius": 32
+            "backgroundColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
           }
         },
         {
           "if": {
-            "clear": true
+            "danger": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.87451,
+              "green": 0.23922,
+              "blue": 0.04706,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.87451,
+              "green": 0.23922,
+              "blue": 0.04706,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true
           },
           "tokens": {
             "backgroundColor": {
@@ -522,17 +561,22 @@
               "alpha": 0
             },
             "borderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
             },
-            "borderWidth": 2,
             "color": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
+            },
+            "outerBackgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             }
           }
         },
@@ -542,54 +586,23 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            },
-            "borderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
               "alpha": 1
             },
             "color": {
-              "red": 1,
-              "green": 1,
-              "blue": 1,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             }
           }
         },
         {
           "if": {
-            "rank": "secondary"
-          },
-          "tokens": {
-            "backgroundColor": {
-              "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
-              "alpha": 1
-            },
-            "borderColor": {
-              "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
-              "alpha": 1
-            },
-            "color": {
-              "red": 1,
-              "green": 1,
-              "blue": 1,
-              "alpha": 1
-            }
-          }
-        },
-        {
-          "if": {
-            "clear": true,
-            "rank": "secondary"
+            "inverse": true,
+            "priority": "high"
           },
           "tokens": {
             "backgroundColor": {
@@ -598,16 +611,11 @@
               "blue": 1,
               "alpha": 1
             },
-            "borderColor": {
-              "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
-              "alpha": 1
-            },
+            "borderWidth": 0,
             "color": {
-              "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
           }
@@ -615,20 +623,228 @@
         {
           "if": {
             "pressed": true,
-            "rank": "secondary"
+            "priority": "high"
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.76471,
-              "green": 0.93725,
-              "blue": 1,
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.4,
+              "green": 0.4,
+              "blue": 0.4,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "danger": true,
+            "pressed": true,
+            "priority": "high"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "width": "full"
+          },
+          "tokens": {
+            "width": "100%"
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "minWidth": 0,
+            "paddingBottom": 4,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 4
+          }
+        },
+        {
+          "description": "Buttons should not be disabled or set as inactive. Use inline (on blur) error messaging to provide feedback when the form is invalid. In exceptional instances where disabled buttons are needed, it must be clear to the user why the button is disabled and what they need to do to enable it.",
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "borderColor": {
-              "red": 0.76471,
-              "green": 0.93725,
-              "blue": 1,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
+            },
+            "borderWidth": 0,
+            "color": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "text": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
+            "color": {
+              "red": 0.0902,
+              "green": 0.21176,
+              "blue": 0.4902,
+              "alpha": 1
+            },
+            "minWidth": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "textLine": "underline"
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "text": true
+          },
+          "tokens": {
+            "color": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "danger": true,
+            "text": true
+          },
+          "tokens": {
+            "color": {
+              "red": 0.87451,
+              "green": 0.23922,
+              "blue": 0.04706,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "pressed": true,
+            "text": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "color": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "textLine": "none"
+          }
+        },
+        {
+          "if": {
+            "inactive": true,
+            "text": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "textLine": "none"
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "text": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
             "color": {
               "red": 1,
@@ -640,49 +856,46 @@
         },
         {
           "if": {
-            "inactive": true
+            "inactive": true,
+            "inverse": true,
+            "text": true
           },
           "tokens": {
-            "opacity": 0.3
-          }
-        },
-        {
-          "if": {
-            "selected": true
-          },
-          "tokens": {
-            "opacity": 0.8,
-            "outerBorderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
-            "outerBorderGap": 1,
-            "outerBorderWidth": 4
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            }
           }
         }
       ],
       "tokens": {
         "alignSelf": "flex-start",
         "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
           "red": 0.00392,
           "green": 0.41961,
           "blue": 0.41569,
           "alpha": 1
         },
-        "borderColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
         "borderRadius": 4,
-        "borderWidth": 0,
+        "borderWidth": 1,
         "color": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
           "alpha": 1
         },
         "fontName": "StagSans",
@@ -692,26 +905,26 @@
         "iconSize": 24,
         "iconSpace": 2,
         "lineHeight": 1.5,
-        "minWidth": 0,
+        "minWidth": 144,
         "opacity": 1,
         "outerBackgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "outerBorderColor": {
           "red": 1,
           "green": 1,
           "blue": 1,
           "alpha": 1
         },
-        "outerBorderGap": 2,
-        "outerBorderWidth": 2,
-        "paddingBottom": 8,
-        "paddingLeft": 24,
-        "paddingRight": 24,
-        "paddingTop": 8,
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderGap": null,
+        "outerBorderWidth": 1,
+        "paddingBottom": 12,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 12,
         "shadow": null,
         "textAlign": "center",
         "textLine": "none",
@@ -1645,11 +1858,26 @@
           },
           "tokens": {
             "color": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "decorative": true,
+            "weight": "thick"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "width": 2
           }
         },
         {
@@ -1663,6 +1891,21 @@
               "blue": 1,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "weight": "thick"
+          },
+          "tokens": {
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "width": 2
           }
         }
       ],
@@ -2164,9 +2407,40 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.00392,
-              "green": 0.28235,
-              "blue": 0.27843,
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
               "alpha": 1
             },
             "iconColor": {
@@ -2226,7 +2500,7 @@
           "alpha": 1
         },
         "borderRadius": 99999999999999,
-        "borderWidth": 1,
+        "borderWidth": 3,
         "iconColor": {
           "red": 0.00392,
           "green": 0.41961,
@@ -3435,6 +3709,12 @@
         "itemBulletContainerWidth": 0,
         "itemBulletHeight": 0,
         "itemBulletWidth": 0,
+        "itemFontColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
         "itemFontName": "StagSans",
         "itemFontSize": 16,
         "itemFontWeight": 600,
@@ -5888,7 +6168,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.14.0",
+    "themeTokensVersion": "2.15.0",
     "name": "theme-koodo"
   }
 }
