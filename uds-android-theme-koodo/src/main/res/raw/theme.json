@@ -3750,7 +3750,131 @@
           "type": "state"
         }
       },
-      "rules": [],
+      "rules": [
+        {
+          "if": {
+            "error": true
+          },
+          "tokens": {
+            "inputBackgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "inputBorderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "inputOutlineColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "outerBorderGap": 0,
+            "outerBorderWidth": 0
+          }
+        },
+        {
+          "if": {
+            "checked": true
+          },
+          "tokens": {
+            "inputBackgroundColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "inputOutlineColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "inputBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputBorderColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputOutlineColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "labelColor": {
+              "red": 0.4,
+              "green": 0.4,
+              "blue": 0.4,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "checked": true,
+            "inactive": true
+          },
+          "tokens": {
+            "checkedBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputBorderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "inputBorderWidth": 3,
+            "inputOutlineColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "inputOutlineWidth": 1,
+            "labelColor": {
+              "red": 0.4,
+              "green": 0.4,
+              "blue": 0.4,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "checkedBackgroundColor": {
           "red": 0.00392,
@@ -3758,7 +3882,7 @@
           "blue": 0.41569,
           "alpha": 1
         },
-        "checkedSize": 12,
+        "checkedSize": 16,
         "containerBackgroundColor": {
           "red": 0,
           "green": 0,
@@ -3782,19 +3906,19 @@
           "alpha": 1
         },
         "inputBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "inputBorderWidth": 2,
+        "inputOutlineColor": {
           "red": 0.00392,
           "green": 0.41961,
           "blue": 0.41569,
           "alpha": 1
         },
-        "inputBorderWidth": 2,
-        "inputOutlineColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "inputOutlineWidth": 0,
+        "inputOutlineWidth": 2,
         "inputSize": 20,
         "labelColor": {
           "red": 0,
@@ -4060,6 +4184,57 @@
       "tokens": {
         "fieldSpace": 2,
         "space": 2
+      }
+    },
+    "Ribbon": {
+      "appearances": {
+        "purpose": {
+          "type": "variant",
+          "values": ["offer", "default", "editorial"]
+        }
+      },
+      "rules": [],
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "boxShadowColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "boxShadowPaddingBottom": 2,
+        "boxShadowPaddingLeft": 2,
+        "boxShadowPaddingRight": 2,
+        "boxShadowPaddingTop": 2,
+        "curveAfterBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "curveAfterHeight": 4,
+        "curveAfterRadius": 8,
+        "curveAfterWidth": 8,
+        "curveBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "curveHeight": 10,
+        "curveMarginTop": 4,
+        "curveWidth": 8,
+        "gradient": null,
+        "paddingBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 4
       }
     },
     "Search": {

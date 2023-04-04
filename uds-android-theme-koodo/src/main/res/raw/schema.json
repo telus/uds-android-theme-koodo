@@ -1004,6 +1004,11 @@
           "markdownDescription": "`@telus-uds/palette-koodo/v0.8.0` **palette** tokens 🖌️\n\n"
         },
         {
+          "const": "{palette.size.size5}",
+          "description": "@telus-uds/palette-koodo/v0.8.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.8.0` **palette** tokens 🖌️\n\n"
+        },
+        {
           "const": "{palette.size.size64}",
           "description": "@telus-uds/palette-koodo/v0.8.0 palette tokens 🖌️\n",
           "markdownDescription": "`@telus-uds/palette-koodo/v0.8.0` **palette** tokens 🖌️\n\n"
@@ -7585,6 +7590,199 @@
             "rules"
           ]
         },
+        "Ribbon": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "paddingLeft": {
+                  "$ref": "#size"
+                },
+                "paddingRight": {
+                  "$ref": "#size"
+                },
+                "paddingTop": {
+                  "$ref": "#size"
+                },
+                "paddingBottom": {
+                  "$ref": "#size"
+                },
+                "borderRadius": {
+                  "$ref": "#size"
+                },
+                "backgroundColor": {
+                  "$ref": "#color"
+                },
+                "boxShadowPaddingLeft": {
+                  "$ref": "#size"
+                },
+                "boxShadowPaddingTop": {
+                  "$ref": "#size"
+                },
+                "boxShadowPaddingRight": {
+                  "$ref": "#size"
+                },
+                "boxShadowPaddingBottom": {
+                  "$ref": "#size"
+                },
+                "boxShadowColor": {
+                  "$ref": "#color"
+                },
+                "curveAfterWidth": {
+                  "$ref": "#size"
+                },
+                "curveMarginTop": {
+                  "$ref": "#size"
+                },
+                "curveAfterRadius": {
+                  "$ref": "#size"
+                },
+                "curveBackgroundColor": {
+                  "$ref": "#color"
+                },
+                "curveHeight": {
+                  "$ref": "#size"
+                },
+                "curveWidth": {
+                  "$ref": "#size"
+                },
+                "curveAfterBackgroundColor": {
+                  "$ref": "#color"
+                },
+                "curveAfterHeight": {
+                  "$ref": "#size"
+                },
+                "gradient": {
+                  "$ref": "#gradient"
+                }
+              },
+              "required": [
+                "paddingLeft",
+                "paddingRight",
+                "paddingTop",
+                "paddingBottom",
+                "borderRadius",
+                "backgroundColor",
+                "boxShadowPaddingLeft",
+                "boxShadowPaddingTop",
+                "boxShadowPaddingRight",
+                "boxShadowPaddingBottom",
+                "boxShadowColor",
+                "curveAfterWidth",
+                "curveMarginTop",
+                "curveAfterRadius",
+                "curveBackgroundColor",
+                "curveHeight",
+                "curveWidth",
+                "curveAfterBackgroundColor",
+                "curveAfterHeight",
+                "gradient"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "paddingLeft": {
+                        "$ref": "#size"
+                      },
+                      "paddingRight": {
+                        "$ref": "#size"
+                      },
+                      "paddingTop": {
+                        "$ref": "#size"
+                      },
+                      "paddingBottom": {
+                        "$ref": "#size"
+                      },
+                      "borderRadius": {
+                        "$ref": "#size"
+                      },
+                      "backgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "boxShadowPaddingLeft": {
+                        "$ref": "#size"
+                      },
+                      "boxShadowPaddingTop": {
+                        "$ref": "#size"
+                      },
+                      "boxShadowPaddingRight": {
+                        "$ref": "#size"
+                      },
+                      "boxShadowPaddingBottom": {
+                        "$ref": "#size"
+                      },
+                      "boxShadowColor": {
+                        "$ref": "#color"
+                      },
+                      "curveAfterWidth": {
+                        "$ref": "#size"
+                      },
+                      "curveMarginTop": {
+                        "$ref": "#size"
+                      },
+                      "curveAfterRadius": {
+                        "$ref": "#size"
+                      },
+                      "curveBackgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "curveHeight": {
+                        "$ref": "#size"
+                      },
+                      "curveWidth": {
+                        "$ref": "#size"
+                      },
+                      "curveAfterBackgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "curveAfterHeight": {
+                        "$ref": "#size"
+                      },
+                      "gradient": {
+                        "$ref": "#gradient"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
         "Search": {
           "type": "object",
           "additionalProperties": false,
@@ -11214,6 +11412,7 @@
         "RadioCard",
         "RadioCardGroup",
         "RadioGroup",
+        "Ribbon",
         "Search",
         "SearchButton",
         "Select",
