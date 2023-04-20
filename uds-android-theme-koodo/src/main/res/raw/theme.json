@@ -1863,7 +1863,9 @@
             "size": "large"
           },
           "tokens": {
-            "iconSize": 24
+            "height": 48,
+            "iconSize": 24,
+            "textLineHeight": 2.15
           }
         },
         {
@@ -1871,7 +1873,9 @@
             "size": "small"
           },
           "tokens": {
-            "iconSize": 20
+            "height": 36,
+            "iconSize": 16,
+            "textLineHeight": 2.15
           }
         },
         {
@@ -1879,7 +1883,9 @@
             "size": "micro"
           },
           "tokens": {
-            "iconSize": 16
+            "height": 32,
+            "iconSize": 16,
+            "textLineHeight": 2.25
           }
         }
       ],
@@ -1890,8 +1896,9 @@
           "blue": 0.41569,
           "alpha": 1
         },
+        "height": 40,
         "iconDisplace": 0,
-        "iconSize": 24,
+        "iconSize": 18,
         "iconSpace": 1,
         "leftIcon": "PaletteIconChevronLeft",
         "outerBorderColor": {
@@ -1901,7 +1908,8 @@
           "alpha": 0
         },
         "rightIcon": "PaletteIconChevronRight",
-        "textLine": "none"
+        "textLine": "none",
+        "textLineHeight": 2.13
       }
     },
     "DatePicker": {
@@ -5535,6 +5543,35 @@
         "paddingVertical": 8
       }
     },
+    "Spinner": {
+      "appearances": {
+        "size": {
+          "type": "variant",
+          "values": ["small"]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "size": 24,
+            "thickness": 2
+          }
+        }
+      ],
+      "tokens": {
+        "fullScreenOverLayBackground": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "size": 48,
+        "thickness": 4
+      }
+    },
     "StackView": {
       "appearances": {},
       "rules": [],
@@ -7263,7 +7300,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.20.0",
+    "themeTokensVersion": "2.21.0",
     "name": "theme-koodo"
   }
 }
