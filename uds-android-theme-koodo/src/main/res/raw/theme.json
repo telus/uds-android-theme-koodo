@@ -479,10 +479,10 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "gradient": null
       }
@@ -1908,7 +1908,7 @@
             "size": "large"
           },
           "tokens": {
-            "height": 48,
+            "fontSize": 20,
             "iconSize": 24,
             "textLineHeight": 2.15
           }
@@ -1918,7 +1918,7 @@
             "size": "small"
           },
           "tokens": {
-            "height": 36,
+            "fontSize": 14,
             "iconSize": 16,
             "textLineHeight": 2.15
           }
@@ -1928,7 +1928,7 @@
             "size": "micro"
           },
           "tokens": {
-            "height": 32,
+            "fontSize": 12,
             "iconSize": 16,
             "textLineHeight": 2.25
           }
@@ -1941,7 +1941,7 @@
           "blue": 0.41569,
           "alpha": 1
         },
-        "height": 40,
+        "fontSize": 16,
         "iconDisplace": 0,
         "iconSize": 18,
         "iconSpace": 1,
@@ -3592,6 +3592,7 @@
             "size": "large"
           },
           "tokens": {
+            "iconMarginTop": 2,
             "itemFontSize": 20,
             "itemIconSize": 20,
             "itemLineHeight": 1.4,
@@ -3603,6 +3604,7 @@
             "size": "small"
           },
           "tokens": {
+            "iconMarginTop": 1,
             "itemFontSize": 14,
             "itemIconSize": 14,
             "listGutter": 10
@@ -3643,7 +3645,7 @@
           "alpha": 1
         },
         "dividerSize": 1,
-        "iconMarginTop": 4,
+        "iconMarginTop": 2,
         "interItemMargin": 8,
         "interItemMarginWithDivider": 16,
         "itemBulletColor": {
@@ -3658,7 +3660,7 @@
         "itemBulletWidth": 4,
         "itemFontName": "StagSans",
         "itemFontSize": 16,
-        "itemFontWeight": 600,
+        "itemFontWeight": 400,
         "itemIconColor": {
           "red": 0.48627,
           "green": 0.07451,
@@ -4123,12 +4125,6 @@
             "itemFontSize": 20,
             "itemLineHeight": 1.4
           }
-        },
-        {
-          "if": {
-            "size": "medium"
-          },
-          "tokens": {}
         },
         {
           "if": {
@@ -7297,18 +7293,6 @@
           "blue": 1,
           "alpha": 1
         },
-        "animationFillColorAfter": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
-        "animationFillColorBefore": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        },
         "animationHeightAfter": 24,
         "animationHeightBefore": 0,
         "animationPaddingBottomAfter": 16,
@@ -8279,7 +8263,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.23.0",
+    "themeTokensVersion": "2.24.0",
     "name": "theme-koodo"
   }
 }
