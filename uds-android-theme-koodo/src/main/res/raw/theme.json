@@ -500,24 +500,52 @@
             "inverse": true
           },
           "tokens": {
+            "color": {
+              "red": 0.89804,
+              "green": 0.96863,
+              "blue": 0.98431,
+              "alpha": 1
+            },
+            "currentColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
             "iconColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
-              "alpha": 0
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
             }
           }
         }
       ],
       "tokens": {
+        "color": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "currentColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 600,
         "icon": "PaletteIconChevronRight",
         "iconColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
         },
-        "iconPadding": 8,
+        "iconPadding": 4,
+        "iconSize": 20,
         "listItemPadding": 0
       }
     },
@@ -2270,6 +2298,22 @@
         }
       }
     },
+    "Disclaimer": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 300,
+        "lineHeight": 1.42857142857
+      }
+    },
     "Divider": {
       "appearances": {
         "decorative": {
@@ -2586,6 +2630,7 @@
         "closeButtonMarginRight": 12,
         "closeButtonMarginTop": 12,
         "closeButtonWidth": 24,
+        "closeIcon": "PaletteIconClose",
         "footnoteBackground": {
           "red": 0.98039,
           "green": 0.98039,
@@ -2628,6 +2673,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontWeight": 400,
         "lineHeight": 1,
         "paddingLeft": 2,
         "paddingRight": 2
@@ -3948,6 +4001,153 @@
         "subHeadingMarginTop": 8
       }
     },
+    "NavigationBar": {
+      "appearances": {
+        "expanded": {
+          "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+          "values": [true],
+          "type": "state"
+        },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true],
+          "type": "state"
+        },
+        "selected": {
+          "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+          "values": [true],
+          "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "selected": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "fontName": "StagSans",
+            "fontWeight": 700
+          }
+        },
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "borderWidth": 1,
+            "color": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "viewport": ["xs", "sm", "md"]
+          },
+          "tokens": {
+            "textAlign": "flex-start",
+            "width": 288
+          }
+        },
+        {
+          "if": {
+            "expanded": true
+          },
+          "tokens": {
+            "icoMenu": "PaletteIconChevronUp"
+          }
+        }
+      ],
+      "tokens": {
+        "alignSelf": "flex-start",
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "color": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "icoMenu": "PaletteIconChevronDown",
+        "lineHeight": 1.14285714286,
+        "minWidth": 0,
+        "opacity": 1,
+        "outerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderGap": 0,
+        "outerBorderWidth": 1,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
+        "shadow": null,
+        "textAlign": "center",
+        "width": 0
+      }
+    },
     "Notification": {
       "appearances": {
         "style": {
@@ -4502,16 +4702,89 @@
       }
     },
     "PriceLockup": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "size": {
+          "type": "variant",
+          "values": ["small", "medium", "large"]
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "amountFontSize": 36,
+            "centsFontSize": 20,
+            "centsLineHeight": 1.25,
+            "currencySymbolFontSize": 20,
+            "currencySymbolLineHeight": 1,
+            "rateFontSize": 16,
+            "rateLineHeight": 1.14285714286,
+            "topTextFontSize": 14,
+            "topTextLineHeight": 2.25
+          }
+        },
+        {
+          "if": {
+            "size": "large"
+          },
+          "tokens": {
+            "amountFontSize": 54,
+            "centsFontName": "StagSans",
+            "centsFontSize": 24,
+            "centsFontWeight": 600,
+            "centsLineHeight": 1.25,
+            "currencySymbolFontSize": 32,
+            "currencySymbolLineHeight": 1,
+            "rateFontName": "StagSans",
+            "rateFontSize": 16,
+            "rateFontWeight": 600,
+            "rateLineHeight": 2,
+            "topTextFontSize": 16,
+            "topTextLineHeight": 2.25
+          }
+        },
+        {
+          "if": {
+            "size": "large",
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "centsFontName": "StagSans",
+            "centsFontSize": 32,
+            "centsFontWeight": 700
+          }
+        }
+      ],
       "tokens": {
+        "amountFontName": "StagSans",
+        "amountFontSize": 44,
+        "amountFontWeight": 700,
+        "amountLetterSpacing": 0,
+        "amountLineHeight": 1,
         "bottomLinksMarginLeft": 4,
-        "bottomTextMarginTop": 4,
+        "bottomTextFontSize": 14,
+        "bottomTextLineHeight": 1.14285714286,
+        "bottomTextMarginTop": 0,
+        "centsFontName": "StagSans",
+        "centsFontSize": 24,
+        "centsFontWeight": 700,
+        "centsLineHeight": 1.2,
+        "currencySymbolFontName": "StagSans",
+        "currencySymbolFontSize": 24,
+        "currencySymbolFontWeight": 700,
+        "currencySymbolLineHeight": 1.2,
         "dividerColor": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "fontColor": {
           "red": 0,
@@ -4519,16 +4792,35 @@
           "blue": 0,
           "alpha": 1
         },
+        "fontName": "StagSans",
+        "fontWeight": 700,
         "footnoteGap": 4,
+        "footnoteLinkColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "footnoteLinkFontName": "StagSans",
+        "footnoteLinkFontSize": 14,
+        "footnoteLinkFontWeight": 600,
         "footnoteMarginTop": 4,
-        "priceMarginBottom": 8,
-        "strikeThroughBackground": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+        "priceMarginBottom": 0,
+        "rateFontName": "StagSans",
+        "rateFontSize": 16,
+        "rateFontWeight": 700,
+        "rateLineHeight": 1.25,
+        "strikeThroughColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "strikeThroughHeight": 2,
+        "topTextFontName": "StagSans",
+        "topTextFontSize": 16,
+        "topTextFontWeight": 700,
+        "topTextLineHeight": 1.5,
         "topTextMarginBottom": 4
       }
     },
@@ -5430,50 +5722,104 @@
         "purpose": {
           "type": "variant",
           "values": ["offer", "default", "editorial"]
+        },
+        "wrap": {
+          "type": "variant",
+          "values": [true]
         }
       },
-      "rules": [],
+      "rules": [
+        {
+          "if": {
+            "purpose": "editorial"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.98431,
+              "green": 0.68627,
+              "blue": 0.20392,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "offer"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.48627,
+              "green": 0.07451,
+              "blue": 0.4,
+              "alpha": 1
+            },
+            "fontColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "wrap": true
+          },
+          "tokens": {
+            "paddingBottom": 6,
+            "paddingTop": 6
+          }
+        }
+      ],
       "tokens": {
         "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.76471,
+          "green": 0.93725,
+          "blue": 1,
           "alpha": 1
         },
         "borderRadius": 4,
+        "borderRadiusBottomLeft": null,
+        "borderRadiusBottomRight": null,
         "boxShadowColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
-        "boxShadowPaddingBottom": 2,
-        "boxShadowPaddingLeft": 2,
-        "boxShadowPaddingRight": 2,
-        "boxShadowPaddingTop": 2,
+        "boxShadowPaddingBottom": null,
+        "boxShadowPaddingLeft": null,
+        "boxShadowPaddingRight": null,
+        "boxShadowPaddingTop": null,
         "curveAfterBackgroundColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
-        "curveAfterHeight": 4,
-        "curveAfterRadius": 8,
-        "curveAfterWidth": 8,
+        "curveAfterHeight": null,
+        "curveAfterRadius": null,
+        "curveAfterWidth": null,
         "curveBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "curveHeight": null,
+        "curveMarginTop": null,
+        "curveWidth": null,
+        "fontColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 1
         },
-        "curveHeight": 10,
-        "curveMarginTop": 4,
-        "curveWidth": 8,
         "gradient": null,
-        "paddingBottom": 4,
-        "paddingLeft": 8,
-        "paddingRight": 8,
-        "paddingTop": 4
+        "paddingBottom": 2,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 2
       }
     },
     "Search": {
@@ -6503,21 +6849,21 @@
           "alpha": 1
         },
         "cellBoxShadowColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
           "alpha": 1
         },
         "cellHeadingBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.75686,
+          "green": 0.94902,
+          "blue": 0.9098,
           "alpha": 1
         },
         "cellHeadingBoxShadowColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
           "alpha": 1
         },
         "cellPaddingBottom": 16,
@@ -6531,24 +6877,27 @@
           "alpha": 1
         },
         "cellStickyShadow": {
-          "inset": false,
+          "inset": true,
           "offsetX": 0,
-          "offsetY": 4,
-          "blur": 8,
+          "offsetY": 1,
+          "blur": 1,
           "spread": 0,
           "color": {
-            "red": 0,
-            "green": 0,
-            "blue": 0,
-            "alpha": 0.1
+            "red": 1,
+            "green": 1,
+            "blue": 1,
+            "alpha": 0.8
           }
         },
         "cellSubheadingBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
           "alpha": 1
         },
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
         "tablePaddingBottom": 24
       }
     },
@@ -7992,6 +8341,79 @@
         "width": 64
       }
     },
+    "VideoPicker": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "framedContainerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "framedContainerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "framedContainerBorderRadius": 4,
+        "framedContainerBorderWidth": 1,
+        "framedContainerPadding": 24,
+        "framedMaxHeight": 640,
+        "stackViewDividerColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    "VideoPickerSlider": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "nextIcon": "PaletteIconArrowRight",
+        "previousIcon": "PaletteIconArrowLeft"
+      }
+    },
+    "VideoPickerThumbnail": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "pressableBorderTopColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "pressableBorderTopWidth": 1,
+        "pressablePaddingBottom": 16,
+        "pressablePaddingHorizontal": 24,
+        "pressablePaddingVertical": 16,
+        "splashButtonRadius": 4,
+        "subTitleColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "titleColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
     "VideoProgressBar": {
       "appearances": {},
       "rules": [],
@@ -8263,7 +8685,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.24.0",
+    "themeTokensVersion": "2.25.0",
     "name": "theme-koodo"
   }
 }

@@ -64,6 +64,12 @@
             "{appearances.ListBox.isChild}",
             "{appearances.Modal.maxWidth}",
             "{appearances.Modal.width}",
+            "{appearances.NavigationBar.focus}",
+            "{appearances.NavigationBar.pressed}",
+            "{appearances.NavigationBar.hover}",
+            "{appearances.NavigationBar.selected}",
+            "{appearances.NavigationBar.expanded}",
+            "{appearances.NavigationBar.viewport}",
             "{appearances.Notification.system}",
             "{appearances.Notification.style}",
             "{appearances.PaginationPageButton.focus}",
@@ -193,33 +199,33 @@
       "anyOf": [
         {
           "const": "{palette.border.border1}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border2}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border3}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.border4}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.border.none}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.border.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#border"
@@ -228,208 +234,208 @@
       "anyOf": [
         {
           "const": "{palette.color.amaranth}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.beeswax}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.bilbao}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.black}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.blue}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.burntSienna}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.cardinalPink}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.carouselPink}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.chathamsBlue}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.chathamsBlueDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.darkBlue}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.darkMosque}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.dove}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.doveDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.flirt}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.gallery}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.greyLight}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.hibiscus}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.iceberg}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.icicle}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.icicleDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mintTulip}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mortar}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mosque}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.mosqueDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.notificationErrorBg}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nUsed for error notifications, tbc if should be in palette",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nUsed for error notifications, tbc if should be in palette"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nUsed for error notifications, tbc if should be in palette",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nUsed for error notifications, tbc if should be in palette"
         },
         {
           "const": "{palette.color.onahau}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.piggyPink}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.seaBuckthorn}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.silver}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.texas}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.transparent}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.trinidad}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.trinidadDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.turquoise}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.wattle}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.wellRead}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.white}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.color.whiteDark}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.color.transparent}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.color.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#color"
@@ -438,18 +444,18 @@
       "anyOf": [
         {
           "const": "{palette.duration.duration250}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.duration.duration300}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.duration.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#duration"
@@ -458,93 +464,98 @@
       "anyOf": [
         {
           "const": "{palette.fontSize.size12}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size14}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size16}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size18}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size2}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size20}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size24}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size28}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.fontSize.size30}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size32}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size34}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size36}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size40}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size44}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size48}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size54}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size56}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size64}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontSize.size70}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontSize"
@@ -553,338 +564,338 @@
       "anyOf": [
         {
           "const": "{palette.icon.Add}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ArrowDownCircled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ArrowLeft}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ArrowRight}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.BoxOutline}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.BoxOutlineChecked}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Bullet}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Cart}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CartFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Caution}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Check}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircle}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircleFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircledFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CheckCircledNotFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronDown}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronLeft}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronRight}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ChevronUp}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.CircledLine}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Close}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Devices}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Download}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ExclamationOctagon}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ExclamationTriangle}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Expand}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeClosed}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeMasked}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeOpened}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.EyeUnmasked}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Gift}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Hamburger}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Info}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.InfoSelected}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.InformationCircled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Kebab}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.LeftCircle}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.LocationMap}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.LockFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Maintenance}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.MaintenanceFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.OfferStarFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Perk}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Phone}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PhoneTroubleshoot}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.PlayVideo}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Question}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.QuestionFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.RadialOutline}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.RadialOutlineChecked}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Receipt}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Refresh}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.RightCirlce}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Settings}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ShippingFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Shop}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Sim}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.SimFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Spyglass}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Subtract}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Tag}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.TagFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Times}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.TimesCircled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.ToolTipFilled}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.icon.Tooltip}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.icon.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#icon"
@@ -893,13 +904,13 @@
       "anyOf": [
         {
           "const": "{palette.letterSpacing.default}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.letterSpacing.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#letterSpacing"
@@ -908,98 +919,103 @@
       "anyOf": [
         {
           "const": "{palette.lineHeight.multiply110}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply120}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply130}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply140}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply150}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.multiply160}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio10to7}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio11to5}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio11to9}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio15to7}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.lineHeight.ratio16to2}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio17to8}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio1to1}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio3to2}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio4to3}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio5to4}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio6to5}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio7to3}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio7to5}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.lineHeight.ratio8to7}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#lineHeight"
@@ -1007,24 +1023,29 @@
     "opacity": {
       "anyOf": [
         {
+          "const": "{palette.opacity.opacity10}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
           "const": "{palette.opacity.opacity3}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity5}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.opacity.opacity8}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.opacity.opaque}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#opacity"
@@ -1033,48 +1054,48 @@
       "anyOf": [
         {
           "const": "{palette.radius.none}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.pill32}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nFor 'pill' designs with circular sides, which become rounded rectangles of radius 32 if forced to have height greater than 64 (for example, if user's accessibility settings increase text size)"
         },
         {
           "const": "{palette.radius.radius12}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius4}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius48}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius6}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.radius.radius8}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.radius.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.radius.round}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#radius"
@@ -1083,43 +1104,43 @@
       "anyOf": [
         {
           "const": "{palette.shadow.elevation1}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nRaise the element one level from the surface, such as sticky elements",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nRaise the element one level from the surface, such as sticky elements"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nRaise the element one level from the surface, such as sticky elements",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nRaise the element one level from the surface, such as sticky elements"
         },
         {
           "const": "{palette.shadow.elevation2}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nRaise the element 2 levels from the surface, such as overlays",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nRaise the element 2 levels from the surface, such as overlays"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nRaise the element 2 levels from the surface, such as overlays",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nRaise the element 2 levels from the surface, such as overlays"
         },
         {
           "const": "{palette.shadow.elevation3}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nRaise the element to the highest level from the surface, such as mega-nav",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nRaise the element to the highest level from the surface, such as mega-nav"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nRaise the element to the highest level from the surface, such as mega-nav",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nRaise the element to the highest level from the surface, such as mega-nav"
         },
         {
           "const": "{palette.shadow.none}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.shadow.surfaceEmboss}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nUse emboss to add a subtle highlight on elements to shows that it’s lifted from the surface such as the Progress Bar"
         },
         {
           "const": "{palette.shadow.surfaceInset}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nUse inset shadow to drop the element below the surface for interactive elements such as UI meters, card call-outs, and ToggleSwitch"
         },
         {
           "const": "{palette.shadow.surfaceRaised}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nUse raised shadow to raise the element for interactive elements within an inset interface such as the knob in the ToggleSwitch"
         },
         {
           "const": "{system.shadow.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#shadow"
@@ -1128,193 +1149,208 @@
       "anyOf": [
         {
           "const": "{palette.size.size0}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size1}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nFor special gap sizes. This is not part of the koodo spacing scale.",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the koodo spacing scale."
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nFor special gap sizes. This is not part of the koodo spacing scale.",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nFor special gap sizes. This is not part of the koodo spacing scale."
         },
         {
           "const": "{palette.size.size10}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size12}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size120}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size128}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n128 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component"
         },
         {
           "const": "{palette.size.size14}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nAllows for the PaginationSideButton icon size",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nAllows for the PaginationSideButton icon size"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nAllows for the PaginationSideButton icon size",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nAllows for the PaginationSideButton icon size"
         },
         {
           "const": "{palette.size.size140}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n140 is the image size for xs, sm, md and lg screen size on the QuickLinksFeature component when hovered"
         },
         {
           "const": "{palette.size.size144}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n24 x 6. Larger sizes for the widths/heights of blocks are based on multiples of 24.",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n24 x 6. Larger sizes for the widths/heights of blocks are based on multiples of 24."
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n24 x 6. Larger sizes for the widths/heights of blocks are based on multiples of 24.",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n24 x 6. Larger sizes for the widths/heights of blocks are based on multiples of 24."
         },
         {
           "const": "{palette.size.size15}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\nStepTracker knob diameter",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\nStepTracker knob diameter"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nStepTracker knob diameter",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nStepTracker knob diameter"
         },
         {
           "const": "{palette.size.size16}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size168}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n168 is the image size for xl screen size on the QuickLinksFeature component",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n168 is the image size for xl screen size on the QuickLinksFeature component"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n168 is the image size for xl screen size on the QuickLinksFeature component",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n168 is the image size for xl screen size on the QuickLinksFeature component"
         },
         {
           "const": "{palette.size.size18}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size184}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n184 is the image size for xl screen size on the QuickLinksFeature component when hovered"
         },
         {
           "const": "{palette.size.size2}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size20}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size24}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.size.size288}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size32}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size36}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size4}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size40}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size44}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size48}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size5}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.size.size6}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size64}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
+        },
+        {
+          "const": "{palette.size.size640}",
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\nUsed for max height in VideoPicker",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\nUsed for max height in VideoPicker"
         },
         {
           "const": "{palette.size.size72}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size8}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size80}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.size.size96}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{system.size.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.full}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.twoThirds}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.zero}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportXs}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportSm}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportMd}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportLg}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.size.viewportXl}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#size"
@@ -1323,8 +1359,8 @@
       "anyOf": [
         {
           "const": "{palette.fontName.StagSans}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontName"
@@ -1333,28 +1369,28 @@
       "anyOf": [
         {
           "const": "{palette.fontWeight.weight300}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight400}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight500}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight600}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         },
         {
           "const": "{palette.fontWeight.weight700}",
-          "description": "@telus-uds/palette-koodo/v0.14.0 palette tokens 🖌️\n",
-          "markdownDescription": "`@telus-uds/palette-koodo/v0.14.0` **palette** tokens 🖌️\n\n"
+          "description": "@telus-uds/palette-koodo/v0.15.0 palette tokens 🖌️\n",
+          "markdownDescription": "`@telus-uds/palette-koodo/v0.15.0` **palette** tokens 🖌️\n\n"
         }
       ],
       "$id": "#fontWeight"
@@ -1363,8 +1399,8 @@
       "anyOf": [
         {
           "const": "{system.gradient.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#gradient"
@@ -1373,18 +1409,18 @@
       "anyOf": [
         {
           "const": "{system.flexJustifyContent.center}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexJustifyContent.flexStart}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexJustifyContent.spaceBetween}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#flexJustifyContent"
@@ -1393,18 +1429,18 @@
       "anyOf": [
         {
           "const": "{system.flexAlign.center}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexAlign.flexStart}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.flexAlign.stretch}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#flexAlign"
@@ -1413,63 +1449,63 @@
       "anyOf": [
         {
           "const": "{system.integer.0}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.1}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.2}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.3}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.4}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.5}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.6}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.7}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.8}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.9}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.10}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "const": "{system.integer.11}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
-          "markdownDescription": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\nAny integer value. The spacing scale uses 0-11",
+          "markdownDescription": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️\n\nAny integer value. The spacing scale uses `0-11`\n\n💡 Only `0-11` are suggested, but **any positive integer** is valid.\nSee [themes](https://telus.github.io/universal-design-system/docs/themes) docs."
         },
         {
           "type": "string",
@@ -1482,18 +1518,18 @@
       "anyOf": [
         {
           "const": "{system.textLine.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.textLine.underline}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.textLine.strikethrough}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#textLine"
@@ -1502,8 +1538,8 @@
       "anyOf": [
         {
           "const": "{system.textLineStyle.solid}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#textLineStyle"
@@ -1512,23 +1548,23 @@
       "anyOf": [
         {
           "const": "{system.position.bottom}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.left}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.right}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.position.top}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#position"
@@ -1537,13 +1573,13 @@
       "anyOf": [
         {
           "const": "{system.direction.column}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.direction.row}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#direction"
@@ -1552,13 +1588,13 @@
       "anyOf": [
         {
           "const": "{system.show.true}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.show.false}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#show"
@@ -1567,13 +1603,13 @@
       "anyOf": [
         {
           "const": "{system.borderStyle.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.borderStyle.solid}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#borderStyle"
@@ -1582,18 +1618,18 @@
       "anyOf": [
         {
           "const": "{system.verticalAlign.top}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.verticalAlign.middle}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.verticalAlign.baseline}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#verticalAlign"
@@ -1602,18 +1638,18 @@
       "anyOf": [
         {
           "const": "{system.iconScale.scale1}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.iconScale.scale1_10}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.iconScale.scale1_25}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#iconScale"
@@ -1622,18 +1658,18 @@
       "anyOf": [
         {
           "const": "{system.textAlign.left}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.textAlign.center}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.textAlign.right}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#textAlign"
@@ -1642,13 +1678,13 @@
       "anyOf": [
         {
           "const": "{system.textTransform.none}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         },
         {
           "const": "{system.textTransform.uppercase}",
-          "description": "@telus-uds/system-tokens/v0.7.3 system react-native tokens ⚙️",
-          "markdownDescription": "`@telus-uds/system-tokens/v0.7.3` **system** tokens ⚙️"
+          "description": "@telus-uds/system-tokens/v0.7.4 system react-native tokens ⚙️",
+          "markdownDescription": "`@telus-uds/system-tokens/v0.7.4` **system** tokens ⚙️"
         }
       ],
       "$id": "#textTransform"
@@ -1893,6 +1929,393 @@
             "rules"
           ]
         },
+        "VideoPickerThumbnail": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "splashButtonRadius": {
+                  "$ref": "#radius"
+                },
+                "borderWidth": {
+                  "$ref": "#border"
+                },
+                "borderColor": {
+                  "$ref": "#color"
+                },
+                "borderRadius": {
+                  "$ref": "#radius"
+                },
+                "pressablePaddingVertical": {
+                  "$ref": "#size"
+                },
+                "pressablePaddingHorizontal": {
+                  "$ref": "#size"
+                },
+                "pressableBorderTopWidth": {
+                  "$ref": "#border"
+                },
+                "pressableBorderTopColor": {
+                  "$ref": "#color"
+                },
+                "pressablePaddingBottom": {
+                  "$ref": "#size"
+                },
+                "titleColor": {
+                  "$ref": "#color"
+                },
+                "subTitleColor": {
+                  "$ref": "#color"
+                }
+              },
+              "required": [
+                "splashButtonRadius",
+                "borderWidth",
+                "borderColor",
+                "borderRadius",
+                "pressablePaddingVertical",
+                "pressablePaddingHorizontal",
+                "pressableBorderTopWidth",
+                "pressableBorderTopColor",
+                "pressablePaddingBottom",
+                "titleColor",
+                "subTitleColor"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "splashButtonRadius": {
+                        "$ref": "#radius"
+                      },
+                      "borderWidth": {
+                        "$ref": "#border"
+                      },
+                      "borderColor": {
+                        "$ref": "#color"
+                      },
+                      "borderRadius": {
+                        "$ref": "#radius"
+                      },
+                      "pressablePaddingVertical": {
+                        "$ref": "#size"
+                      },
+                      "pressablePaddingHorizontal": {
+                        "$ref": "#size"
+                      },
+                      "pressableBorderTopWidth": {
+                        "$ref": "#border"
+                      },
+                      "pressableBorderTopColor": {
+                        "$ref": "#color"
+                      },
+                      "pressablePaddingBottom": {
+                        "$ref": "#size"
+                      },
+                      "titleColor": {
+                        "$ref": "#color"
+                      },
+                      "subTitleColor": {
+                        "$ref": "#color"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
+        "VideoPickerSlider": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "previousIcon": {
+                  "$ref": "#icon"
+                },
+                "nextIcon": {
+                  "$ref": "#icon"
+                }
+              },
+              "required": [
+                "previousIcon",
+                "nextIcon"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "previousIcon": {
+                        "$ref": "#icon"
+                      },
+                      "nextIcon": {
+                        "$ref": "#icon"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
+        "VideoPicker": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "framedMaxHeight": {
+                  "$ref": "#size"
+                },
+                "framedContainerBackgroundColor": {
+                  "$ref": "#color"
+                },
+                "framedContainerBorderWidth": {
+                  "$ref": "#border"
+                },
+                "framedContainerBorderColor": {
+                  "$ref": "#color"
+                },
+                "framedContainerBorderRadius": {
+                  "$ref": "#radius"
+                },
+                "framedContainerPadding": {
+                  "$ref": "#size"
+                },
+                "stackViewDividerColor": {
+                  "$ref": "#color"
+                }
+              },
+              "required": [
+                "framedMaxHeight",
+                "framedContainerBackgroundColor",
+                "framedContainerBorderWidth",
+                "framedContainerBorderColor",
+                "framedContainerBorderRadius",
+                "framedContainerPadding",
+                "stackViewDividerColor"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "framedMaxHeight": {
+                        "$ref": "#size"
+                      },
+                      "framedContainerBackgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "framedContainerBorderWidth": {
+                        "$ref": "#border"
+                      },
+                      "framedContainerBorderColor": {
+                        "$ref": "#color"
+                      },
+                      "framedContainerBorderRadius": {
+                        "$ref": "#radius"
+                      },
+                      "framedContainerPadding": {
+                        "$ref": "#size"
+                      },
+                      "stackViewDividerColor": {
+                        "$ref": "#color"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
+        "Disclaimer": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "color": {
+                  "$ref": "#color"
+                },
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "fontSize": {
+                  "$ref": "#fontSize"
+                },
+                "lineHeight": {
+                  "$ref": "#lineHeight"
+                }
+              },
+              "required": [
+                "color",
+                "fontName",
+                "fontWeight",
+                "fontSize",
+                "lineHeight"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "color": {
+                        "$ref": "#color"
+                      },
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "fontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "lineHeight": {
+                        "$ref": "#lineHeight"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
         "Table": {
           "type": "object",
           "additionalProperties": false,
@@ -1945,6 +2368,15 @@
                 },
                 "cellPaddingBottom": {
                   "$ref": "#size"
+                },
+                "fontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontSize": {
+                  "$ref": "#fontSize"
                 }
               },
               "required": [
@@ -1959,7 +2391,10 @@
                 "cellPaddingTop",
                 "cellPaddingRight",
                 "cellPaddingLeft",
-                "cellPaddingBottom"
+                "cellPaddingBottom",
+                "fontWeight",
+                "fontName",
+                "fontSize"
               ]
             },
             "rules": {
@@ -2011,6 +2446,15 @@
                       },
                       "cellPaddingBottom": {
                         "$ref": "#size"
+                      },
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontSize": {
+                        "$ref": "#fontSize"
                       }
                     }
                   },
@@ -3012,12 +3456,24 @@
                 },
                 "paddingRight": {
                   "$ref": "#size"
+                },
+                "color": {
+                  "$ref": "#color"
+                },
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontWeight": {
+                  "$ref": "#fontWeight"
                 }
               },
               "required": [
                 "lineHeight",
                 "paddingLeft",
-                "paddingRight"
+                "paddingRight",
+                "color",
+                "fontName",
+                "fontWeight"
               ]
             },
             "rules": {
@@ -3042,6 +3498,15 @@
                       },
                       "paddingRight": {
                         "$ref": "#size"
+                      },
+                      "color": {
+                        "$ref": "#color"
+                      },
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
                       }
                     }
                   },
@@ -3356,6 +3821,9 @@
                 },
                 "closeButtonIconSize": {
                   "$ref": "#size"
+                },
+                "closeIcon": {
+                  "$ref": "#icon"
                 }
               },
               "required": [
@@ -3383,7 +3851,8 @@
                 "closeButtonMarginRight",
                 "closeButtonMarginBottom",
                 "closeButtonWidth",
-                "closeButtonIconSize"
+                "closeButtonIconSize",
+                "closeIcon"
               ]
             },
             "rules": {
@@ -3474,6 +3943,9 @@
                       },
                       "closeButtonIconSize": {
                         "$ref": "#size"
+                      },
+                      "closeIcon": {
+                        "$ref": "#icon"
                       }
                     }
                   },
@@ -3510,6 +3982,12 @@
               "type": "object",
               "additionalProperties": false,
               "properties": {
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontWeight": {
+                  "$ref": "#fontWeight"
+                },
                 "footnoteMarginTop": {
                   "$ref": "#size"
                 },
@@ -3531,7 +4009,7 @@
                 "strikeThroughHeight": {
                   "$ref": "#size"
                 },
-                "strikeThroughBackground": {
+                "strikeThroughColor": {
                   "$ref": "#color"
                 },
                 "fontColor": {
@@ -3539,9 +4017,92 @@
                 },
                 "dividerColor": {
                   "$ref": "#color"
+                },
+                "topTextFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "topTextLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "currencySymbolFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "currencySymbolLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "currencySymbolFontName": {
+                  "$ref": "#fontName"
+                },
+                "currencySymbolFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "amountFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "amountLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "amountLetterSpacing": {
+                  "$ref": "#letterSpacing"
+                },
+                "amountFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "amountFontName": {
+                  "$ref": "#fontName"
+                },
+                "centsFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "centsLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "centsFontName": {
+                  "$ref": "#fontName"
+                },
+                "centsFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "topTextFontName": {
+                  "$ref": "#fontName"
+                },
+                "topTextFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "rateFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "rateLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "rateFontName": {
+                  "$ref": "#fontName"
+                },
+                "rateFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "bottomTextFontSize": {
+                  "$ref": "#fontSize"
+                },
+                "bottomTextLineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "footnoteLinkColor": {
+                  "$ref": "#color"
+                },
+                "footnoteLinkFontName": {
+                  "$ref": "#fontName"
+                },
+                "footnoteLinkFontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "footnoteLinkFontSize": {
+                  "$ref": "#fontSize"
                 }
               },
               "required": [
+                "fontName",
+                "fontWeight",
                 "footnoteMarginTop",
                 "footnoteGap",
                 "bottomTextMarginTop",
@@ -3549,9 +4110,36 @@
                 "bottomLinksMarginLeft",
                 "topTextMarginBottom",
                 "strikeThroughHeight",
-                "strikeThroughBackground",
+                "strikeThroughColor",
                 "fontColor",
-                "dividerColor"
+                "dividerColor",
+                "topTextFontSize",
+                "topTextLineHeight",
+                "currencySymbolFontSize",
+                "currencySymbolLineHeight",
+                "currencySymbolFontName",
+                "currencySymbolFontWeight",
+                "amountFontSize",
+                "amountLineHeight",
+                "amountLetterSpacing",
+                "amountFontWeight",
+                "amountFontName",
+                "centsFontSize",
+                "centsLineHeight",
+                "centsFontName",
+                "centsFontWeight",
+                "topTextFontName",
+                "topTextFontWeight",
+                "rateFontSize",
+                "rateLineHeight",
+                "rateFontName",
+                "rateFontWeight",
+                "bottomTextFontSize",
+                "bottomTextLineHeight",
+                "footnoteLinkColor",
+                "footnoteLinkFontName",
+                "footnoteLinkFontWeight",
+                "footnoteLinkFontSize"
               ]
             },
             "rules": {
@@ -3568,6 +4156,12 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
+                      },
                       "footnoteMarginTop": {
                         "$ref": "#size"
                       },
@@ -3589,7 +4183,7 @@
                       "strikeThroughHeight": {
                         "$ref": "#size"
                       },
-                      "strikeThroughBackground": {
+                      "strikeThroughColor": {
                         "$ref": "#color"
                       },
                       "fontColor": {
@@ -3597,6 +4191,87 @@
                       },
                       "dividerColor": {
                         "$ref": "#color"
+                      },
+                      "topTextFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "topTextLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "currencySymbolFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "currencySymbolLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "currencySymbolFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "currencySymbolFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "amountFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "amountLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "amountLetterSpacing": {
+                        "$ref": "#letterSpacing"
+                      },
+                      "amountFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "amountFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "centsFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "centsLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "centsFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "centsFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "topTextFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "topTextFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "rateFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "rateLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "rateFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "rateFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "bottomTextFontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "bottomTextLineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "footnoteLinkColor": {
+                        "$ref": "#color"
+                      },
+                      "footnoteLinkFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "footnoteLinkFontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "footnoteLinkFontSize": {
+                        "$ref": "#fontSize"
                       }
                     }
                   },
@@ -8669,6 +9344,227 @@
             "rules"
           ]
         },
+        "NavigationBar": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "appearances": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[a-z]+([A-Z0-9][a-z0-9]*)*$": {
+                  "$ref": "#appearance"
+                }
+              }
+            },
+            "tokens": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "alignSelf": {
+                  "$ref": "#flexAlign"
+                },
+                "backgroundColor": {
+                  "$ref": "#color"
+                },
+                "borderColor": {
+                  "$ref": "#color"
+                },
+                "borderRadius": {
+                  "$ref": "#radius"
+                },
+                "borderWidth": {
+                  "$ref": "#border"
+                },
+                "color": {
+                  "$ref": "#color"
+                },
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontSize": {
+                  "$ref": "#fontSize"
+                },
+                "fontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "lineHeight": {
+                  "$ref": "#lineHeight"
+                },
+                "minWidth": {
+                  "$ref": "#size"
+                },
+                "opacity": {
+                  "$ref": "#opacity"
+                },
+                "outerBackgroundColor": {
+                  "$ref": "#color"
+                },
+                "outerBorderColor": {
+                  "$ref": "#color"
+                },
+                "outerBorderGap": {
+                  "$ref": "#size"
+                },
+                "outerBorderWidth": {
+                  "$ref": "#border"
+                },
+                "paddingBottom": {
+                  "$ref": "#size"
+                },
+                "paddingLeft": {
+                  "$ref": "#size"
+                },
+                "paddingRight": {
+                  "$ref": "#size"
+                },
+                "paddingTop": {
+                  "$ref": "#size"
+                },
+                "shadow": {
+                  "$ref": "#shadow"
+                },
+                "textAlign": {
+                  "$ref": "#flexJustifyContent"
+                },
+                "width": {
+                  "$ref": "#size"
+                },
+                "icoMenu": {
+                  "$ref": "#icon"
+                }
+              },
+              "required": [
+                "alignSelf",
+                "backgroundColor",
+                "borderColor",
+                "borderRadius",
+                "borderWidth",
+                "color",
+                "fontName",
+                "fontSize",
+                "fontWeight",
+                "lineHeight",
+                "minWidth",
+                "opacity",
+                "outerBackgroundColor",
+                "outerBorderColor",
+                "outerBorderGap",
+                "outerBorderWidth",
+                "paddingBottom",
+                "paddingLeft",
+                "paddingRight",
+                "paddingTop",
+                "shadow",
+                "textAlign",
+                "width",
+                "icoMenu"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "if": {
+                    "type": "object",
+                    "minProperties": 1
+                  },
+                  "tokens": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "alignSelf": {
+                        "$ref": "#flexAlign"
+                      },
+                      "backgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "borderColor": {
+                        "$ref": "#color"
+                      },
+                      "borderRadius": {
+                        "$ref": "#radius"
+                      },
+                      "borderWidth": {
+                        "$ref": "#border"
+                      },
+                      "color": {
+                        "$ref": "#color"
+                      },
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "lineHeight": {
+                        "$ref": "#lineHeight"
+                      },
+                      "minWidth": {
+                        "$ref": "#size"
+                      },
+                      "opacity": {
+                        "$ref": "#opacity"
+                      },
+                      "outerBackgroundColor": {
+                        "$ref": "#color"
+                      },
+                      "outerBorderColor": {
+                        "$ref": "#color"
+                      },
+                      "outerBorderGap": {
+                        "$ref": "#size"
+                      },
+                      "outerBorderWidth": {
+                        "$ref": "#border"
+                      },
+                      "paddingBottom": {
+                        "$ref": "#size"
+                      },
+                      "paddingLeft": {
+                        "$ref": "#size"
+                      },
+                      "paddingRight": {
+                        "$ref": "#size"
+                      },
+                      "paddingTop": {
+                        "$ref": "#size"
+                      },
+                      "shadow": {
+                        "$ref": "#shadow"
+                      },
+                      "textAlign": {
+                        "$ref": "#flexJustifyContent"
+                      },
+                      "width": {
+                        "$ref": "#size"
+                      },
+                      "icoMenu": {
+                        "$ref": "#icon"
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "if",
+                  "tokens"
+                ]
+              }
+            }
+          },
+          "required": [
+            "tokens",
+            "rules"
+          ]
+        },
         "Notification": {
           "type": "object",
           "additionalProperties": false,
@@ -11210,6 +12106,15 @@
                 },
                 "gradient": {
                   "$ref": "#gradient"
+                },
+                "fontColor": {
+                  "$ref": "#color"
+                },
+                "borderRadiusBottomLeft": {
+                  "$ref": "#size"
+                },
+                "borderRadiusBottomRight": {
+                  "$ref": "#size"
                 }
               },
               "required": [
@@ -11232,7 +12137,10 @@
                 "curveWidth",
                 "curveAfterBackgroundColor",
                 "curveAfterHeight",
-                "gradient"
+                "gradient",
+                "fontColor",
+                "borderRadiusBottomLeft",
+                "borderRadiusBottomRight"
               ]
             },
             "rules": {
@@ -11308,6 +12216,15 @@
                       },
                       "gradient": {
                         "$ref": "#gradient"
+                      },
+                      "fontColor": {
+                        "$ref": "#color"
+                      },
+                      "borderRadiusBottomLeft": {
+                        "$ref": "#size"
+                      },
+                      "borderRadiusBottomRight": {
+                        "$ref": "#size"
                       }
                     }
                   },
@@ -15030,11 +15947,29 @@
               "type": "object",
               "additionalProperties": false,
               "properties": {
+                "fontWeight": {
+                  "$ref": "#fontWeight"
+                },
+                "fontName": {
+                  "$ref": "#fontName"
+                },
+                "fontSize": {
+                  "$ref": "#fontSize"
+                },
+                "color": {
+                  "$ref": "#color"
+                },
+                "currentColor": {
+                  "$ref": "#color"
+                },
                 "icon": {
                   "$ref": "#icon"
                 },
                 "iconColor": {
                   "$ref": "#color"
+                },
+                "iconSize": {
+                  "$ref": "#size"
                 },
                 "iconPadding": {
                   "$ref": "#size"
@@ -15044,8 +15979,14 @@
                 }
               },
               "required": [
+                "fontWeight",
+                "fontName",
+                "fontSize",
+                "color",
+                "currentColor",
                 "icon",
                 "iconColor",
+                "iconSize",
                 "iconPadding",
                 "listItemPadding"
               ]
@@ -15064,11 +16005,29 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
+                      "fontWeight": {
+                        "$ref": "#fontWeight"
+                      },
+                      "fontName": {
+                        "$ref": "#fontName"
+                      },
+                      "fontSize": {
+                        "$ref": "#fontSize"
+                      },
+                      "color": {
+                        "$ref": "#color"
+                      },
+                      "currentColor": {
+                        "$ref": "#color"
+                      },
                       "icon": {
                         "$ref": "#icon"
                       },
                       "iconColor": {
                         "$ref": "#color"
+                      },
+                      "iconSize": {
+                        "$ref": "#size"
                       },
                       "iconPadding": {
                         "$ref": "#size"
@@ -15899,6 +16858,10 @@
       "required": [
         "SplashButton",
         "SplashButtonWithDetails",
+        "VideoPickerThumbnail",
+        "VideoPickerSlider",
+        "VideoPicker",
+        "Disclaimer",
         "Table",
         "Image",
         "Spinner",
@@ -15948,6 +16911,7 @@
         "ListBox",
         "OrderedList",
         "Modal",
+        "NavigationBar",
         "Notification",
         "Pagination",
         "PaginationPageButton",
