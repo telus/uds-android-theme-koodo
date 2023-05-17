@@ -979,13 +979,17 @@
           "blue": 1,
           "alpha": 1
         },
+        "borderBottomWidth": 1,
         "borderColor": {
           "red": 0.00392,
           "green": 0.41961,
           "blue": 0.41569,
           "alpha": 1
         },
+        "borderLeftWidth": 1,
         "borderRadius": 4,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
         "borderWidth": 1,
         "color": {
           "red": 0.00392,
@@ -996,6 +1000,7 @@
         "fontName": "StagSans",
         "fontSize": 16,
         "fontWeight": 600,
+        "height": null,
         "icon": null,
         "iconSize": 24,
         "iconSpace": 2,
@@ -2118,76 +2123,110 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "calendarBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDayBlockedCalendarHoverBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
         },
         "calendarDayBlockedCalendarHoverColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
         },
-        "calendarDayDefaultBeforeHeight": 14,
-        "calendarDayDefaultBeforeWidth": 14,
+        "calendarDayDefaultBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDayDefaultBorder": 1,
         "calendarDayDefaultBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "calendarDayDefaultCalendarDaySelectedHoverBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
         },
         "calendarDayDefaultCalendarDaySelectedHoverColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
         },
         "calendarDayDefaultColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "calendarDayDefaultFontName": "StagSans",
-        "calendarDayDefaultFontSize": 12,
-        "calendarDayDefaultFontWeight": 300,
+        "calendarDayDefaultFontSize": 14,
+        "calendarDayDefaultFontWeight": 400,
+        "calendarDaySelectedFocusBeforeBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedHoverBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "calendarDaySelectedHoverBeforeBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedHoverBeforeBorderColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
         },
         "calendarDaySelectedHoverBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "calendarDaySelectedHoverColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "calendarMonthCaptionColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "calendarMonthCaptionFontName": "StagSans",
         "calendarMonthCaptionFontSize": 20,
-        "calendarMonthCaptionFontWeight": 400,
-        "calendarMonthCaptionLineHeight": 1.4,
+        "calendarMonthCaptionFontWeight": 700,
+        "calendarMonthCaptionLineHeight": 1.2,
         "calendarMonthCaptionPaddingBottom": 48,
         "dateInputBorderColor": {
           "red": 0,
@@ -2197,22 +2236,22 @@
         },
         "dateInputBorderRadius": 4,
         "dateInputFocusBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
         },
         "dateInputHoverBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "dateInputInsideBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
         },
         "dateInputInsideColor": {
           "red": 0,
@@ -2221,55 +2260,21 @@
           "alpha": 0
         },
         "dateInputStrokeColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
         },
-        "dayPickerNavigationButtonBackgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dayPickerNavigationButtonBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dayPickerNavigationButtonChildLeft": 8,
-        "dayPickerNavigationButtonChildRight": 8,
-        "dayPickerNavigationButtonChildSvgFill": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dayPickerNavigationButtonDefaultHoverBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dayPickerNavigationButtonMaxHeight": 32,
-        "dayPickerNavigationButtonMaxWidth": 32,
-        "dayPickerNavigationButtonPadding": 8,
-        "dayPickerNavigationSVGHorizontalFill": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
+        "dayPickerNavigationButtonPadding": 12,
         "dayPickerWeekHeaderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "dayPickerWeekHeaderFontName": "StagSans",
-        "dayPickerWeekHeaderFontWeight": 500,
-        "dayPickerWeekHeaderLineHeight": 1.42857142857,
+        "dayPickerWeekHeaderFontWeight": 700,
+        "dayPickerWeekHeaderLineHeight": 1.14285714286,
         "dayPickerWeekHeaderSmall": 14,
         "hiddenInputFieldContainerHeight": 0,
         "hiddenInputFieldContainerWidth": 0,
@@ -2279,13 +2284,13 @@
           "blue": 0,
           "alpha": 0
         },
-        "nextIcon": "PaletteIconArrowRight",
-        "previousIcon": "PaletteIconArrowLeft",
+        "nextIcon": "PaletteIconChevronRight",
+        "previousIcon": "PaletteIconChevronLeft",
         "singleDatePickerBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
         },
         "singleDatePickerLeftRight": 16,
         "singleDatePickerPaddingTopBottom": 8,
@@ -2422,6 +2427,10 @@
     },
     "ExpandCollapseControl": {
       "appearances": {
+        "compact": {
+          "type": "variant",
+          "values": [true]
+        },
         "expanded": {
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
@@ -2429,6 +2438,12 @@
         }
       },
       "rules": [
+        {
+          "if": {
+            "compact": true
+          },
+          "tokens": {}
+        },
         {
           "if": {
             "expanded": true
@@ -2440,10 +2455,10 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
         },
         "borderColor": {
           "red": 0,
@@ -2454,19 +2469,19 @@
         "borderWidth": 0,
         "icon": "PaletteIconChevronDown",
         "iconColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
-        "iconGap": 16,
+        "iconGap": 8,
         "iconPaddingTop": 4,
-        "iconPosition": "left",
+        "iconPosition": "right",
         "iconSize": 16,
-        "justifyContent": "flex-start",
+        "justifyContent": "space-between",
         "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
+        "paddingLeft": 24,
+        "paddingRight": 24,
         "paddingTop": 16,
         "verticalAlign": "middle"
       }
@@ -2502,15 +2517,43 @@
       }
     },
     "ExpandCollapsePanel": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "compact": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "compact": true
+          },
+          "tokens": {}
+        }
+      ],
       "tokens": {
+        "borderColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "borderWidth": 1,
         "collapseDuration": 250,
         "contentPaddingBottom": 16,
-        "contentPaddingLeft": 48,
+        "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
-        "contentPaddingTop": 0,
-        "expandDuration": 300
+        "contentPaddingTop": 16,
+        "expandDividerColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "expandDuration": 300,
+        "expanddDividerWidth": 0,
+        "marginBottom": 8
       }
     },
     "Feedback": {
@@ -4157,14 +4200,31 @@
         "system": {
           "values": [true],
           "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
         }
       },
       "rules": [
         {
           "if": {
+            "viewport": ["xl"]
+          },
+          "tokens": {
+            "justifyContent": "center"
+          }
+        },
+        {
+          "if": {
             "system": true
           },
           "tokens": {
+            "borderLeftWidth": 0,
+            "borderRadius": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
             "iconGap": 12,
             "paddingBottom": 16,
             "paddingLeft": 16,
@@ -4178,9 +4238,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.89804,
-              "green": 0.96863,
-              "blue": 0.98431,
+              "red": 0.75686,
+              "green": 0.94902,
+              "blue": 0.9098,
               "alpha": 1
             },
             "color": {
@@ -4209,12 +4269,19 @@
               "blue": 0.78039,
               "alpha": 1
             },
+            "borderColor": {
+              "red": 0.98431,
+              "green": 0.68627,
+              "blue": 0.20392,
+              "alpha": 1
+            },
             "color": {
               "red": 0,
               "green": 0,
               "blue": 0,
               "alpha": 1
             },
+            "dismissIcon": null,
             "icon": "PaletteIconExclamationTriangle",
             "iconColor": {
               "red": 0.93333,
@@ -4235,13 +4302,20 @@
               "blue": 0.8902,
               "alpha": 1
             },
+            "borderColor": {
+              "red": 0.93333,
+              "green": 0.17255,
+              "blue": 0.4549,
+              "alpha": 1
+            },
             "color": {
               "red": 0,
               "green": 0,
               "blue": 0,
               "alpha": 1
             },
-            "icon": "PaletteIconExclamationOctagon",
+            "dismissIcon": null,
+            "icon": "PaletteIconCaution",
             "iconColor": {
               "red": 0.87451,
               "green": 0.23922,
@@ -4253,37 +4327,36 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0.98039,
-          "green": 0.90196,
-          "blue": 0.95686,
+          "red": 0.89804,
+          "green": 0.96863,
+          "blue": 0.98431,
           "alpha": 1
         },
-        "borderBottomWidth": 0,
+        "borderBottomWidth": 1,
         "borderColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "borderLeftWidth": 1,
+        "borderRadius": 6,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+        "color": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
-        },
-        "borderLeftWidth": 0,
-        "borderRadius": 0,
-        "borderRightWidth": 0,
-        "borderTopWidth": 0,
-        "color": {
-          "red": 0.48627,
-          "green": 0.07451,
-          "blue": 0.4,
           "alpha": 1
         },
         "dismissButtonGap": 16,
-        "dismissIcon": "PaletteIconTimes",
+        "dismissIcon": "PaletteIconClose",
         "dismissIconColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 1
         },
-        "dismissIconSize": 16,
         "fontName": "StagSans",
         "fontSize": 16,
         "fontWeight": 400,
@@ -4294,8 +4367,9 @@
           "blue": 0,
           "alpha": 0
         },
-        "iconGap": 16,
+        "iconGap": 24,
         "iconSize": 24,
+        "justifyContent": "flex-start",
         "lineHeight": 1.5,
         "paddingBottom": 12,
         "paddingLeft": 12,
@@ -4398,17 +4472,34 @@
             "viewport": ["md", "lg", "xl"]
           },
           "tokens": {
+            "gap": 4,
             "truncateAbove": 6
           }
         }
       ],
       "tokens": {
+        "borderBottomWidth": 0,
+        "borderColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
         "color": {
           "red": 0.4,
           "green": 0.4,
           "blue": 0.4,
           "alpha": 1
         },
+        "ellipsisBorderBottomWidth": 0,
+        "ellipsisBorderLeftWidth": 0,
+        "ellipsisBorderRightWidth": 0,
+        "ellipsisBorderTopWidth": 0,
+        "ellipsisHeight": null,
+        "ellipsisPadding": 0,
         "fontName": "StagSans",
         "fontSize": 16,
         "fontWeight": 400,
@@ -4437,9 +4528,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             },
             "color": {
@@ -4457,9 +4548,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             },
             "color": {
@@ -4478,23 +4569,27 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomWidth": 1,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderLeftWidth": 1,
         "borderRadius": 32,
-        "borderWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
         "color": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
           "alpha": 1
         },
         "fontName": "StagSans",
         "fontSize": 16,
-        "fontWeight": 400,
+        "fontWeight": 600,
+        "height": 32,
         "lineHeight": 1.5,
         "outerBorderColor": {
           "red": 0,
@@ -4504,10 +4599,10 @@
         },
         "outerBorderGap": 4,
         "outerBorderWidth": 4,
-        "paddingBottom": 4,
+        "paddingBottom": 8,
         "paddingLeft": 8,
         "paddingRight": 8,
-        "paddingTop": 4,
+        "paddingTop": 8,
         "textAlign": "center",
         "textLine": "underline",
         "width": 32
@@ -4557,9 +4652,10 @@
           "tokens": {
             "borderRadius": 32,
             "displayLabel": false,
-            "paddingBottom": 4,
-            "paddingTop": 4,
-            "width": 32
+            "paddingBottom": 8,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 8
           }
         },
         {
@@ -4568,9 +4664,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             },
             "color": {
@@ -4588,9 +4684,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             },
             "color": {
@@ -4625,24 +4721,28 @@
           "blue": 0,
           "alpha": 0
         },
+        "borderBottomWidth": 1,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderLeftWidth": 1,
         "borderRadius": 4,
-        "borderWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
         "color": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
           "alpha": 1
         },
         "displayLabel": true,
         "fontName": "StagSans",
         "fontSize": 16,
-        "fontWeight": 400,
+        "fontWeight": 600,
+        "height": null,
         "icon": null,
         "iconDisplace": 0,
         "iconSize": 14,
@@ -4653,12 +4753,13 @@
           "blue": 0,
           "alpha": 0
         },
-        "paddingBottom": 10,
+        "outerBorderWidth": 1,
+        "paddingBottom": 12,
         "paddingLeft": 8,
         "paddingRight": 8,
-        "paddingTop": 10,
+        "paddingTop": 12,
         "textAlign": "center",
-        "textLine": "underline",
+        "textLine": "none",
         "width": null
       }
     },
@@ -4726,6 +4827,8 @@
             "currencySymbolLineHeight": 1,
             "rateFontSize": 16,
             "rateLineHeight": 1.14285714286,
+            "strikeThroughHeight": 2,
+            "strikeThroughPosition": 18,
             "topTextFontSize": 14,
             "topTextLineHeight": 2.25
           }
@@ -4741,11 +4844,12 @@
             "centsFontWeight": 600,
             "centsLineHeight": 1.25,
             "currencySymbolFontSize": 32,
-            "currencySymbolLineHeight": 1,
+            "currencySymbolLineHeight": 1.2,
             "rateFontName": "StagSans",
             "rateFontSize": 16,
             "rateFontWeight": 600,
             "rateLineHeight": 2,
+            "strikeThroughPosition": 27,
             "topTextFontSize": 16,
             "topTextLineHeight": 2.25
           }
@@ -4816,7 +4920,8 @@
           "blue": 0,
           "alpha": 1
         },
-        "strikeThroughHeight": 2,
+        "strikeThroughHeight": 3,
+        "strikeThroughPosition": 21,
         "topTextFontName": "StagSans",
         "topTextFontSize": 16,
         "topTextFontWeight": 700,
@@ -5423,7 +5528,9 @@
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
         "containerShadow": null,
+        "descriptionFontName": "StagSans",
         "descriptionFontSize": 14,
+        "descriptionFontWeight": 400,
         "descriptionLineHeight": 1.4,
         "descriptionMarginLeft": null,
         "inputBackgroundColor": {
@@ -6141,6 +6248,12 @@
           "red": 0.4,
           "green": 0.4,
           "blue": 0.4,
+          "alpha": 1
+        },
+        "feedbackBackgroundColor": {
+          "red": 0.89804,
+          "green": 0.96863,
+          "blue": 0.98431,
           "alpha": 1
         },
         "fontName": "StagSans",
@@ -8685,7 +8798,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.25.0",
+    "themeTokensVersion": "2.26.0",
     "name": "theme-koodo"
   }
 }
