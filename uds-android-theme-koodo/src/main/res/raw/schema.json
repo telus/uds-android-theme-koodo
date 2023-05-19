@@ -3802,6 +3802,18 @@
                 "footnoteBodyPaddingBottom": {
                   "$ref": "#size"
                 },
+                "footnoteHeaderPaddingLeft": {
+                  "$ref": "#size"
+                },
+                "footnoteHeaderPaddingRight": {
+                  "$ref": "#size"
+                },
+                "footnoteHeaderPaddingTop": {
+                  "$ref": "#size"
+                },
+                "footnoteHeaderPaddingBottom": {
+                  "$ref": "#size"
+                },
                 "listPaddingLeft": {
                   "$ref": "#size"
                 },
@@ -3810,6 +3822,18 @@
                 },
                 "listItemMarkerLineHeight": {
                   "$ref": "#lineHeight"
+                },
+                "headerLineHeight": {
+                  "$ref": "#size"
+                },
+                "headerFontSize": {
+                  "$ref": "#size"
+                },
+                "headerFontName": {
+                  "$ref": "#fontName"
+                },
+                "headerFontWeight": {
+                  "$ref": "#fontWeight"
                 },
                 "listItemColor": {
                   "$ref": "#color"
@@ -3864,9 +3888,17 @@
                 "footnoteBodyPaddingRight",
                 "footnoteBodyPaddingTop",
                 "footnoteBodyPaddingBottom",
+                "footnoteHeaderPaddingLeft",
+                "footnoteHeaderPaddingRight",
+                "footnoteHeaderPaddingTop",
+                "footnoteHeaderPaddingBottom",
                 "listPaddingLeft",
                 "listItemMarkerFontSize",
                 "listItemMarkerLineHeight",
+                "headerLineHeight",
+                "headerFontSize",
+                "headerFontName",
+                "headerFontWeight",
                 "listItemColor",
                 "listItemFontSize",
                 "listItemLineHeight",
@@ -3924,6 +3956,18 @@
                       "footnoteBodyPaddingBottom": {
                         "$ref": "#size"
                       },
+                      "footnoteHeaderPaddingLeft": {
+                        "$ref": "#size"
+                      },
+                      "footnoteHeaderPaddingRight": {
+                        "$ref": "#size"
+                      },
+                      "footnoteHeaderPaddingTop": {
+                        "$ref": "#size"
+                      },
+                      "footnoteHeaderPaddingBottom": {
+                        "$ref": "#size"
+                      },
                       "listPaddingLeft": {
                         "$ref": "#size"
                       },
@@ -3932,6 +3976,18 @@
                       },
                       "listItemMarkerLineHeight": {
                         "$ref": "#lineHeight"
+                      },
+                      "headerLineHeight": {
+                        "$ref": "#size"
+                      },
+                      "headerFontSize": {
+                        "$ref": "#size"
+                      },
+                      "headerFontName": {
+                        "$ref": "#fontName"
+                      },
+                      "headerFontWeight": {
+                        "$ref": "#fontWeight"
                       },
                       "listItemColor": {
                         "$ref": "#color"

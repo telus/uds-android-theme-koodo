@@ -2665,31 +2665,31 @@
           "blue": 0,
           "alpha": 1
         },
-        "closeButtonBorderSize": 1,
+        "closeButtonBorderSize": 0,
         "closeButtonHeight": 24,
         "closeButtonIconSize": 16,
         "closeButtonMarginBottom": 4,
         "closeButtonMarginLeft": 4,
         "closeButtonMarginRight": 12,
-        "closeButtonMarginTop": 12,
+        "closeButtonMarginTop": 4,
         "closeButtonWidth": 24,
         "closeIcon": "PaletteIconClose",
         "footnoteBackground": {
-          "red": 0.98039,
-          "green": 0.98039,
-          "blue": 0.98039,
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         },
         "footnoteBodyBackground": {
-          "red": 0.98039,
-          "green": 0.98039,
-          "blue": 0.98039,
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         },
         "footnoteBodyPaddingBottom": 32,
         "footnoteBodyPaddingLeft": 16,
         "footnoteBodyPaddingRight": 16,
-        "footnoteBodyPaddingTop": 0,
+        "footnoteBodyPaddingTop": 16,
         "footnoteBorderColorMd": {
           "red": 0.78824,
           "green": 0.78431,
@@ -2697,6 +2697,14 @@
           "alpha": 1
         },
         "footnoteBorderTopSizeMd": 1,
+        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 16,
+        "footnoteHeaderPaddingTop": 16,
+        "headerFontName": "StagSans",
+        "headerFontSize": 16,
+        "headerFontWeight": 700,
+        "headerLineHeight": 20,
         "headerMargin": 16,
         "listItemColor": {
           "red": 0,
@@ -2706,7 +2714,7 @@
         },
         "listItemFontSize": 14,
         "listItemLineHeight": 1.42857142857,
-        "listItemMarkerFontSize": 16,
+        "listItemMarkerFontSize": 14,
         "listItemMarkerLineHeight": 1.42857142857,
         "listItemPaddingLeft": 8,
         "listPaddingLeft": 32
@@ -5501,9 +5509,7 @@
               "green": 0.78431,
               "blue": 0.78431,
               "alpha": 1
-            },
-            "outerBorderGap": 1,
-            "outerBorderWidth": 1
+            }
           }
         }
       ],
@@ -5523,10 +5529,10 @@
         },
         "containerBorderRadius": 0,
         "containerOpacity": 1,
-        "containerPaddingBottom": 0,
-        "containerPaddingLeft": 0,
+        "containerPaddingBottom": 6,
+        "containerPaddingLeft": 8,
         "containerPaddingRight": 0,
-        "containerPaddingTop": 0,
+        "containerPaddingTop": 6,
         "containerShadow": null,
         "descriptionFontName": "StagSans",
         "descriptionFontSize": 14,
@@ -5571,8 +5577,8 @@
           "blue": 0,
           "alpha": 0
         },
-        "outerBorderGap": 0,
-        "outerBorderWidth": 0
+        "outerBorderGap": 5,
+        "outerBorderWidth": 1
       }
     },
     "RadioCard": {
