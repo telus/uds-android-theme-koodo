@@ -1233,8 +1233,31 @@
       }
     },
     "ButtonGroup": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm"]
+          },
+          "tokens": {
+            "space": 2
+          }
+        },
+        {
+          "if": {
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "space": 3
+          }
+        }
+      ],
       "tokens": {
         "alignItems": "center",
         "direction": "row",
@@ -1242,7 +1265,7 @@
         "flexGrow": 0,
         "flexShrink": 0,
         "justifyContent": "flex-start",
-        "space": 3
+        "space": 2
       }
     },
     "ButtonGroupItem": {
@@ -1275,15 +1298,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            },
-            "borderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
               "alpha": 1
             },
             "color": {
@@ -1299,15 +1316,38 @@
             "selected": true
           },
           "tokens": {
-            "opacity": 0.8,
-            "outerBorderColor": {
+            "backgroundColor": {
               "red": 0.00392,
               "green": 0.41961,
               "blue": 0.41569,
               "alpha": 1
             },
-            "outerBorderGap": 1,
-            "outerBorderWidth": 4
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "pressed": true,
+            "selected": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.10588,
+              "green": 0.27843,
+              "blue": 0.27451,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
           }
         },
         {
@@ -1316,9 +1356,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "borderWidth": 0,
@@ -1328,22 +1368,6 @@
               "blue": 1,
               "alpha": 1
             }
-          }
-        },
-        {
-          "if": {
-            "selected": true
-          },
-          "tokens": {
-            "opacity": 0.8,
-            "outerBorderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            },
-            "outerBorderGap": 1,
-            "outerBorderWidth": 4
           }
         },
         {
@@ -1358,32 +1382,32 @@
       "tokens": {
         "alignSelf": "flex-start",
         "backgroundColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
-          "alpha": 1
-        },
-        "borderColor": {
-          "red": 0.10588,
-          "green": 0.27843,
-          "blue": 0.27451,
-          "alpha": 1
-        },
-        "borderRadius": 4,
-        "borderWidth": 0,
-        "color": {
           "red": 1,
           "green": 1,
           "blue": 1,
           "alpha": 1
         },
+        "borderColor": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "color": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
         "fontName": "StagSans",
-        "fontSize": 14,
+        "fontSize": 16,
         "fontWeight": 600,
-        "height": 36,
+        "height": 48,
         "iconSize": 20,
-        "iconSpace": 3,
-        "lineHeight": 1.4,
+        "iconSpace": 2,
+        "lineHeight": 1.5,
         "minWidth": 0,
         "opacity": 1,
         "outerBackgroundColor": {
@@ -1398,8 +1422,8 @@
           "blue": 0,
           "alpha": 0
         },
-        "outerBorderGap": 2,
-        "outerBorderWidth": 2,
+        "outerBorderGap": 3,
+        "outerBorderWidth": 1,
         "paddingBottom": 8,
         "paddingLeft": 24,
         "paddingRight": 24,
@@ -2653,6 +2677,47 @@
         "paddingTop": 12,
         "space": 2,
         "titleFontSize": 16
+      }
+    },
+    "Fieldset": {
+      "appearances": {
+        "error": {
+          "type": "variant",
+          "values": [true]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "error": true
+          },
+          "tokens": {
+            "outlineColor": {
+              "red": 0.93333,
+              "green": 0.17255,
+              "blue": 0.4549,
+              "alpha": 1
+            }
+          }
+        }
+      ],
+      "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
+        "outlineColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0
       }
     },
     "Footnote": {
@@ -5826,7 +5891,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "fieldSpace": 2,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 2
       }
     },
@@ -7515,6 +7587,11 @@
           "values": [true],
           "type": "state"
         },
+        "numeric": {
+          "description": "capability to only allow numbers",
+          "type": "variant",
+          "values": [true]
+        },
         "password": {
           "description": "capability that helps masking and unmasking text",
           "type": "variant",
@@ -7802,9 +7879,15 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.76471,
-              "green": 0.93725,
-              "blue": 1,
+              "red": 0.7098,
+              "green": 0.70588,
+              "blue": 0.70588,
+              "alpha": 1
+            },
+            "switchColor": {
+              "red": 0.31373,
+              "green": 0.31373,
+              "blue": 0.31373,
               "alpha": 1
             }
           }
@@ -7815,9 +7898,28 @@
           },
           "tokens": {
             "backgroundColor": {
+              "red": 0.89804,
+              "green": 0.96863,
+              "blue": 0.98431,
+              "alpha": 1
+            },
+            "icon": "PaletteIconCheck",
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "switchBorderColor": {
               "red": 0,
-              "green": 0.63137,
-              "blue": 0.85882,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "switchColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             }
           }
@@ -7841,16 +7943,40 @@
             "inactive": true
           },
           "tokens": {
-            "opacity": 0.5
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "opacity": 0.5,
+            "switchBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "switchColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
           }
         }
       ],
       "tokens": {
         "alignSelf": "flex-start",
         "backgroundColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "borderColor": {
@@ -7859,7 +7985,7 @@
           "blue": 0,
           "alpha": 0
         },
-        "borderRadius": 4,
+        "borderRadius": 32,
         "borderWidth": 0,
         "icon": null,
         "iconColor": {
@@ -7868,7 +7994,7 @@
           "blue": 0,
           "alpha": 0
         },
-        "iconSize": 16,
+        "iconSize": 12,
         "labelColor": {
           "red": 0,
           "green": 0,
@@ -7877,7 +8003,7 @@
         },
         "labelFontName": "StagSans",
         "labelFontSize": 16,
-        "labelFontWeight": 400,
+        "labelFontWeight": 600,
         "labelLineHeight": 1.5,
         "labelMarginLeft": 8,
         "opacity": 1,
@@ -7893,12 +8019,12 @@
           "blue": 0,
           "alpha": 0
         },
-        "outerBorderGap": 2,
-        "outerBorderWidth": 2,
-        "paddingBottom": 4,
-        "paddingLeft": 8,
-        "paddingRight": 8,
-        "paddingTop": 4,
+        "outerBorderGap": 0,
+        "outerBorderWidth": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
         "shadow": null,
         "switchBorderColor": {
           "red": 0,
@@ -7909,27 +8035,54 @@
         "switchBorderRadius": 32,
         "switchBorderWidth": 0,
         "switchColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
           "alpha": 1
         },
-        "switchShadow": null,
-        "switchSize": 24,
+        "switchShadow": {
+          "inset": false,
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 2,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.1
+          }
+        },
+        "switchSize": 18,
         "trackBorderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
-        "trackBorderRadius": 0,
-        "trackBorderWidth": 0,
-        "width": 64
+        "trackBorderRadius": 12,
+        "trackBorderWidth": 3,
+        "width": 40
       }
     },
     "ToggleSwitchGroup": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "space": 3
+          }
+        }
+      ],
       "tokens": {
         "alignItems": "flex-start",
         "direction": "column",
@@ -8805,7 +8958,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.27.0",
+    "themeTokensVersion": "2.28.0",
     "name": "theme-koodo"
   }
 }
