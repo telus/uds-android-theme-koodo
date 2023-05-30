@@ -5688,6 +5688,26 @@
           }
         },
         {
+          "if": {
+            "checked": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "radioInputBorderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "radioInputBorderWidth": 2
+          }
+        },
+        {
           "description": "Pressed state matches hover state plus light grey background",
           "if": {
             "pressed": true
@@ -5700,18 +5720,20 @@
               "alpha": 1
             },
             "outerBorderColor": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
-            "outerBorderWidth": 2,
-            "radioInputBorderColor": {
-              "red": 0.10588,
-              "green": 0.27843,
-              "blue": 0.27451,
+            "outerBorderGap": 0,
+            "outerBorderWidth": 1,
+            "radioOuterBorderColor": {
+              "red": 0.0902,
+              "green": 0.21176,
+              "blue": 0.4902,
               "alpha": 1
-            }
+            },
+            "radioOuterBorderGap": 2
           }
         },
         {
@@ -5737,10 +5759,16 @@
               "blue": 0.4,
               "alpha": 1
             },
+            "radioCheckedBackgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
             "radioInputBackgroundColor": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "radioInputBorderColor": {
@@ -5748,7 +5776,16 @@
               "green": 0.78431,
               "blue": 0.78431,
               "alpha": 1
-            }
+            },
+            "radioInputSize": 16,
+            "radioOuterBorderColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "radioOuterBorderGap": 2,
+            "radioOuterBorderWidth": 1
           }
         },
         {
@@ -5785,9 +5822,9 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "borderRadius": 4,
@@ -5809,7 +5846,7 @@
         "fontWeight": 700,
         "letterSpacing": 0,
         "lineHeight": 1.4,
-        "minWidth": 120,
+        "minWidth": 288,
         "outerBorderColor": {
           "red": 0,
           "green": 0,
@@ -5819,16 +5856,16 @@
         "outerBorderGap": 0,
         "outerBorderWidth": 0,
         "paddingBottom": 16,
-        "paddingLeft": 10,
+        "paddingLeft": 8,
         "paddingRight": 16,
-        "paddingTop": 16,
+        "paddingTop": 12,
         "radioCheckedBackgroundColor": {
           "red": 0.00392,
           "green": 0.41961,
           "blue": 0.41569,
           "alpha": 1
         },
-        "radioCheckedSize": 12,
+        "radioCheckedSize": 16,
         "radioInputBackgroundColor": {
           "red": 1,
           "green": 1,
@@ -5849,7 +5886,7 @@
           "alpha": 0
         },
         "radioInputOutlineWidth": 0,
-        "radioInputSize": 20,
+        "radioInputSize": 24,
         "radioOuterBorderColor": {
           "red": 0,
           "green": 0,
@@ -5865,6 +5902,11 @@
     },
     "RadioCardGroup": {
       "appearances": {
+        "fullWidth": {
+          "description": "Makes cards always occupy the full width of the parent, regardless of viewport",
+          "type": "variant",
+          "values": [true]
+        },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
           "values": ["xs", "sm", "md", "lg", "xl"],
@@ -5874,17 +5916,19 @@
       "rules": [
         {
           "if": {
-            "viewport": ["lg", "xl"]
+            "fullWidth": null,
+            "viewport": ["md", "lg", "xl"]
           },
           "tokens": {
-            "direction": "column"
+            "direction": "row",
+            "space": 5
           }
         }
       ],
       "tokens": {
-        "direction": "row",
-        "fieldSpace": 2,
-        "space": 2
+        "direction": "column",
+        "fieldSpace": 3,
+        "space": 3
       }
     },
     "RadioGroup": {
