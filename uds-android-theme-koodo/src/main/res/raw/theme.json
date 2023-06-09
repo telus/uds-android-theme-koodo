@@ -2467,12 +2467,12 @@
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "fontName": "StagSans",
-        "fontSize": 14,
-        "fontWeight": 300,
-        "lineHeight": 1.42857142857
+        "fontSize": 12,
+        "fontWeight": 400,
+        "lineHeight": 1.33333333333
       }
     },
     "Divider": {
@@ -2591,6 +2591,10 @@
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
           "type": "state"
+        },
+        "mini": {
+          "type": "variant",
+          "values": [true]
         }
       },
       "rules": [
@@ -2599,6 +2603,43 @@
             "compact": true
           },
           "tokens": {}
+        },
+        {
+          "if": {
+            "mini": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderWidth": 0,
+            "icon": "PaletteIconChevronDown",
+            "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "iconGap": 8,
+            "iconPaddingTop": 4,
+            "iconPosition": "left",
+            "iconSize": 16,
+            "justifyContent": "flex-start",
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "verticalAlign": "middle"
+          }
         },
         {
           "if": {
@@ -2616,12 +2657,16 @@
           "blue": 0.93725,
           "alpha": 1
         },
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "borderWidth": 0,
         "icon": "PaletteIconChevronDown",
         "iconColor": {
@@ -2639,6 +2684,7 @@
         "paddingLeft": 24,
         "paddingRight": 24,
         "paddingTop": 16,
+        "textLine": "none",
         "verticalAlign": "middle"
       }
     },
@@ -2701,51 +2747,15 @@
         "verticalAlign": "middle"
       }
     },
-    "ExpandCollapseMiniPanel": {
-      "appearances": {
-        "compact": {
-          "type": "variant",
-          "values": [true]
-        }
-      },
-      "rules": [
-        {
-          "if": {
-            "compact": true
-          },
-          "tokens": {}
-        }
-      ],
-      "tokens": {
-        "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "borderRadius": 0,
-        "borderWidth": 0,
-        "collapseDuration": 250,
-        "contentPaddingBottom": 16,
-        "contentPaddingLeft": 0,
-        "contentPaddingRight": 0,
-        "contentPaddingTop": 0,
-        "expandDividerColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "expandDividerWidth": 0,
-        "expandDuration": 300,
-        "marginBottom": 0
-      }
-    },
     "ExpandCollapsePanel": {
       "appearances": {
         "compact": {
           "type": "variant",
           "values": [true]
+        },
+        "mini": {
+          "type": "variant",
+          "values": [true]
         }
       },
       "rules": [
@@ -2754,6 +2764,23 @@
             "compact": true
           },
           "tokens": {}
+        },
+        {
+          "if": {
+            "mini": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "contentPaddingBottom": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingTop": 0
+          }
         }
       ],
       "tokens": {
@@ -3974,7 +4001,7 @@
             "size": "small"
           },
           "tokens": {
-            "iconMarginTop": 1,
+            "iconMarginTop": 2,
             "itemFontSize": 14,
             "itemIconSize": 14,
             "listGutter": 10
@@ -3985,6 +4012,7 @@
             "compact": true
           },
           "tokens": {
+            "iconMarginTop": 1,
             "itemLineHeight": 1.2
           }
         },
@@ -6706,18 +6734,11 @@
               "alpha": 1
             },
             "backgroundColor": {
-              "red": 0.75686,
-              "green": 0.94902,
-              "blue": 0.9098,
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
               "alpha": 1
-            },
-            "color": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            },
-            "paddingLeft": 10
+            }
           }
         },
         {
@@ -6726,23 +6747,19 @@
           },
           "tokens": {
             "accentBackgroundColor": {
-              "red": 0.75686,
-              "green": 0.94902,
-              "blue": 0.9098,
-              "alpha": 1
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
-            "accentOffset": 16,
-            "borderWidth": 0,
-            "paddingLeft": 36
-          }
-        },
-        {
-          "if": {
-            "active": true,
-            "type": "parent"
-          },
-          "tokens": {
-            "paddingLeft": 10
+            "fontName": "StagSans",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "lineHeight": 1.45,
+            "paddingBottom": 12,
+            "paddingLeft": 32,
+            "paddingRight": 16,
+            "paddingTop": 12
           }
         },
         {
@@ -6763,14 +6780,7 @@
               "green": 0,
               "blue": 0,
               "alpha": 0
-            },
-            "color": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
-              "alpha": 1
-            },
-            "paddingLeft": 16
+            }
           }
         },
         {
@@ -6785,19 +6795,19 @@
               "blue": 0.41569,
               "alpha": 1
             },
+            "accentOffset": 24,
             "accentPadding": 16,
             "backgroundColor": {
-              "red": 0.75686,
-              "green": 0.94902,
-              "blue": 0.9098,
-              "alpha": 1
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
             },
-            "color": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            }
+            "fontName": "StagSans",
+            "fontWeight": 600,
+            "lineHeight": 1.5,
+            "paddingBottom": 13,
+            "paddingTop": 13
           }
         }
       ],
@@ -6826,25 +6836,40 @@
         "borderStyle": "solid",
         "borderWidth": 1,
         "color": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "fontName": "StagSans",
         "fontSize": 16,
-        "fontWeight": 400,
+        "fontWeight": 600,
         "justifyContent": "space-between",
         "lineHeight": 1.5,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
-        "paddingTop": 16
+        "paddingBottom": 12,
+        "paddingLeft": 24,
+        "paddingRight": 20,
+        "paddingTop": 12
       }
     },
     "SideNavItemsGroup": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "expanded": {
+          "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+          "values": [true],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "expanded": true
+          },
+          "tokens": {
+            "icon": "PaletteIconChevronUp"
+          }
+        }
+      ],
       "tokens": {
         "collapseDuration": 250,
         "contentPaddingBottom": 0,
@@ -6852,16 +6877,16 @@
         "contentPaddingRight": 0,
         "contentPaddingTop": 0,
         "expandDuration": 300,
-        "icon": null,
+        "icon": "PaletteIconChevronDown",
         "iconColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         },
         "iconGap": 8,
         "iconPosition": "right",
-        "iconSize": 10,
+        "iconSize": 16,
         "justifyContent": "space-between",
         "verticalAlign": "middle"
       }
@@ -9437,7 +9462,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.30.0",
+    "themeTokensVersion": "2.31.0",
     "name": "theme-koodo"
   }
 }
