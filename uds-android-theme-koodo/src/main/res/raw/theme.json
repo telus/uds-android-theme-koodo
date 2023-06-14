@@ -1626,6 +1626,15 @@
           "description": "Defines background related attributes of Card",
           "type": "variant",
           "values": ["alternative", "subtle", "grid", "feature"]
+        },
+        "padding": {
+          "type": "variant",
+          "values": ["custom"]
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
         }
       },
       "rules": [
@@ -1683,6 +1692,28 @@
               "alpha": 1
             }
           }
+        },
+        {
+          "if": {
+            "viewport": ["md", "lg", "xl"]
+          },
+          "tokens": {
+            "paddingBottom": 48,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 48
+          }
+        },
+        {
+          "if": {
+            "padding": "custom"
+          },
+          "tokens": {
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0
+          }
         }
       ],
       "tokens": {
@@ -1706,10 +1737,10 @@
         "contentJustifyContent": "flex-start",
         "flex": 1,
         "minWidth": null,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "paddingRight": 16,
-        "paddingTop": 16,
+        "paddingBottom": 32,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 32,
         "shadow": null
       }
     },
@@ -2048,9 +2079,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0,
+              "green": 0,
+              "blue": 0,
               "alpha": 1
             }
           }
@@ -2384,37 +2415,6 @@
         "calendarMonthCaptionFontWeight": 700,
         "calendarMonthCaptionLineHeight": 1.2,
         "calendarMonthCaptionPaddingBottom": 48,
-        "dateInputBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "dateInputBorderRadius": 4,
-        "dateInputFocusBorderColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
-          "alpha": 1
-        },
-        "dateInputHoverBorderColor": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
-          "alpha": 1
-        },
-        "dateInputInsideBorderColor": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
-          "alpha": 1
-        },
-        "dateInputInsideColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
         "dateInputStrokeColor": {
           "red": 0.4,
           "green": 0.4,
@@ -3858,9 +3858,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0,
+              "green": 0,
+              "blue": 0,
               "alpha": 1
             }
           }
@@ -3872,9 +3872,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.34902,
-              "green": 0.34902,
-              "blue": 0.34902,
+              "red": 0.31373,
+              "green": 0.31373,
+              "blue": 0.31373,
               "alpha": 1
             }
           }
@@ -7294,12 +7294,12 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
-        "borderRadius": 6,
+        "borderRadius": 8,
         "borderWidth": 1,
         "contentAlignItems": "stretch",
         "contentFlexGrow": 0,
@@ -8564,6 +8564,7 @@
             "small",
             "medium",
             "large",
+            "eyebrow",
             "h1",
             "h2",
             "h3",
@@ -8611,6 +8612,24 @@
           "tokens": {
             "fontSize": 20,
             "lineHeight": 1.4
+          }
+        },
+        {
+          "if": {
+            "size": "eyebrow"
+          },
+          "tokens": {
+            "color": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "fontName": "StagSans",
+            "fontSize": 14,
+            "fontWeight": 600,
+            "lineHeight": 1.42857142857,
+            "textTransform": "uppercase"
           }
         },
         {
@@ -9462,7 +9481,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.31.0",
+    "themeTokensVersion": "2.32.0",
     "name": "theme-koodo"
   }
 }
