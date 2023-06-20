@@ -210,22 +210,75 @@
       }
     },
     "BlockQuote": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm", "md"]
+          },
+          "tokens": {
+            "titleHeadingFontName": "StagSans",
+            "titleHeadingFontSize": 32,
+            "titleHeadingFontWeight": 700,
+            "titleHeadingLineHeight": 1.25
+          }
+        }
+      ],
       "tokens": {
-        "backgroundGradient": null,
+        "backgroundGradient": {
+          "type": "linear",
+          "angle": 0,
+          "stops": [
+            {
+              "stop": 0,
+              "color": {
+                "red": 0.00392,
+                "green": 0.41961,
+                "blue": 0.41569,
+                "alpha": 1
+              }
+            },
+            {
+              "stop": 1,
+              "color": {
+                "red": 0.00392,
+                "green": 0.41961,
+                "blue": 0.41569,
+                "alpha": 1
+              }
+            }
+          ]
+        },
         "color": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
+        "linkFontName": "StagSans",
+        "linkFontSize": 16,
+        "linkFontWeight": 600,
+        "linkLineHeight": 1.5,
         "marginBottom": 16,
         "paddingBottom": 16,
         "paddingLeft": 32,
         "paddingRight": 32,
         "paddingTop": 16,
-        "width": 2
+        "titleFontName": "StagSans",
+        "titleFontSize": 20,
+        "titleFontWeight": 400,
+        "titleHeadingFontName": "StagSans",
+        "titleHeadingFontSize": 32,
+        "titleHeadingFontWeight": 700,
+        "titleHeadingLineHeight": 1.25,
+        "titleLineHeight": 1.4,
+        "width": 4
       }
     },
     "Box": {
@@ -2372,6 +2425,24 @@
         "calendarDayDefaultFontName": "StagSans",
         "calendarDayDefaultFontSize": 14,
         "calendarDayDefaultFontWeight": 400,
+        "calendarDaySelectedDisabledBackground": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "calendarDaySelectedDisabledColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "calendarDaySelectedDisabledContentBackgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
         "calendarDaySelectedFocusBeforeBackground": {
           "red": 1,
           "green": 1,
@@ -9692,7 +9763,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.33.0",
+    "themeTokensVersion": "2.34.0",
     "name": "theme-koodo"
   }
 }
