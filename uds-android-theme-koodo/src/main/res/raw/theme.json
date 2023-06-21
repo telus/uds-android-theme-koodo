@@ -734,7 +734,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "priority": {
@@ -1211,7 +1211,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -1451,7 +1451,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -1841,7 +1841,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -2083,7 +2083,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "size": {
@@ -3115,7 +3115,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -3409,7 +3409,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "raised": {
@@ -3901,7 +3901,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "size": {
@@ -4151,11 +4151,11 @@
         "listGutter": 10
       }
     },
-    "ListBox": {
+    "Listbox": {
       "appearances": {
         "current": {
           "description": "When the current item is selected",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "expanded": {
@@ -4165,28 +4165,96 @@
         },
         "isChild": {
           "description": "when the item is child of another child",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
       "rules": [
         {
           "if": {
-            "pressed": true
+            "current": true
           },
           "tokens": {
             "groupBackgroundColor": {
-              "red": 0.73333,
-              "green": 0.91765,
-              "blue": 0.96078,
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "groupBorderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
               "alpha": 1
             },
             "groupColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "itemBackgroundColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "itemColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "current": true,
+            "pressed": true
+          },
+          "tokens": {
+            "itemBackgroundColor": {
+              "red": 0.7098,
+              "green": 0.70588,
+              "blue": 0.70588,
+              "alpha": 1
+            },
+            "itemColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "isChild": true
+          },
+          "tokens": {
+            "itemBorderBottomWidth": 0,
+            "itemBorderLeftColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "itemBorderLeftWidth": 4,
+            "itemBorderTopWidth": 0
+          }
+        },
+        {
+          "if": {
+            "current": true,
+            "isChild": true
+          },
+          "tokens": {
+            "itemBorderLeftColor": {
               "red": 0.00392,
               "green": 0.41961,
               "blue": 0.41569,
@@ -4196,26 +4264,24 @@
         },
         {
           "if": {
-            "current": true
+            "isChild": true,
+            "pressed": true
           },
           "tokens": {
-            "groupColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
+            "itemBorderBottomWidth": 0,
+            "itemBorderLeftColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
               "alpha": 1
             },
-            "groupFontName": "StagSans",
-            "groupFontWeight": 700
-          }
-        },
-        {
-          "if": {
-            "isChild": true
-          },
-          "tokens": {
-            "itemBorderWidth": 4,
-            "itemPaddingLeft": 12
+            "itemBorderTopWidth": 0,
+            "itemColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
           }
         },
         {
@@ -4235,22 +4301,23 @@
           "alpha": 0
         },
         "groupBorderColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
-        "groupBorderRadius": 6,
+        "groupBorderRadius": 0,
         "groupBorderWidth": 1,
         "groupColor": {
-          "red": 0.89804,
-          "green": 0.96863,
-          "blue": 0.98431,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "groupFontName": "StagSans",
-        "groupFontSize": 14,
+        "groupFontSize": 16,
         "groupFontWeight": 400,
+        "groupHeight": 32,
         "groupIcon": "PaletteIconChevronDown",
         "groupPaddingBottom": 12,
         "groupPaddingLeft": 16,
@@ -4262,36 +4329,56 @@
           "blue": 0,
           "alpha": 0
         },
-        "itemBorderBackgroundColor": {
-          "red": 0.73333,
-          "green": 0.91765,
-          "blue": 0.96078,
-          "alpha": 1
+        "itemBorderBottomColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
+        "itemBorderBottomWidth": 1,
         "itemBorderLeftColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
-        "itemBorderLeftWidth": 4,
+        "itemBorderLeftWidth": 1,
+        "itemBorderRadius": 0,
+        "itemBorderRightColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "itemBorderRightWidth": 1,
+        "itemBorderTopColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "itemBorderTopWidth": 1,
         "itemBorderWidth": 0,
         "itemColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "itemDisplay": false,
         "itemFontName": "StagSans",
-        "itemFontSize": 14,
-        "itemFontWeight": 700,
+        "itemFontSize": 16,
+        "itemFontWeight": 400,
+        "itemHeight": 32,
         "itemOutline": 0,
         "itemPaddingBottom": 12,
         "itemPaddingLeft": 16,
         "itemPaddingRight": 16,
         "itemPaddingTop": 12,
         "itemTextDecoration": "none",
+        "lineHeight": 1.5,
+        "minHeight": "100%",
+        "minWidth": "100%",
         "shadow": {
           "inset": false,
           "offsetX": 0,
@@ -4506,7 +4593,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -4965,7 +5052,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -5075,7 +5162,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -5581,7 +5668,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -5712,7 +5799,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "viewport": {
@@ -5782,7 +5869,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -6073,7 +6160,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "viewport": {
@@ -6583,7 +6670,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "priority": {
@@ -7171,7 +7258,7 @@
           "blue": 0,
           "alpha": 0
         },
-        "playIcon": "PaletteIconPlayVideo",
+        "playIcon": "PaletteIconPlaySolid",
         "playIconColor": {
           "red": 1,
           "green": 1,
@@ -7215,7 +7302,9 @@
         "buttonPaddingRight": 16,
         "buttonRadius": 32,
         "detailsContainerPadding": 8,
-        "playIcon": "PaletteIconPlayVideo",
+        "labelFontName": "StagSans",
+        "labelFontWeight": 600,
+        "playIcon": "PaletteIconPlaySolid",
         "playIconColor": {
           "red": 1,
           "green": 1,
@@ -7223,10 +7312,10 @@
           "alpha": 1
         },
         "playIconContainerBackground": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
         }
       }
     },
@@ -7464,7 +7553,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -7636,12 +7725,12 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -7825,7 +7914,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -8327,7 +8416,7 @@
             "viewport": ["lg", "xl"]
           },
           "tokens": {
-            "connectorHeight": 2,
+            "connectorHeight": 1,
             "connectorWidth": "100%",
             "itemContentMarginBottom": 0,
             "itemContentMarginRight": 32,
@@ -8341,15 +8430,15 @@
       ],
       "tokens": {
         "connectorHeight": "100%",
-        "connectorWidth": 2,
-        "dotBorderWidth": 3,
+        "connectorWidth": 1,
+        "dotBorderWidth": 2,
         "dotColor": {
           "red": 1,
           "green": 1,
           "blue": 1,
           "alpha": 1
         },
-        "dotWidth": 16,
+        "dotWidth": 12,
         "itemContentFlexSize": 1,
         "itemContentMarginBottom": 32,
         "itemContentMarginRight": 0,
@@ -8363,6 +8452,12 @@
           "red": 0.00392,
           "green": 0.41961,
           "blue": 0.41569,
+          "alpha": 1
+        },
+        "timelineConnectorColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "timelineContainerDirection": "column"
@@ -8450,7 +8545,7 @@
         },
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         },
         "selected": {
@@ -8752,7 +8847,7 @@
       "appearances": {
         "pressed": {
           "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
-          "values": [true],
+          "values": [true, false],
           "type": "state"
         }
       },
@@ -9323,9 +9418,9 @@
           "blue": 0,
           "alpha": 1
         },
-        "pauseIcon": "PaletteIconAdd",
-        "playIcon": "PaletteIconAdd",
-        "replayIcon": "PaletteIconAdd"
+        "pauseIcon": "PaletteIconPause",
+        "playIcon": "PaletteIconPlaySolid",
+        "replayIcon": "PaletteIconReplay"
       }
     },
     "VideoButton": {
@@ -9341,22 +9436,40 @@
       }
     },
     "VideoControlBar": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm"]
+          },
+          "tokens": {
+            "height": 40,
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8
+          }
+        }
+      ],
       "tokens": {
-        "captionsIcon": "PaletteIconAdd",
-        "maximizeIcon": "PaletteIconAdd",
+        "captionsIcon": "PaletteIconClosedCaptions",
+        "height": 56,
+        "maximizeIcon": "PaletteIconFullscreenExpand",
         "menuBottom": 64,
         "menuMarginLeft": 16,
         "menuRight": 32,
-        "minimizeIcon": "PaletteIconAdd",
+        "minimizeIcon": "PaletteIconFullscreenMinimize",
         "paddingBottom": 16,
         "paddingLeft": 48,
-        "paddingLeftCompactMode": 16,
         "paddingRight": 48,
-        "paddingRightCompactMode": 16,
         "paddingTop": 16,
-        "settingsIcon": "PaletteIconSettings"
+        "settingsIcon": "PaletteIconSettingsSolid"
       }
     },
     "VideoMenu": {
@@ -9513,15 +9626,15 @@
         "timestampMarginLeft": 8,
         "timestampMarginRight": 8,
         "trackGradientEnd": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0.22353,
+          "green": 0.80392,
+          "blue": 0.78824,
           "alpha": 1
         },
         "trackGradientStart": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0.22353,
+          "green": 0.80392,
+          "blue": 0.78824,
           "alpha": 1
         }
       }
@@ -9532,7 +9645,7 @@
       "tokens": {
         "marginLeft": 16,
         "marginRight": 16,
-        "mutedIcon": "PaletteIconAdd",
+        "mutedIcon": "PaletteIconMuted",
         "rangeBackground": {
           "red": 0,
           "green": 0,
@@ -9559,7 +9672,7 @@
           "blue": 1,
           "alpha": 1
         },
-        "unmutedIcon": "PaletteIconAdd"
+        "unmutedIcon": "PaletteIconUnmuted"
       }
     },
     "WaffleGrid": {
@@ -9763,7 +9876,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.34.0",
+    "themeTokensVersion": "2.35.0",
     "name": "theme-koodo"
   }
 }
