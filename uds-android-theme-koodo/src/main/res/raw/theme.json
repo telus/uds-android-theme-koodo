@@ -3005,6 +3005,33 @@
         "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
         "contentPaddingTop": 16,
+        "contentPanelBackgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "contentPanelBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentPanelBorderWidth": 0,
+        "contentPanelFontColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "contentPanelFontName": "StagSans",
+        "contentPanelFontSize": 16,
+        "contentPanelFontWeight": 700,
+        "contentPanelLineHeight": 1.5,
+        "contentPanelPaddingBottom": 16,
+        "contentPanelPaddingLeft": 24,
+        "contentPanelPaddingRight": 24,
+        "contentPanelPaddingTop": 16,
         "expandDividerColor": {
           "red": 0,
           "green": 0,
@@ -4747,46 +4774,26 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
-              "alpha": 1
-            },
-            "borderColor": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
-              "alpha": 1
-            },
-            "color": {
               "red": 0.00392,
               "green": 0.41961,
               "blue": 0.41569,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
               "alpha": 1
             },
             "fontName": "StagSans",
-            "fontWeight": 700
-          }
-        },
-        {
-          "if": {
-            "pressed": true
-          },
-          "tokens": {
-            "backgroundColor": {
-              "red": 0.93725,
-              "green": 0.93725,
-              "blue": 0.93725,
-              "alpha": 1
-            },
-            "borderColor": {
-              "red": 0.00392,
-              "green": 0.41961,
-              "blue": 0.41569,
-              "alpha": 1
-            },
-            "borderWidth": 1,
-            "color": {
+            "fontWeight": 600,
+            "outerBorderColor": {
               "red": 0.00392,
               "green": 0.41961,
               "blue": 0.41569,
@@ -4796,11 +4803,71 @@
         },
         {
           "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "borderWidth": 1,
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "viewport": ["xs", "sm", "md"]
           },
           "tokens": {
-            "textAlign": "flex-start",
+            "textAlign": "space-between",
             "width": 288
+          }
+        },
+        {
+          "if": {
+            "pressed": true,
+            "selected": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "fontName": "StagSans",
+            "fontWeight": 600,
+            "outerBorderColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
           }
         },
         {
@@ -4826,19 +4893,19 @@
           "blue": 1,
           "alpha": 1
         },
-        "borderRadius": 32,
-        "borderWidth": 1,
+        "borderRadius": 4,
+        "borderWidth": 4,
         "color": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "fontName": "StagSans",
         "fontSize": 14,
-        "fontWeight": 400,
+        "fontWeight": 600,
         "icoMenu": "PaletteIconChevronDown",
-        "lineHeight": 1.14285714286,
+        "lineHeight": 1.45,
         "minWidth": 0,
         "opacity": 1,
         "outerBackgroundColor": {
@@ -4854,11 +4921,11 @@
           "alpha": 0
         },
         "outerBorderGap": 0,
-        "outerBorderWidth": 1,
-        "paddingBottom": 8,
+        "outerBorderWidth": 0,
+        "paddingBottom": 6,
         "paddingLeft": 16,
         "paddingRight": 16,
-        "paddingTop": 8,
+        "paddingTop": 6,
         "shadow": null,
         "textAlign": "center",
         "width": 0
@@ -7317,22 +7384,32 @@
       }
     },
     "SkipLink": {
-      "appearances": {},
+      "appearances": {
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        }
+      },
       "rules": [],
       "tokens": {
         "backgroundColor": {
-          "red": 0.10588,
-          "green": 0.27843,
-          "blue": 0.27451,
-          "alpha": 1
-        },
-        "borderRadius": 12,
-        "color": {
           "red": 1,
           "green": 1,
           "blue": 1,
           "alpha": 1
         },
+        "borderRadius": 4,
+        "color": {
+          "red": 0.00392,
+          "green": 0.41961,
+          "blue": 0.41569,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.5,
         "outlineColor": {
           "red": 0.00392,
           "green": 0.41961,
@@ -7342,8 +7419,9 @@
         "outlineOffset": 0,
         "outlineStyle": "solid",
         "outlineWidth": 2,
-        "paddingHorizontal": 8,
-        "paddingVertical": 8
+        "paddingHorizontal": 2,
+        "paddingVertical": 2,
+        "textLine": "underline"
       }
     },
     "Spinner": {
@@ -7756,18 +7834,180 @@
     "Table": {
       "appearances": {
         "spacing": {
+          "description": "Adjusts the height of the table cell",
           "type": "variant",
-          "values": ["compact"]
+          "values": ["compact", "default"]
+        },
+        "text": {
+          "type": "variant",
+          "values": ["small"]
+        },
+        "type": {
+          "type": "variant",
+          "values": ["subHeading", "rowHeading", "heading", "default"]
         }
       },
       "rules": [
         {
           "if": {
-            "spacing": "compact"
+            "spacing": "compact",
+            "type": "default"
           },
           "tokens": {
             "cellPaddingBottom": 8,
-            "cellPaddingTop": 8
+            "cellPaddingTop": 8,
+            "fontSize": 16,
+            "lineHeight": 1.25
+          }
+        },
+        {
+          "if": {
+            "spacing": "compact",
+            "type": "rowHeading"
+          },
+          "tokens": {
+            "cellPaddingBottom": 8,
+            "cellPaddingTop": 8,
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.25
+          }
+        },
+        {
+          "if": {
+            "spacing": "compact",
+            "type": "subHeading"
+          },
+          "tokens": {
+            "cellBackground": {
+              "red": 0.98039,
+              "green": 0.98039,
+              "blue": 0.98039,
+              "alpha": 1
+            },
+            "cellPaddingBottom": 8,
+            "cellPaddingTop": 8,
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.25
+          }
+        },
+        {
+          "if": {
+            "spacing": "default",
+            "type": "heading"
+          },
+          "tokens": {
+            "cellBackground": {
+              "red": 0.75686,
+              "green": 0.94902,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "cellBoxShadowColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.5
+          }
+        },
+        {
+          "if": {
+            "spacing": "compact",
+            "type": "heading"
+          },
+          "tokens": {
+            "cellBackground": {
+              "red": 0.75686,
+              "green": 0.94902,
+              "blue": 0.9098,
+              "alpha": 1
+            },
+            "cellBoxShadowColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.25
+          }
+        },
+        {
+          "if": {
+            "spacing": "default",
+            "type": "subHeading"
+          },
+          "tokens": {
+            "cellBackground": {
+              "red": 0.98039,
+              "green": 0.98039,
+              "blue": 0.98039,
+              "alpha": 1
+            },
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.5
+          }
+        },
+        {
+          "if": {
+            "spacing": "default",
+            "type": "rowHeading"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 16,
+            "fontWeight": 600,
+            "lineHeight": 1.5
+          }
+        },
+        {
+          "if": {
+            "text": "small",
+            "type": "default"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "lineHeight": 1.42857142857
+          }
+        },
+        {
+          "if": {
+            "spacing": "default",
+            "text": "small",
+            "type": "rowHeading"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 14,
+            "fontWeight": 600,
+            "lineHeight": 1.42857142857
+          }
+        },
+        {
+          "if": {
+            "spacing": "compact",
+            "text": "small",
+            "type": "rowHeading"
+          },
+          "tokens": {
+            "fontName": "StagSans",
+            "fontSize": 14,
+            "fontWeight": 600,
+            "lineHeight": 1.14285714286
           }
         }
       ],
@@ -7784,51 +8024,34 @@
           "blue": 0.93725,
           "alpha": 1
         },
-        "cellHeadingBackground": {
-          "red": 0.75686,
-          "green": 0.94902,
-          "blue": 0.9098,
-          "alpha": 1
-        },
-        "cellHeadingBoxShadowColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
-          "alpha": 1
-        },
         "cellMinWidth": 0,
         "cellPaddingBottom": 16,
         "cellPaddingLeft": 16,
         "cellPaddingRight": 16,
         "cellPaddingTop": 16,
-        "cellRowHeadingBackground": {
+        "cellStickyShadow": {
+          "inset": false,
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 8,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.1
+          }
+        },
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "stickyBackgroundColor": {
           "red": 1,
           "green": 1,
           "blue": 1,
           "alpha": 1
         },
-        "cellStickyShadow": {
-          "inset": true,
-          "offsetX": 0,
-          "offsetY": 1,
-          "blur": 1,
-          "spread": 0,
-          "color": {
-            "red": 1,
-            "green": 1,
-            "blue": 1,
-            "alpha": 0.8
-          }
-        },
-        "cellSubheadingBackground": {
-          "red": 0.98039,
-          "green": 0.98039,
-          "blue": 0.98039,
-          "alpha": 1
-        },
-        "fontName": "StagSans",
-        "fontSize": 16,
-        "fontWeight": 600,
         "tablePaddingBottom": 24
       }
     },
@@ -8138,6 +8361,7 @@
               "blue": 1,
               "alpha": 1
             },
+            "iconPadding": 4,
             "outerBorderColor": {
               "red": 0,
               "green": 0,
@@ -8245,7 +8469,7 @@
         "outerBorderWidth": 0,
         "paddingBottom": 8,
         "paddingLeft": 16,
-        "paddingRight": 8,
+        "paddingRight": 16,
         "paddingTop": 8,
         "shadow": null,
         "textAlign": "center"
@@ -8257,9 +8481,24 @@
           "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
           "values": [true],
           "type": "state"
+        },
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
         }
       },
       "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm"]
+          },
+          "tokens": {
+            "expandContentPaddingRight": 24,
+            "listMarginLeft": 2,
+            "titlePaddingLeft": 2
+          }
+        },
         {
           "if": {
             "expanded": true
@@ -8270,41 +8509,65 @@
         }
       ],
       "tokens": {
+        "contentBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentMarginBottom": 0,
         "contentPaddingBottom": 8,
         "contentPaddingLeft": 16,
+        "dividerColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
         "expandBaseBorderWidth": 0,
         "expandContentPaddingBottom": 16,
         "expandContentPaddingLeft": 16,
         "expandContentPaddingRight": 16,
         "expandContentPaddingTop": 16,
         "expandIconContainerAlignItems": "center",
-        "expandIconContainerBorder": 1,
+        "expandIconContainerBorder": 0,
         "expandIconContainerBorderColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "expandIconContainerHeight": 32,
         "expandIconContainerJustifyContent": "center",
         "expandIconContainerMarginX": 0,
         "expandIconContainerMarginY": 12,
         "expandIconContainerWidth": 32,
+        "expandTitleBorder": 0,
+        "expandTitleBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "expandTitleColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
+        "expandTitleFontName": "StagSans",
         "expandTitleFontSize": 16,
+        "expandTitleFontWeight": 600,
         "expandTitleLineHeight": 1.5,
         "expandTitleMarginX": 4,
         "expandTitleMarginY": 0,
+        "expandTitlePaddingLeft": 0,
+        "expandTitleUnderline": "none",
         "icon": "PaletteIconChevronDown",
         "listColor": {
-          "red": 0.00392,
-          "green": 0.41961,
-          "blue": 0.41569,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "listFontName": "StagSans",
@@ -8324,8 +8587,8 @@
         },
         "titleFontSize": 14,
         "titleLineHeight": 1.42857142857,
-        "titlePaddingLeft": 8,
-        "unorderedPadding": 0
+        "titlePaddingLeft": 32,
+        "unorderedPadding": 12
       }
     },
     "Testimonial": {
@@ -9547,6 +9810,7 @@
         "fontWeight": 400,
         "letterSpacing": 0,
         "lineHeight": 1.5,
+        "superScriptFontSize": null,
         "textTransform": "none"
       }
     },
@@ -9679,26 +9943,26 @@
       "rules": [],
       "tokens": {
         "framedContainerBackgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
         },
         "framedContainerBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "framedContainerBorderRadius": 4,
         "framedContainerBorderWidth": 1,
         "framedContainerPadding": 24,
         "framedMaxHeight": 640,
         "stackViewDividerColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         }
       }
     },
@@ -9711,22 +9975,76 @@
       }
     },
     "VideoPickerThumbnail": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
+        "selected": {
+          "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+          "values": [true],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            },
+            "borderWidth": 3
+          }
+        },
+        {
+          "if": {
+            "selected": true
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            },
+            "titleColor": {
+              "red": 0.00392,
+              "green": 0.41961,
+              "blue": 0.41569,
+              "alpha": 1
+            }
+          }
+        }
+      ],
       "tokens": {
         "borderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "outerBorderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
-        "borderRadius": 4,
-        "borderWidth": 2,
+        "outerBorderGap": 2,
+        "outerBorderRadius": 8,
+        "outerBorderWidth": 2,
         "pressableBorderTopColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "pressableBorderTopWidth": 1,
         "pressablePaddingBottom": 16,
@@ -9734,16 +10052,16 @@
         "pressablePaddingVertical": 16,
         "splashButtonRadius": 4,
         "subTitleColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
         },
         "titleColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 0
+          "alpha": 1
         }
       }
     },
@@ -10018,7 +10336,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.36.0",
+    "themeTokensVersion": "2.37.0",
     "name": "theme-koodo"
   }
 }
