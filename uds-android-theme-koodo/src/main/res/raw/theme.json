@@ -3250,7 +3250,7 @@
           "blue": 0,
           "alpha": 1
         },
-        "contentFontSize": 14,
+        "contentFontSize": 16,
         "fontName": "StagSans",
         "fontWeight": 400,
         "icon": null,
@@ -4117,7 +4117,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": null,
         "borderWidth": 1,
-        "icon": null,
+        "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0,
           "green": 0,
@@ -5598,17 +5598,17 @@
           "blue": 0,
           "alpha": 0
         },
-        "borderBottomWidth": 1,
+        "borderBottomWidth": 0,
         "borderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 0
         },
-        "borderLeftWidth": 1,
+        "borderLeftWidth": 0,
         "borderRadius": 4,
-        "borderRightWidth": 1,
-        "borderTopWidth": 1,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
         "color": {
           "red": 0.00392,
           "green": 0.41961,
@@ -5622,7 +5622,7 @@
         "height": null,
         "icon": null,
         "iconDisplace": 0,
-        "iconSize": 14,
+        "iconSize": 16,
         "lineHeight": 1.5,
         "outerBorderColor": {
           "red": 0,
@@ -9336,7 +9336,8 @@
           "blue": 0.41569,
           "alpha": 1
         },
-        "containerGap": 12
+        "containerGap": 12,
+        "padding": 16
       }
     },
     "ToggleSwitch": {
@@ -10799,7 +10800,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.38.0",
+    "themeTokensVersion": "2.39.0",
     "name": "theme-koodo"
   }
 }
