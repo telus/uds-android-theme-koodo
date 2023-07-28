@@ -2237,6 +2237,7 @@
           "blue": 0,
           "alpha": 0
         },
+        "inputOutlineOffset": 0,
         "inputOutlineWidth": 0,
         "inputShadow": null,
         "inputWidth": 20,
@@ -2257,7 +2258,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderTopRightRadius": 0,
         "fieldSpace": 2,
+        "outlineOffset": null,
+        "outlineWidth": 0,
+        "showIcon": false,
         "space": 2
       }
     },
@@ -6510,6 +6518,7 @@
         },
         "itemIconSize": 24,
         "itemLineHeight": 1.6,
+        "itemUnderline": "none",
         "listGutter": 10,
         "paddingBottom": 12,
         "paddingLeft": 4,
@@ -7112,7 +7121,11 @@
           "blue": 0,
           "alpha": 1
         },
+        "fontName": "StagSans",
+        "fontSize": 12,
+        "fontWeight": 600,
         "gradient": null,
+        "lineHeight": 1.33333333333,
         "paddingBottom": 2,
         "paddingLeft": 12,
         "paddingRight": 12,
@@ -10800,7 +10813,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.39.0",
+    "themeTokensVersion": "2.40.0",
     "name": "theme-koodo"
   }
 }
