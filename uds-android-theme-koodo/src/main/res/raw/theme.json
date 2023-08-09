@@ -5793,6 +5793,7 @@
         "footnoteLinkFontName": "StagSans",
         "footnoteLinkFontSize": 14,
         "footnoteLinkFontWeight": 600,
+        "footnoteLinkLineHeight": 1.42857142857,
         "footnoteMarginTop": 4,
         "priceMarginBottom": 0,
         "rateFontName": "StagSans",
@@ -8397,6 +8398,13 @@
         }
       ],
       "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 0,
         "cellBackground": {
           "red": 1,
           "green": 1,
@@ -8426,6 +8434,12 @@
             "blue": 0,
             "alpha": 0.1
           }
+        },
+        "fontColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
         },
         "fontName": "StagSans",
         "fontSize": 16,
@@ -10813,7 +10827,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.40.0",
+    "themeTokensVersion": "2.41.0",
     "name": "theme-koodo"
   }
 }
