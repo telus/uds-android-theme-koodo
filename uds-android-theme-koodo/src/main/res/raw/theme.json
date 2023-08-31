@@ -4676,10 +4676,10 @@
         "itemFontWeight": 400,
         "itemHeight": 32,
         "itemOutline": 0,
-        "itemPaddingBottom": 12,
+        "itemPaddingBottom": 4,
         "itemPaddingLeft": 16,
         "itemPaddingRight": 16,
-        "itemPaddingTop": 12,
+        "itemPaddingTop": 4,
         "itemTextDecoration": "none",
         "lineHeight": 1.5,
         "minHeight": "100%",
@@ -5299,7 +5299,7 @@
             "compact": true
           },
           "tokens": {
-            "itemLineHeight": 1.2
+            "itemLineHeight": 1.25
           }
         },
         {
@@ -5308,7 +5308,7 @@
             "size": "small"
           },
           "tokens": {
-            "itemLineHeight": 1.1
+            "itemLineHeight": 1.14285714286
           }
         },
         {
@@ -5317,7 +5317,7 @@
             "size": "large"
           },
           "tokens": {
-            "itemLineHeight": 1.3
+            "itemLineHeight": 1.2
           }
         }
       ],
