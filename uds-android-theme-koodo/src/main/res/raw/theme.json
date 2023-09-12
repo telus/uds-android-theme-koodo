@@ -5869,9 +5869,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "outlineColor": {
@@ -10627,8 +10627,39 @@
       }
     },
     "WaffleGrid": {
-      "appearances": {},
-      "rules": [],
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs"]
+          },
+          "tokens": {
+            "rowSize": 2
+          }
+        },
+        {
+          "if": {
+            "viewport": ["sm", "md"]
+          },
+          "tokens": {
+            "rowSize": 3
+          }
+        },
+        {
+          "if": {
+            "viewport": ["lg", "xl"]
+          },
+          "tokens": {
+            "rowSize": 6
+          }
+        }
+      ],
       "tokens": {
         "itemBorderColor": {
           "red": 0,
@@ -10637,7 +10668,8 @@
           "alpha": 0
         },
         "itemPadding": 16,
-        "rowBorderWidth": 1
+        "rowBorderWidth": 1,
+        "rowSize": 6
       }
     },
     "spacingScale": {
@@ -10827,7 +10859,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.41.0",
+    "themeTokensVersion": "2.41.1",
     "name": "theme-koodo"
   }
 }
