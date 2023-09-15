@@ -3892,6 +3892,26 @@
         },
         {
           "if": {
+            "inactive": null,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "iconColor": {
+              "red": 0.00392,
+              "green": 0.28235,
+              "blue": 0.27843,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "pressed": true
           },
           "tokens": {
@@ -4080,9 +4100,9 @@
             },
             "borderWidth": 0,
             "iconColor": {
-              "red": 0.00392,
-              "green": 0.28235,
-              "blue": 0.27843,
+              "red": 0.7098,
+              "green": 0.70588,
+              "blue": 0.70588,
               "alpha": 1
             },
             "outerBorderColor": {
@@ -4099,6 +4119,32 @@
           },
           "tokens": {
             "outerBorderGap": 0
+          }
+        },
+        {
+          "if": {
+            "inactive": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "iconColor": {
+              "red": 0.7098,
+              "green": 0.70588,
+              "blue": 0.70588,
+              "alpha": 1
+            },
+            "outerBorderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "outerBorderWidth": 0
           }
         }
       ],
@@ -4125,6 +4171,7 @@
         "borderTopRightRadius": null,
         "borderTopWidth": null,
         "borderWidth": 1,
+        "height": null,
         "icon": "PaletteIconAdd",
         "iconColor": {
           "red": 0,
@@ -4145,7 +4192,8 @@
         "outerBorderGap": 0,
         "outerBorderWidth": 0,
         "padding": 4,
-        "shadow": null
+        "shadow": null,
+        "width": null
       }
     },
     "Image": {
