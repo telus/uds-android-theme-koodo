@@ -1664,6 +1664,10 @@
           "type": "variant",
           "values": ["alternative", "subtle", "grid", "feature"]
         },
+        "borderRadius": {
+          "type": "variant",
+          "values": ["none", "small", "large"]
+        },
         "padding": {
           "type": "variant",
           "values": ["narrow", "intermediate", "compact", "custom"]
@@ -1675,6 +1679,30 @@
         }
       },
       "rules": [
+        {
+          "if": {
+            "borderRadius": "none"
+          },
+          "tokens": {
+            "borderRadius": 0
+          }
+        },
+        {
+          "if": {
+            "borderRadius": "small"
+          },
+          "tokens": {
+            "borderRadius": 4
+          }
+        },
+        {
+          "if": {
+            "borderRadius": "large"
+          },
+          "tokens": {
+            "borderRadius": 8
+          }
+        },
         {
           "if": {
             "background": "alternative"
