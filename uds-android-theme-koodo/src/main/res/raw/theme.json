@@ -1440,6 +1440,11 @@
           "description": "The size label for the current screen viewport based on the current screen width",
           "values": ["xs", "sm", "md", "lg", "xl"],
           "type": "state"
+        },
+        "width": {
+          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "type": "variant",
+          "values": ["responsive"]
         }
       },
       "rules": [
@@ -1457,6 +1462,16 @@
           },
           "tokens": {
             "space": 3
+          }
+        },
+        {
+          "if": {
+            "viewport": ["xs"],
+            "width": "responsive"
+          },
+          "tokens": {
+            "alignItems": "stretch",
+            "direction": "column"
           }
         }
       ],
@@ -1491,6 +1506,11 @@
           "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
           "values": [true],
           "type": "state"
+        },
+        "width": {
+          "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+          "type": "variant",
+          "values": ["responsive"]
         }
       },
       "rules": [
@@ -1578,6 +1598,14 @@
           },
           "tokens": {
             "iconSpace": 1
+          }
+        },
+        {
+          "if": {
+            "width": "responsive"
+          },
+          "tokens": {
+            "width": "100%"
           }
         }
       ],
@@ -9600,6 +9628,7 @@
         }
       ],
       "tokens": {
+        "amexIcon": "PaletteIconAmex",
         "backgroundColor": {
           "red": 1,
           "green": 1,
@@ -9624,6 +9653,7 @@
           "blue": 0.4,
           "alpha": 1
         },
+        "defaultCreditIcon": "PaletteIconCreditCard",
         "fontName": "StagSans",
         "fontSize": 16,
         "fontWeight": 400,
@@ -9635,7 +9665,9 @@
           "alpha": 0
         },
         "iconSize": 24,
+        "leftIconPaddingBottom": 5,
         "lineHeight": 1.5,
+        "masterCardIcon": "PaletteIconMasterCard",
         "outerBackgroundColor": {
           "red": 0,
           "green": 0,
@@ -9654,7 +9686,8 @@
         "paddingRight": 16,
         "paddingTop": 10,
         "passwordHideButtonIcon": "PaletteIconEyeMasked",
-        "passwordShowButtonIcon": "PaletteIconEyeUnmasked"
+        "passwordShowButtonIcon": "PaletteIconEyeUnmasked",
+        "visaIcon": "PaletteIconVisa"
       }
     },
     "Timeline": {
@@ -11290,7 +11323,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.42.0",
+    "themeTokensVersion": "2.43.0",
     "name": "theme-koodo"
   }
 }
