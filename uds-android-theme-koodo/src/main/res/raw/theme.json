@@ -2636,6 +2636,7 @@
         "fieldSpace": 3,
         "outlineOffset": 8,
         "outlineWidth": 1,
+        "showIcon": true,
         "space": 3
       }
     },
@@ -2643,14 +2644,14 @@
       "appearances": {},
       "rules": [],
       "tokens": {
-        "borderBottomLeftRadius": 0,
-        "borderBottomRightRadius": 0,
-        "borderTopLeftRadius": 0,
-        "borderTopRightRadius": 0,
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "fieldSpace": 2,
-        "outlineOffset": null,
-        "outlineWidth": 0,
-        "showIcon": false,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 2
       }
     },
@@ -7492,8 +7493,15 @@
         }
       ],
       "tokens": {
+        "borderBottomLeftRadius": 1,
+        "borderBottomRightRadius": 1,
+        "borderTopLeftRadius": 1,
+        "borderTopRightRadius": 1,
         "direction": "column",
         "fieldSpace": 3,
+        "outlineOffset": 8,
+        "outlineWidth": 1,
+        "showIcon": true,
         "space": 3
       }
     },
@@ -11372,7 +11380,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.44.0",
+    "themeTokensVersion": "2.44.1",
     "name": "theme-koodo"
   }
 }
