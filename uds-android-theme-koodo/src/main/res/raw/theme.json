@@ -4908,6 +4908,7 @@
         }
       ],
       "tokens": {
+        "bulletIcon": "PaletteIconBulletFill",
         "dividerColor": {
           "red": 0.78824,
           "green": 0.78431,
@@ -4926,8 +4927,6 @@
         },
         "itemBulletContainerAlign": "center",
         "itemBulletContainerWidth": 16,
-        "itemBulletHeight": 4,
-        "itemBulletWidth": 4,
         "itemFontName": "StagSans",
         "itemFontSize": 16,
         "itemFontWeight": 400,
@@ -11380,7 +11379,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.44.1",
+    "themeTokensVersion": "2.45.0",
     "name": "theme-koodo"
   }
 }
