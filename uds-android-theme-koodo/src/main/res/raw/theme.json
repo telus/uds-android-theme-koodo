@@ -1333,7 +1333,7 @@
         "fontWeight": 600,
         "height": null,
         "icon": null,
-        "iconSize": 24,
+        "iconSize": 16,
         "iconSpace": 2,
         "lineHeight": 1.5,
         "minWidth": 144,
@@ -5202,7 +5202,7 @@
               "red": 0,
               "green": 0,
               "blue": 0,
-              "alpha": 1
+              "alpha": 0
             },
             "groupBorderColor": {
               "red": 0,
@@ -5216,7 +5216,13 @@
               "blue": 1,
               "alpha": 1
             },
-            "groupIcon": "PaletteIconChevronUp"
+            "groupIcon": "PaletteIconChevronUp",
+            "itemColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
+            }
           }
         },
         {
