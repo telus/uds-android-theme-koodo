@@ -1864,9 +1864,18 @@
           "type": "variant",
           "values": ["none", "small", "large"]
         },
+        "interactive": {
+          "type": "variant",
+          "values": [true]
+        },
         "padding": {
           "type": "variant",
           "values": ["narrow", "intermediate", "compact", "custom"]
+        },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
         },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
@@ -2034,6 +2043,42 @@
             "paddingLeft": 0,
             "paddingRight": 0,
             "paddingTop": 0
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "pressed": false
+          },
+          "tokens": {
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderWidth": 2
+          }
+        },
+        {
+          "if": {
+            "interactive": true,
+            "pressed": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0.2
+            },
+            "borderColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "borderWidth": 2
           }
         }
       ],
@@ -2906,8 +2951,9 @@
             "size": "large"
           },
           "tokens": {
+            "blockLineHeight": 1.4,
             "fontSize": 20,
-            "iconSize": 24
+            "iconSize": 20
           }
         },
         {
@@ -2915,6 +2961,7 @@
             "size": "small"
           },
           "tokens": {
+            "blockLineHeight": 1.42857142857,
             "fontSize": 14,
             "iconSize": 16
           }
@@ -2924,12 +2971,14 @@
             "size": "micro"
           },
           "tokens": {
+            "blockLineHeight": 1.33333333333,
             "fontSize": 12,
             "iconSize": 16
           }
         }
       ],
       "tokens": {
+        "blockLineHeight": 1.5,
         "color": {
           "red": 0,
           "green": 0,
@@ -2938,7 +2987,7 @@
         },
         "fontSize": 16,
         "iconDisplace": 0,
-        "iconSize": 24,
+        "iconSize": 16,
         "iconSpace": 1,
         "leftIcon": "PaletteIconChevronLeft",
         "outerBorderColor": {
@@ -4828,6 +4877,11 @@
           "values": [true, false],
           "type": "state"
         },
+        "quiet": {
+          "description": "When it is true, it does not show the decoration",
+          "type": "state",
+          "values": [true, false]
+        },
         "size": {
           "description": "Text sizes for block links; similar but not always identical to Typography sizes.",
           "type": "variant",
@@ -4941,6 +4995,14 @@
             "blockFontSize": 20,
             "blockLineHeight": 1.4,
             "iconSize": 24
+          }
+        },
+        {
+          "if": {
+            "quiet": true
+          },
+          "tokens": {
+            "textLine": "none"
           }
         }
       ],
@@ -5401,6 +5463,11 @@
           "description": "The size label for the current screen viewport based on the current screen width",
           "values": ["xs", "sm", "md", "lg", "xl"],
           "type": "state"
+        },
+        "width": {
+          "description": "The width of the modal",
+          "values": ["s", "m", "l", "xl"],
+          "type": "state"
         }
       },
       "rules": [
@@ -5434,13 +5501,79 @@
         },
         {
           "if": {
+            "viewport": ["md", "lg", "xl"],
+            "width": "s"
+          },
+          "tokens": {
+            "containerPaddingBottom": 32,
+            "containerPaddingTop": 32,
+            "maxWidth": 320
+          }
+        },
+        {
+          "if": {
+            "viewport": ["md", "lg", "xl"],
+            "width": "m"
+          },
+          "tokens": {
+            "containerPaddingBottom": 32,
+            "containerPaddingTop": 32,
+            "maxWidth": 480
+          }
+        },
+        {
+          "if": {
+            "viewport": ["lg", "xl"],
+            "width": "l"
+          },
+          "tokens": {
+            "containerPaddingBottom": 32,
+            "containerPaddingTop": 32,
+            "maxWidth": 630
+          }
+        },
+        {
+          "if": {
+            "viewport": "xl",
+            "width": "xl"
+          },
+          "tokens": {
+            "containerPaddingBottom": 32,
+            "containerPaddingTop": 32,
+            "maxWidth": 768
+          }
+        },
+        {
+          "if": {
             "maxWidth": true,
-            "viewport": ["md", "lg", "xl"]
+            "viewport": "md"
           },
           "tokens": {
             "containerPaddingLeft": 16,
             "containerPaddingRight": 16,
-            "maxWidth": "66.67%"
+            "maxWidth": 480
+          }
+        },
+        {
+          "if": {
+            "maxWidth": true,
+            "viewport": "lg"
+          },
+          "tokens": {
+            "containerPaddingLeft": 16,
+            "containerPaddingRight": 16,
+            "maxWidth": 630
+          }
+        },
+        {
+          "if": {
+            "maxWidth": true,
+            "viewport": "xl"
+          },
+          "tokens": {
+            "containerPaddingLeft": 16,
+            "containerPaddingRight": 16,
+            "maxWidth": 768
           }
         }
       ],
@@ -11668,7 +11801,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.46.0",
+    "themeTokensVersion": "2.47.0",
     "name": "theme-koodo"
   }
 }
