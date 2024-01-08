@@ -1,0 +1,180 @@
+{
+  "appearances": {
+    "alternative": {
+      "type": "variant",
+      "values": [true]
+    },
+    "iconPosition": {
+      "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
+      "values": ["left", "right"],
+      "type": "state"
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "quiet": {
+      "description": "When it is true, it does not show the decoration",
+      "type": "state",
+      "values": [true, false]
+    },
+    "size": {
+      "description": "Text sizes for block links; similar but not always identical to Typography sizes.",
+      "type": "variant",
+      "values": ["micro", "small", "large"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "iconPosition": "left"
+      },
+      "tokens": {
+        "iconSpace": 2
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "alternative": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "alternative": true,
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "blockFontName": "StagSans",
+        "blockFontSize": 12,
+        "blockFontWeight": 600,
+        "blockLineHeight": 1.6,
+        "iconSize": 16
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "blockFontSize": 14,
+        "blockLineHeight": 1.42857142857,
+        "iconSize": 20
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "blockFontSize": 20,
+        "blockLineHeight": 1.4,
+        "iconSize": 24
+      }
+    },
+    {
+      "if": {
+        "quiet": true
+      },
+      "tokens": {
+        "textLine": "none"
+      }
+    }
+  ],
+  "tokens": {
+    "alignSelf": "flex-start",
+    "blockFontName": "StagSans",
+    "blockFontSize": 16,
+    "blockFontWeight": 600,
+    "blockLineHeight": 1.5,
+    "borderRadius": 4,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "icon": null,
+    "iconSize": 24,
+    "iconSpace": 1,
+    "iconTranslateX": 0,
+    "iconTranslateY": 0,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 2,
+    "outerBorderOutline": "none",
+    "outerBorderWidth": 2,
+    "textLine": "underline",
+    "textLineStyle": "solid"
+  }
+}

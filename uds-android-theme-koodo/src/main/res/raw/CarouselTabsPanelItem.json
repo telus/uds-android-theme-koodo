@@ -1,0 +1,190 @@
+{
+  "appearances": {
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "borderBottomWidth": 2,
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderBottomWidth": 2,
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "borderBottomWidth": 2,
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true,
+        "inverse": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "selected": true
+      },
+      "tokens": {
+        "borderBottomColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderBottomWidth": 4,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "alignItems": "flex-start",
+    "borderBottomColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomStyle": "solid",
+    "borderBottomWidth": 1,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "flex": 1,
+    "fontName": "StagSans",
+    "fontScaleCap": 64,
+    "fontSize": 14,
+    "fontWeight": 600,
+    "justifyContent": "flex-start",
+    "letterSpacing": 0,
+    "lineHeight": 1.45,
+    "paddingBottom": 16,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0
+  }
+}

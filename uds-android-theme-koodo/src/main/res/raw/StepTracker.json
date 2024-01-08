@@ -1,0 +1,226 @@
+{
+  "appearances": {
+    "inverse": {
+      "description": "Styles the step tracker for using on dark backgrounds.",
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "showStepLabel": true,
+        "showStepTrackerLabel": false
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "completedIconColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "connectorColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "connectorCompletedColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "knobBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "knobBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "knobCompletedBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "knobCompletedBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "knobCurrentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "knobCurrentBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "knobCurrentInnerColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "labelColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "labelCurrentColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "stepLabelColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "completedIcon": "PaletteIconCheck",
+    "completedIconColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "completedIconSize": 10,
+    "connectorColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "connectorCompletedColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "connectorCompletedHeight": 3,
+    "connectorHeight": 1,
+    "connectorMinWidth": 16,
+    "containerPaddingBottom": null,
+    "containerPaddingLeft": null,
+    "containerPaddingRight": null,
+    "containerPaddingTop": null,
+    "knobBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "knobBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "knobBorderWidth": 1,
+    "knobCompletedBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "knobCompletedBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "knobCompletedPaddingLeft": 1,
+    "knobCompletedPaddingTop": 2,
+    "knobCurrentBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "knobCurrentBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "knobCurrentBorderWidth": 1,
+    "knobCurrentInnerColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "knobCurrentInnerSize": null,
+    "knobCurrentPaddingLeft": null,
+    "knobCurrentPaddingTop": null,
+    "knobSize": 15,
+    "labelColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "labelCurrentColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "labelCurrentFontName": "StagSans",
+    "labelCurrentFontWeight": 600,
+    "labelDirection": "row",
+    "labelFontName": "StagSans",
+    "labelFontSize": 16,
+    "labelFontWeight": 600,
+    "labelGap": 4,
+    "labelLineHeight": 1.5,
+    "labelMarginTop": 10,
+    "labelPaddingLeft": 16,
+    "labelPaddingRight": 16,
+    "showStepLabel": false,
+    "showStepName": true,
+    "showStepTrackerLabel": true,
+    "stepLabelColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "stepLabelFontName": "StagSans",
+    "stepLabelFontSize": 16,
+    "stepLabelFontWeight": 600,
+    "stepLabelLineHeight": 1.5,
+    "textStepTrackerLabel": 2
+  }
+}

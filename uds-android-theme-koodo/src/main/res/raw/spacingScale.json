@@ -1,0 +1,185 @@
+{
+  "appearances": {
+    "space": {
+      "description": "Index of the intended position on the spacing scale",
+      "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 120
+      }
+    },
+    {
+      "if": {
+        "space": 12
+      },
+      "tokens": {
+        "size": 120
+      }
+    },
+    {
+      "if": {
+        "space": 11
+      },
+      "tokens": {
+        "size": 120
+      }
+    },
+    {
+      "if": {
+        "space": 10
+      },
+      "tokens": {
+        "size": 80
+      }
+    },
+    {
+      "if": {
+        "space": 9
+      },
+      "tokens": {
+        "size": 64
+      }
+    },
+    {
+      "if": {
+        "space": 8
+      },
+      "tokens": {
+        "size": 48
+      }
+    },
+    {
+      "if": {
+        "space": 7
+      },
+      "tokens": {
+        "size": 40
+      }
+    },
+    {
+      "if": {
+        "space": 6
+      },
+      "tokens": {
+        "size": 36
+      }
+    },
+    {
+      "if": {
+        "space": 5
+      },
+      "tokens": {
+        "size": 32
+      }
+    },
+    {
+      "if": {
+        "space": 4
+      },
+      "tokens": {
+        "size": 24
+      }
+    },
+    {
+      "if": {
+        "space": 3
+      },
+      "tokens": {
+        "size": 16
+      }
+    },
+    {
+      "if": {
+        "space": 2
+      },
+      "tokens": {
+        "size": 8
+      }
+    },
+    {
+      "if": {
+        "space": 1
+      },
+      "tokens": {
+        "size": 4
+      }
+    },
+    {
+      "if": {
+        "space": 11,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 120
+      }
+    },
+    {
+      "if": {
+        "space": 10,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 96
+      }
+    },
+    {
+      "if": {
+        "space": 9,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 72
+      }
+    },
+    {
+      "if": {
+        "space": 8,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 64
+      }
+    },
+    {
+      "if": {
+        "space": 7,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 48
+      }
+    },
+    {
+      "if": {
+        "space": 6,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "size": 40
+      }
+    },
+    {
+      "if": {
+        "space": 0
+      },
+      "tokens": {
+        "size": 0
+      }
+    }
+  ],
+  "tokens": {
+    "size": 96
+  }
+}

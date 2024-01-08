@@ -1,0 +1,47 @@
+{
+  "appearances": {
+    "fullWidth": {
+      "description": "Makes cards always occupy the full width of the parent, regardless of viewport",
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "direction": "row",
+        "space": 5
+      }
+    },
+    {
+      "if": {
+        "fullWidth": true
+      },
+      "tokens": {
+        "direction": "column",
+        "fieldSpace": 3,
+        "space": 3
+      }
+    }
+  ],
+  "tokens": {
+    "borderBottomLeftRadius": 1,
+    "borderBottomRightRadius": 1,
+    "borderTopLeftRadius": 1,
+    "borderTopRightRadius": 1,
+    "direction": "column",
+    "fieldSpace": 3,
+    "outlineOffset": 8,
+    "outlineWidth": 1,
+    "showIcon": true,
+    "space": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "stackGap": 5,
+    "stackJustify": "center",
+    "stackSpace": 5
+  }
+}

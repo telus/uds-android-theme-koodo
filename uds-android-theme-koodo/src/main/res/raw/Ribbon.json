@@ -1,0 +1,116 @@
+{
+  "appearances": {
+    "purpose": {
+      "type": "variant",
+      "values": ["offer", "default", "editorial", "subtle"]
+    },
+    "wrap": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "purpose": "editorial"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.67843,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "purpose": "offer"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "purpose": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.63137,
+          "green": 0.92941,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "wrap": true
+      },
+      "tokens": {
+        "paddingBottom": 6,
+        "paddingTop": 6
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.63137,
+      "green": 0.92941,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderRadiusBottomLeft": null,
+    "borderRadiusBottomRight": null,
+    "boxShadowColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "boxShadowPaddingBottom": null,
+    "boxShadowPaddingLeft": null,
+    "boxShadowPaddingRight": null,
+    "boxShadowPaddingTop": null,
+    "curveAfterBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "curveAfterHeight": null,
+    "curveAfterRadius": null,
+    "curveAfterWidth": null,
+    "curveBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "curveHeight": null,
+    "curveMarginTop": null,
+    "curveWidth": null,
+    "fontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "gradient": null,
+    "lineHeight": 1.42857142857,
+    "paddingBottom": 2,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 2
+  }
+}

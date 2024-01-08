@@ -1,0 +1,24 @@
+{
+  "appearances": {
+    "equalWidth": {
+      "description": "Divide the available width equally among `TabsItem`",
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [],
+  "tokens": {
+    "borderBottomColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomWidth": 0,
+    "buttonClearance": 32,
+    "gutter": null,
+    "nextIcon": "PaletteIconChevronRight",
+    "previousIcon": "PaletteIconChevronLeft",
+    "space": 0
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "appearances": {
+    "color": {
+      "type": "variant",
+      "values": [
+        "brand",
+        "subtle",
+        "offer",
+        "success",
+        "danger",
+        "warning",
+        "inverse"
+      ]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["micro", "small", "large", "extraLarge"]
+    },
+    "status": {
+      "description": "Uses icon colour to communicate meaning to the user",
+      "type": "variant",
+      "values": ["success", "error"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "size": 16
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "size": 20
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "size": 32
+      }
+    },
+    {
+      "if": {
+        "size": "extraLarge"
+      },
+      "tokens": {
+        "size": 48
+      }
+    },
+    {
+      "if": {
+        "color": "brand"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 0,
+          "blue": 0.46275,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "offer"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 0,
+          "blue": 0.46275,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "success"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "warning"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "color": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "status": "success"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "status": "error"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "scale": 1,
+    "size": 24,
+    "translateX": 0,
+    "translateY": 0
+  }
+}

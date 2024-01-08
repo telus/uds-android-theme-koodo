@@ -1,0 +1,14 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderStyle": "solid",
+    "borderWidth": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "buttonContentBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "buttonContentChildrenBackground": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "playIcon": "PaletteIconPlaySolid",
+    "playIconColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    }
+  }
+}

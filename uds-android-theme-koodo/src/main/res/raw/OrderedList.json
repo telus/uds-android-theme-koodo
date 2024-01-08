@@ -1,0 +1,81 @@
+{
+  "appearances": {
+    "compact": {
+      "description": "When true it will reduce the line height of the list item.",
+      "type": "variant",
+      "values": [true]
+    },
+    "size": {
+      "description": "Indicates list item text size.",
+      "type": "variant",
+      "values": ["large", "medium", "small"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "itemFontSize": 20,
+        "itemLineHeight": 1.4
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "itemFontSize": 14,
+        "itemLineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "itemLineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "small"
+      },
+      "tokens": {
+        "itemLineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "large"
+      },
+      "tokens": {
+        "itemLineHeight": 1.2
+      }
+    }
+  ],
+  "tokens": {
+    "headerFontName": "StagSans",
+    "headerFontWeight": 600,
+    "interItemMargin": 8,
+    "itemBulletContainerWidth": 16,
+    "itemBulletHeight": 4,
+    "itemBulletWidth": 4,
+    "itemColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "itemFontName": "StagSans",
+    "itemFontSize": 16,
+    "itemFontWeight": 400,
+    "itemLineHeight": 1.5,
+    "itemMarginTop": 0,
+    "itemPaddingTop": 0,
+    "listGutter": 8
+  }
+}

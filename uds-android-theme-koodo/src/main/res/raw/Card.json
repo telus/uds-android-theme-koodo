@@ -1,0 +1,258 @@
+{
+  "appearances": {
+    "background": {
+      "description": "Defines background related attributes of Card",
+      "type": "variant",
+      "values": ["alternative", "subtle", "grid", "feature"]
+    },
+    "borderRadius": {
+      "type": "variant",
+      "values": ["none", "small", "large"]
+    },
+    "interactive": {
+      "type": "variant",
+      "values": [true]
+    },
+    "padding": {
+      "type": "variant",
+      "values": ["narrow", "intermediate", "compact", "custom"]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "borderRadius": "none"
+      },
+      "tokens": {
+        "borderRadius": 0
+      }
+    },
+    {
+      "if": {
+        "borderRadius": "small"
+      },
+      "tokens": {
+        "borderRadius": 4
+      }
+    },
+    {
+      "if": {
+        "borderRadius": "large"
+      },
+      "tokens": {
+        "borderRadius": 8
+      }
+    },
+    {
+      "if": {
+        "background": "alternative"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.87843,
+          "green": 0.84706,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "borderRadius": 8,
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "background": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.63137,
+          "green": 0.92941,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "background": "grid"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "background": "feature"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.67843,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderRadius": 8,
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 48,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 48
+      }
+    },
+    {
+      "if": {
+        "padding": "narrow"
+      },
+      "tokens": {
+        "paddingBottom": 24,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "padding": "narrow",
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 32,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 32
+      }
+    },
+    {
+      "if": {
+        "padding": "intermediate"
+      },
+      "tokens": {
+        "paddingBottom": 24,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "padding": "intermediate",
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "paddingBottom": 32,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 32
+      }
+    },
+    {
+      "if": {
+        "padding": "compact"
+      },
+      "tokens": {
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "padding": "custom"
+      },
+      "tokens": {
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": false
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderWidth": 2
+      }
+    },
+    {
+      "if": {
+        "interactive": true,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.2
+        },
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderWidth": 2
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "borderRadius": 8,
+    "borderWidth": 1,
+    "contentAlignItems": "stretch",
+    "contentFlexGrow": 0,
+    "contentFlexShrink": 1,
+    "contentJustifyContent": "flex-start",
+    "flex": 1,
+    "gradient": null,
+    "minWidth": null,
+    "paddingBottom": 32,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 32,
+    "shadow": null
+  }
+}

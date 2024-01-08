@@ -1,0 +1,92 @@
+{
+  "appearances": {
+    "decorative": {
+      "description": "Use a decorative divider to highlight an element. Non-decorative dividers are for clearly identifying separation of content.",
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "weight": {
+      "type": "variant",
+      "values": ["thick"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "weight": "thick"
+      },
+      "tokens": {
+        "width": 2
+      }
+    },
+    {
+      "if": {
+        "decorative": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "decorative": true,
+        "weight": "thick"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "width": 2
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "weight": "thick"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "width": 2
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "width": 1
+  }
+}

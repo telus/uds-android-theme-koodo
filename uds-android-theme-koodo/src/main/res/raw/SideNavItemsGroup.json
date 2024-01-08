@@ -1,0 +1,39 @@
+{
+  "appearances": {
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
+      }
+    }
+  ],
+  "tokens": {
+    "collapseDuration": 250,
+    "contentPaddingBottom": 0,
+    "contentPaddingLeft": 0,
+    "contentPaddingRight": 0,
+    "contentPaddingTop": 0,
+    "expandDuration": 300,
+    "icon": "PaletteIconChevronDown",
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconGap": 8,
+    "iconPosition": "right",
+    "iconSize": 16,
+    "justifyContent": "space-between",
+    "verticalAlign": "middle"
+  }
+}

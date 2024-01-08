@@ -1,0 +1,135 @@
+{
+  "appearances": {
+    "compact": {
+      "values": [true],
+      "description": "Determines if the \"Next\" and \"Previous\" labels should be omitted",
+      "type": "state"
+    },
+    "direction": {
+      "values": ["previous", "next"],
+      "description": "Determines which way does the button navigate in Pagination's context",
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "displayLabel": false
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "borderRadius": 32,
+        "displayLabel": false,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "direction": "previous"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronLeft"
+      }
+    },
+    {
+      "if": {
+        "direction": "next"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronRight"
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomWidth": 0,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderLeftWidth": 0,
+    "borderRadius": 4,
+    "borderRightWidth": 0,
+    "borderTopWidth": 0,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "displayLabel": true,
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "height": null,
+    "icon": null,
+    "iconDisplace": 0,
+    "iconSize": 16,
+    "lineHeight": 1.5,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderWidth": 1,
+    "paddingBottom": 12,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 12,
+    "textAlign": "center",
+    "textLine": "none",
+    "width": null
+  }
+}

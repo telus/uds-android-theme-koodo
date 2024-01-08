@@ -1,0 +1,16 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": 1.33333333333
+  }
+}

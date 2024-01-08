@@ -1,0 +1,11 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "alignItems": "stretch",
+    "flexGrow": 0,
+    "flexShrink": 0,
+    "justifyContent": "flex-start",
+    "width": null
+  }
+}

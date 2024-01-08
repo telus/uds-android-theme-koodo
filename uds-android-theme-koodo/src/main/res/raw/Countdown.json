@@ -1,0 +1,154 @@
+{
+  "appearances": {
+    "feature": {
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "label": {
+      "type": "variant",
+      "values": [true]
+    },
+    "large": {
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "containerPaddingBottomTop": 16,
+        "containerPaddingLeftRight": 24,
+        "labelFontSize": 16,
+        "labelLineHeight": 1.5,
+        "textLineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "feature": true
+      },
+      "tokens": {
+        "containerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "labelBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "textFontSize": 70,
+        "textLineHeight": 1.2,
+        "textTimerFontName": "StagSans",
+        "textTimerFontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "large": true
+      },
+      "tokens": {
+        "labelFontName": "StagSans",
+        "labelFontSize": 16,
+        "labelFontWeight": 400,
+        "textFontSize": 70,
+        "textLineHeight": 1.2,
+        "textTimerFontName": "StagSans",
+        "textTimerFontWeight": 700
+      }
+    },
+    {
+      "if": {
+        "large": true,
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "textFontSize": 44,
+        "textLineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "feature": true,
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "textFontSize": 44
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "containerBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "labelBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "containerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "containerBorderRadius": 6,
+    "containerBorderWidth": 2,
+    "containerGradient": null,
+    "containerInverseBorder": 2,
+    "containerInverseBorderColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "containerPaddingBottomTop": 48,
+    "containerPaddingLeftRight": 64,
+    "inverseBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "labelBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "labelFontName": "StagSans",
+    "labelFontSize": 16,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "textFontSize": 16,
+    "textLineHeight": 1.5,
+    "textTimerFontName": "StagSans",
+    "textTimerFontWeight": 400
+  }
+}

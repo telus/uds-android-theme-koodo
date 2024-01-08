@@ -1,0 +1,108 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 32,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 16,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 16
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "footnoteBodyPaddingBottom": 40,
+        "footnoteBodyPaddingLeft": 16,
+        "footnoteBodyPaddingRight": 16,
+        "footnoteBodyPaddingTop": 0,
+        "footnoteHeaderPaddingBottom": 24,
+        "footnoteHeaderPaddingLeft": 16,
+        "footnoteHeaderPaddingRight": 4,
+        "footnoteHeaderPaddingTop": 24
+      }
+    }
+  ],
+  "tokens": {
+    "closeButtonBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "closeButtonBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "closeButtonBorderSize": 0,
+    "closeButtonHeight": 16,
+    "closeButtonIconSize": 16,
+    "closeButtonMarginBottom": 4,
+    "closeButtonMarginLeft": 4,
+    "closeButtonMarginRight": 12,
+    "closeButtonMarginTop": 4,
+    "closeButtonWidth": 16,
+    "closeIcon": "PaletteIconClose",
+    "footnoteBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "footnoteBodyBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "footnoteBodyPaddingBottom": 40,
+    "footnoteBodyPaddingLeft": 16,
+    "footnoteBodyPaddingRight": 16,
+    "footnoteBodyPaddingTop": 0,
+    "footnoteBorderColorMd": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "footnoteBorderTopSizeMd": 1,
+    "footnoteHeaderPaddingBottom": 24,
+    "footnoteHeaderPaddingLeft": 16,
+    "footnoteHeaderPaddingRight": 4,
+    "footnoteHeaderPaddingTop": 24,
+    "headerFontName": "StagSans",
+    "headerFontSize": 16,
+    "headerFontWeight": 700,
+    "headerLineHeight": 1.25,
+    "headerMargin": 16,
+    "listItemColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "listItemFontSize": 14,
+    "listItemLineHeight": 1.42857142857,
+    "listItemMarkerFontSize": 14,
+    "listItemMarkerLineHeight": 1.45,
+    "listItemPaddingLeft": 8,
+    "listPaddingLeft": 32
+  }
+}

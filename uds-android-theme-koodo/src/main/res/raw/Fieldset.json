@@ -1,0 +1,41 @@
+{
+  "appearances": {
+    "error": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "error": true
+      },
+      "tokens": {
+        "outlineColor": {
+          "red": 0.93333,
+          "green": 0.17255,
+          "blue": 0.4549,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "outlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outlineOffset": null,
+    "outlineWidth": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0
+  }
+}

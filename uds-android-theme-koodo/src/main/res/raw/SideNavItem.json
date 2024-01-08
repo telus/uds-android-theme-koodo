@@ -1,0 +1,149 @@
+{
+  "appearances": {
+    "active": {
+      "description": "Used to mark currently active Item or and ItemGroup containing the currently active Item",
+      "values": [true, false],
+      "type": "state"
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "type": {
+      "description": "`parent` being the toggle button for an ItemsGroup, and `child` an element of the ItemGroup",
+      "values": ["child", "parent"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "active": true
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "type": "child"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.45,
+        "paddingBottom": 12,
+        "paddingLeft": 32,
+        "paddingRight": 16,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "expanded": true,
+        "type": "parent"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "active": true,
+        "type": "child"
+      },
+      "tokens": {
+        "accentBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "accentOffset": 24,
+        "accentPadding": 16,
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontName": "StagSans",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "paddingBottom": 13,
+        "paddingTop": 13
+      }
+    }
+  ],
+  "tokens": {
+    "accentBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "accentOffset": 0,
+    "accentPadding": 0,
+    "accentWidth": 4,
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "borderStyle": "solid",
+    "borderWidth": 1,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "justifyContent": "space-between",
+    "lineHeight": 1.5,
+    "paddingBottom": 12,
+    "paddingLeft": 24,
+    "paddingRight": 20,
+    "paddingTop": 12
+  }
+}

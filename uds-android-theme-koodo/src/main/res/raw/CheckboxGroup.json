@@ -1,0 +1,15 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "borderBottomLeftRadius": 1,
+    "borderBottomRightRadius": 1,
+    "borderTopLeftRadius": 1,
+    "borderTopRightRadius": 1,
+    "fieldSpace": 2,
+    "outlineOffset": 8,
+    "outlineWidth": 1,
+    "showIcon": true,
+    "space": 2
+  }
+}

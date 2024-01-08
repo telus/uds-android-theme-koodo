@@ -1,0 +1,124 @@
+{
+  "appearances": {
+    "icon": {
+      "type": "variant",
+      "values": [true]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98824,
+          "green": 0.82745,
+          "blue": 0.77647,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.77255,
+          "green": 0.94902,
+          "blue": 0.8,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "icon": true,
+        "validation": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.77255,
+          "green": 0.94902,
+          "blue": 0.8,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheckCircleFilled",
+        "iconColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "icon": true,
+        "validation": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98824,
+          "green": 0.82745,
+          "blue": 0.77647,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCaution",
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": 0,
+    "borderWidth": 0,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "contentFontSize": 16,
+    "fontName": "StagSans",
+    "fontWeight": 400,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconGap": 8,
+    "iconSize": 20,
+    "lineHeight": 1.5,
+    "paddingBottom": 12,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 12,
+    "space": 2,
+    "titleFontSize": 16
+  }
+}

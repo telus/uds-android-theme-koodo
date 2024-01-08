@@ -1,0 +1,68 @@
+{
+  "appearances": {
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "arrowBorderRadius": 0,
+    "arrowOffset": 4,
+    "arrowWidth": 8,
+    "backgroundColor": {
+      "red": 0.87843,
+      "green": 0.84706,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": 1.4,
+    "paddingBottom": 8,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 8,
+    "shadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "blur": 0,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0
+      }
+    }
+  }
+}

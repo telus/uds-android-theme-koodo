@@ -1,0 +1,41 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "showPanelTabs": false,
+        "showPreviousNextNavigation": false
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "nextIcon": "PaletteIconChevronRight",
+    "previousIcon": "PaletteIconChevronLeft",
+    "showPanelNavigation": true,
+    "showPanelTabs": true,
+    "showPreviousNextNavigation": true,
+    "spaceBetweenSlideAndPanelNavigation": 32,
+    "spaceBetweenSlideAndPreviousNextNavigation": 24,
+    "stepTrackerCurrentBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    }
+  }
+}

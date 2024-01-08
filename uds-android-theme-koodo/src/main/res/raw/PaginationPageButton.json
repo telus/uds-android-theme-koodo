@@ -1,0 +1,106 @@
+{
+  "appearances": {
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomWidth": 1,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderLeftWidth": 1,
+    "borderRadius": 32,
+    "borderRightWidth": 1,
+    "borderTopWidth": 1,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "height": 32,
+    "lineHeight": 1,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 4,
+    "outerBorderWidth": 4,
+    "paddingBottom": 8,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 8,
+    "textAlign": "center",
+    "textLine": "underline",
+    "width": 32
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "appearances": {
+    "size": {
+      "description": "used for full-screen spinners",
+      "type": "variant",
+      "values": ["large"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "size": 48,
+        "thickness": 4
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0.47843,
+      "green": 0.23922,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "size": 24,
+    "thickness": 2
+  }
+}

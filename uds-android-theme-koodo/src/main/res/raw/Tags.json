@@ -1,0 +1,27 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "space": 3
+      }
+    }
+  ],
+  "tokens": {
+    "alignItems": "center",
+    "direction": "row",
+    "flexGrow": 0,
+    "flexShrink": 0,
+    "justifyContent": "flex-start",
+    "space": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderRadius": 8,
+    "borderWidth": 1,
+    "flex": 1,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 0,
+    "outerBorderWidth": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0,
+    "separatorColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

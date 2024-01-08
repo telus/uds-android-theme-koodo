@@ -1,0 +1,316 @@
+{
+  "appearances": {
+    "current": {
+      "description": "When the current item is selected",
+      "values": [true, false],
+      "type": "state"
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "isChild": {
+      "description": "when the item is child of another child",
+      "values": [true, false],
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "current": true
+      },
+      "tokens": {
+        "groupBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "groupBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "groupColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "itemBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "itemColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "current": true,
+        "pressed": true
+      },
+      "tokens": {
+        "itemBackgroundColor": {
+          "red": 0.7098,
+          "green": 0.70588,
+          "blue": 0.70588,
+          "alpha": 1
+        },
+        "itemColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "isChild": true
+      },
+      "tokens": {
+        "itemBorderBottomWidth": 0,
+        "itemBorderLeftColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "itemBorderLeftWidth": 4,
+        "itemBorderTopWidth": 0
+      }
+    },
+    {
+      "if": {
+        "isChild": true,
+        "pressed": true
+      },
+      "tokens": {
+        "itemBorderBottomWidth": 0,
+        "itemBorderLeftColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "itemBorderTopWidth": 0,
+        "itemColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "groupBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "groupBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "groupColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "groupIcon": "PaletteIconChevronUp",
+        "itemColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "current": true,
+        "isChild": true
+      },
+      "tokens": {
+        "itemBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "itemBorderLeftColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "itemColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "groupBackgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "groupColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "itemBackgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "itemBorderLeftColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "itemColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "groupBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "groupBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "groupBorderRadius": 0,
+    "groupBorderWidth": 1,
+    "groupColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "groupFontName": "StagSans",
+    "groupFontSize": 16,
+    "groupFontWeight": 400,
+    "groupHeight": 32,
+    "groupIcon": "PaletteIconChevronDown",
+    "groupPaddingBottom": 12,
+    "groupPaddingLeft": 16,
+    "groupPaddingRight": 16,
+    "groupPaddingTop": 12,
+    "itemBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBorderBottomColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBorderBottomWidth": 1,
+    "itemBorderLeftColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBorderLeftWidth": 1,
+    "itemBorderRadius": 0,
+    "itemBorderRightColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBorderRightWidth": 1,
+    "itemBorderTopColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemBorderTopWidth": 1,
+    "itemBorderWidth": 0,
+    "itemColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "itemDisplay": false,
+    "itemFontName": "StagSans",
+    "itemFontSize": 16,
+    "itemFontWeight": 400,
+    "itemHeight": 32,
+    "itemOutline": 0,
+    "itemPaddingBottom": 8,
+    "itemPaddingLeft": 16,
+    "itemPaddingRight": 16,
+    "itemPaddingTop": 8,
+    "itemTextDecoration": "none",
+    "lineHeight": 1.5,
+    "minHeight": "100%",
+    "minWidth": "100%",
+    "shadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 2,
+      "blur": 2,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.2
+      }
+    }
+  }
+}

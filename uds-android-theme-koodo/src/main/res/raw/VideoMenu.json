@@ -1,0 +1,40 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "background": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "checkMarkFocusColor": {
+      "red": 0.00392,
+      "green": 0.41961,
+      "blue": 0.41569,
+      "alpha": 1
+    },
+    "checkMarkHeight": 24,
+    "checkMarkHoverColor": {
+      "red": 0.00392,
+      "green": 0.41961,
+      "blue": 0.41569,
+      "alpha": 1
+    },
+    "checkMarkIcon": "PaletteIconCheck",
+    "checkMarkSelectedColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "checkMarkUnselectedColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "checkMarkWidth": 24,
+    "padding": 16
+  }
+}

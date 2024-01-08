@@ -1,0 +1,126 @@
+{
+  "appearances": {
+    "checked": {
+      "description": "Corresponds to a selected state for a checkbox or radio",
+      "values": [true],
+      "type": "state"
+    },
+    "error": {
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "labelColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "checked": true,
+        "inactive": true
+      },
+      "tokens": {
+        "iconBackgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "containerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "feedbackMarginBottom": 0,
+    "feedbackMarginTop": 12,
+    "feedbackPosition": "bottom",
+    "icon": "PaletteIconCheck",
+    "iconBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "iconColor": {
+      "red": 0.47843,
+      "green": 0.23922,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "iconSize": 14,
+    "inputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "inputBorderRadius": 0,
+    "inputBorderWidth": 2,
+    "inputHeight": 20,
+    "inputOutlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "inputOutlineOffset": 1,
+    "inputOutlineWidth": 0,
+    "inputShadow": null,
+    "inputWidth": 20,
+    "labelColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "labelFontName": "StagSans",
+    "labelFontSize": 16,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "labelMarginLeft": 8
+  }
+}

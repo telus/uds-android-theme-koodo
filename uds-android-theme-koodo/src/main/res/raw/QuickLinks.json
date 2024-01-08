@@ -1,0 +1,29 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "card": false,
+        "dividers": true,
+        "list": false
+      }
+    }
+  ],
+  "tokens": {
+    "card": true,
+    "dividers": true,
+    "list": true,
+    "stackGap": 2,
+    "stackJustify": "center",
+    "stackSpace": 4
+  }
+}

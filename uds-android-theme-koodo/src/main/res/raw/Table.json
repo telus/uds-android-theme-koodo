@@ -1,0 +1,247 @@
+{
+  "appearances": {
+    "spacing": {
+      "description": "Adjusts the height of the table cell",
+      "type": "variant",
+      "values": ["compact", "default"]
+    },
+    "text": {
+      "type": "variant",
+      "values": ["small"]
+    },
+    "type": {
+      "type": "variant",
+      "values": ["subHeading", "rowHeading", "heading", "default"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "spacing": "compact"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontSize": 16,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "spacing": "default",
+        "type": "heading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "fontColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "type": "heading"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "cellBoxShadowColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "cellPaddingBottom": 8,
+        "cellPaddingTop": 8,
+        "fontColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "subHeading"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    },
+    {
+      "if": {
+        "spacing": "default",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "default"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "text": "small",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "lineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "text": "small",
+        "type": "rowHeading"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "lineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "spacing": "compact",
+        "text": "small",
+        "type": "default"
+      },
+      "tokens": {
+        "lineHeight": 1.14285714286
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderWidth": 1,
+    "cellBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "cellBoxShadowColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "cellMinWidth": 0,
+    "cellPaddingBottom": 16,
+    "cellPaddingLeft": 16,
+    "cellPaddingRight": 16,
+    "cellPaddingTop": 16,
+    "cellStickyShadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 4,
+      "blur": 8,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    },
+    "display": null,
+    "fontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "stickyBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "tablePaddingBottom": 24
+  }
+}

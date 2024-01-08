@@ -1,0 +1,210 @@
+{
+  "appearances": {
+    "style": {
+      "type": "variant",
+      "values": ["system", "subtle"]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xl"]
+      },
+      "tokens": {
+        "justifyContent": "center"
+      }
+    },
+    {
+      "if": {
+        "style": "system"
+      },
+      "tokens": {
+        "borderLeftWidth": 0,
+        "borderRadius": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "iconGap": 8,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "style": "subtle"
+      },
+      "tokens": {
+        "borderBottomWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRadius": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "iconGap": 8,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.77255,
+          "green": 0.94902,
+          "blue": 0.8,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheckCircleFilled",
+        "iconColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "warning"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.96078,
+          "blue": 0.82353,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.97255,
+          "green": 0.75686,
+          "blue": 0,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconExclamationTriangle",
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98824,
+          "green": 0.82745,
+          "blue": 0.77647,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconCaution",
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderBottomWidth": 1,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderLeftWidth": 1,
+    "borderRadius": 6,
+    "borderRightWidth": 1,
+    "borderTopWidth": 1,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "dismissButtonGap": 24,
+    "dismissIcon": "PaletteIconClose",
+    "dismissIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconGap": 24,
+    "iconSize": 24,
+    "justifyContent": "flex-start",
+    "lineHeight": 1.5,
+    "paddingBottom": 12,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 12
+  }
+}

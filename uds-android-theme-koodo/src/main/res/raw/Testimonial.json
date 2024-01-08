@@ -1,0 +1,65 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "testimonialFontNameHeading": "StagSans",
+        "testimonialFontSizeHeading": 32,
+        "testimonialFontWeightHeading": 700,
+        "testimonialLineHeightHeading": 1.25
+      }
+    }
+  ],
+  "tokens": {
+    "additionalFontName": "StagSans",
+    "additionalFontSize": 14,
+    "additionalFontWeight": 400,
+    "additionalLineHeight": 1.42857142857,
+    "authorFontName": "StagSans",
+    "authorFontSize": 16,
+    "authorFontWeight": 600,
+    "authorLineHeight": 1.5,
+    "dividerBackgroundColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "dividerBorder": 1,
+    "figcaptionGap": 12,
+    "icon": "PaletteIconQuoteLeft",
+    "iconColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "iconFr": "PaletteIconQuoteRightArrow",
+    "imageSize": 48,
+    "quoteContainerGap": 4,
+    "testimonialContainerGap": 12,
+    "testimonialFontNameHeading": "StagSans",
+    "testimonialFontNameLarge": "StagSans",
+    "testimonialFontSizeHeading": 24,
+    "testimonialFontSizeLarge": 20,
+    "testimonialFontWeightHeading": 700,
+    "testimonialFontWeightLarge": 400,
+    "testimonialLineHeightHeading": 1.33333333333,
+    "testimonialLineHeightLarge": 1.4,
+    "textColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

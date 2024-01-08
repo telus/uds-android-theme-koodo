@@ -1,0 +1,94 @@
+{
+  "appearances": {
+    "compact": {
+      "type": "variant",
+      "values": [true]
+    },
+    "mini": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {}
+    },
+    {
+      "if": {
+        "mini": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "contentPaddingBottom": 0,
+        "contentPaddingLeft": 0,
+        "contentPaddingRight": 0,
+        "contentPaddingTop": 0,
+        "contentPanelBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "borderColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "collapseDuration": 250,
+    "contentPaddingBottom": 16,
+    "contentPaddingLeft": 16,
+    "contentPaddingRight": 16,
+    "contentPaddingTop": 16,
+    "contentPanelBackgroundColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "contentPanelBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentPanelBorderWidth": 0,
+    "contentPanelFontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "contentPanelFontName": "StagSans",
+    "contentPanelFontSize": 16,
+    "contentPanelFontWeight": 700,
+    "contentPanelLineHeight": 1.5,
+    "contentPanelPaddingBottom": 16,
+    "contentPanelPaddingLeft": 24,
+    "contentPanelPaddingRight": 24,
+    "contentPanelPaddingTop": 16,
+    "expandDividerColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandDividerWidth": null,
+    "expandDuration": 300,
+    "marginBottom": 8
+  }
+}

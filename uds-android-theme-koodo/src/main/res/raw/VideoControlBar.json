@@ -1,0 +1,37 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "height": 40,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8
+      }
+    }
+  ],
+  "tokens": {
+    "captionsIcon": "PaletteIconClosedCaptions",
+    "height": 56,
+    "maximizeIcon": "PaletteIconFullscreenExpand",
+    "menuBottom": 64,
+    "menuMarginLeft": 16,
+    "menuRight": 32,
+    "minimizeIcon": "PaletteIconFullscreenMinimize",
+    "paddingBottom": 16,
+    "paddingLeft": 48,
+    "paddingRight": 48,
+    "paddingTop": 16,
+    "settingsIcon": "PaletteIconSettingsSolid"
+  }
+}

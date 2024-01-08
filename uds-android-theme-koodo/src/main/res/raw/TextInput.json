@@ -1,0 +1,168 @@
+{
+  "appearances": {
+    "focus": {
+      "description": "Focus states for some input elements are well supported across web, RN, ios and android",
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "numeric": {
+      "description": "capability to only allow numbers",
+      "type": "variant",
+      "values": [true]
+    },
+    "password": {
+      "description": "capability that helps masking and unmasking text",
+      "type": "variant",
+      "values": [true]
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheckCircleFilled",
+        "iconColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "icon": "PaletteIconExclamationOctagon",
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "focus": true,
+        "inactive": null
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderWidth": 3,
+        "icon": null
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "amexIcon": "PaletteIconAmex",
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "buttonSize": 32,
+    "buttonsGap": 0,
+    "buttonsPaddingRight": 0,
+    "clearButtonIcon": "PaletteIconTimes",
+    "color": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "defaultCreditIcon": "PaletteIconCreditCard",
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconSize": 24,
+    "leftIconPaddingBottom": 5,
+    "lineHeight": 1.5,
+    "masterCardIcon": "PaletteIconMasterCard",
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderWidth": 0,
+    "paddingBottom": 12,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 12,
+    "passwordHideButtonIcon": "PaletteIconEyeMasked",
+    "passwordShowButtonIcon": "PaletteIconEyeUnmasked",
+    "visaIcon": "PaletteIconVisa"
+  }
+}

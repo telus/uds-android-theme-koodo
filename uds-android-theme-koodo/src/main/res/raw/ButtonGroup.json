@@ -1,0 +1,51 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    },
+    "width": {
+      "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+      "type": "variant",
+      "values": ["responsive"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "space": 2
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "space": 3
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xs"],
+        "width": "responsive"
+      },
+      "tokens": {
+        "alignItems": "stretch",
+        "direction": "column"
+      }
+    }
+  ],
+  "tokens": {
+    "alignItems": "center",
+    "direction": "row",
+    "fieldSpace": 2,
+    "flexGrow": 0,
+    "flexShrink": 0,
+    "justifyContent": "flex-start",
+    "space": 2
+  }
+}

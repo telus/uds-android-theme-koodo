@@ -1,0 +1,192 @@
+{
+  "appearances": {
+    "alternative": {
+      "type": "variant",
+      "values": [true]
+    },
+    "decrease": {
+      "type": "variant",
+      "values": [true]
+    },
+    "disabled": {
+      "type": "variant",
+      "values": [true]
+    },
+    "focus": {
+      "type": "variant",
+      "values": [true]
+    },
+    "hover": {
+      "type": "variant",
+      "values": [true]
+    },
+    "increase": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "hover": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderWidth": 3
+      }
+    },
+    {
+      "if": {
+        "decrease": true
+      },
+      "tokens": {
+        "borderBottomLeftRadius": 4,
+        "borderRightWidth": 0,
+        "borderTopLeftRadius": 4,
+        "icon": "PaletteIconSubtract"
+      }
+    },
+    {
+      "if": {
+        "increase": true
+      },
+      "tokens": {
+        "borderBottomRightRadius": 4,
+        "borderLeftWidth": 0,
+        "borderTopRightRadius": 4,
+        "icon": "PaletteIconAdd"
+      }
+    },
+    {
+      "if": {
+        "focus": true,
+        "increase": true
+      },
+      "tokens": {
+        "borderBottomWidth": 3,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 3,
+        "borderTopWidth": 3
+      }
+    },
+    {
+      "if": {
+        "decrease": true,
+        "focus": true
+      },
+      "tokens": {
+        "borderBottomWidth": 3,
+        "borderLeftWidth": 3,
+        "borderRightWidth": 2,
+        "borderTopWidth": 3
+      }
+    },
+    {
+      "if": {
+        "disabled": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "alternative": true
+      },
+      "tokens": {
+        "paddingBottom": 12,
+        "paddingTop": 12
+      }
+    },
+    {
+      "if": {
+        "alternative": true,
+        "increase": true
+      },
+      "tokens": {
+        "borderBottomRightRadius": 24,
+        "borderTopRightRadius": 24
+      }
+    },
+    {
+      "if": {
+        "alternative": true,
+        "decrease": true
+      },
+      "tokens": {
+        "borderBottomLeftRadius": 24,
+        "borderTopLeftRadius": 24
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "borderBottomWidth": 1,
+    "borderColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "borderLeftWidth": 1,
+    "borderRadius": 0,
+    "borderRightWidth": 1,
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderTopWidth": 1,
+    "borderWidth": 1,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconSize": 16,
+    "padding": 16,
+    "paddingBottom": 16,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 16
+  }
+}

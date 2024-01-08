@@ -1,0 +1,198 @@
+{
+  "appearances": {
+    "checked": {
+      "description": "Corresponds to a selected state for a checkbox or radio",
+      "values": [true],
+      "type": "state"
+    },
+    "error": {
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "error": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "inputOutlineColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderGap": 0,
+        "outerBorderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "inputOutlineColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "labelColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderGap": 0
+      }
+    },
+    {
+      "if": {
+        "checked": true,
+        "inactive": true
+      },
+      "tokens": {
+        "checkedBackgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "inputBackgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "inputBorderColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "inputBorderWidth": 3,
+        "inputOutlineColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "inputOutlineWidth": 1,
+        "labelColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "checkedBackgroundColor": {
+      "red": 0.47843,
+      "green": 0.23922,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "checkedSize": 16,
+    "containerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "containerBorderRadius": 0,
+    "containerOpacity": 1,
+    "containerPaddingBottom": 6,
+    "containerPaddingLeft": 8,
+    "containerPaddingRight": 0,
+    "containerPaddingTop": 6,
+    "containerShadow": null,
+    "descriptionFontName": "StagSans",
+    "descriptionFontSize": 14,
+    "descriptionFontWeight": 400,
+    "descriptionLineHeight": 1.4,
+    "descriptionMarginLeft": null,
+    "inputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderWidth": 2,
+    "inputOutlineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "inputOutlineWidth": 2,
+    "inputSize": 20,
+    "labelColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "labelFontName": "StagSans",
+    "labelFontSize": 16,
+    "labelFontWeight": 400,
+    "labelLineHeight": 1.5,
+    "labelMarginLeft": 8,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 5,
+    "outerBorderWidth": 1
+  }
+}

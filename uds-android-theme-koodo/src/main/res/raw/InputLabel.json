@@ -1,0 +1,27 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "gap": 8,
+    "hintColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "hintFontName": "StagSans",
+    "hintFontSize": 14,
+    "hintFontWeight": 400,
+    "hintLineHeight": 1.42857142857,
+    "lineHeight": 1.5
+  }
+}

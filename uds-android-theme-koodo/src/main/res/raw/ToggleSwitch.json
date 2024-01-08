@@ -1,0 +1,248 @@
+{
+  "appearances": {
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "switchColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.98039,
+          "green": 0.98039,
+          "blue": 0.98039,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheck",
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "switchBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "switchColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "switchColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "opacity": 0.5,
+        "switchBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "switchColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true,
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "icon": "PaletteIconCheck",
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "opacity": 0.5,
+        "switchBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "switchColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "alignSelf": "flex-start",
+    "backgroundColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": 32,
+    "borderWidth": 0,
+    "icon": null,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconSize": 12,
+    "labelColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "labelFontName": "StagSans",
+    "labelFontSize": 16,
+    "labelFontWeight": 600,
+    "labelLineHeight": 1.5,
+    "labelMarginLeft": 0,
+    "opacity": 1,
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 0,
+    "outerBorderGapButton": 4,
+    "outerBorderWidth": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0,
+    "shadow": null,
+    "space": 2,
+    "switchBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "switchBorderRadius": 32,
+    "switchBorderWidth": 0,
+    "switchColor": {
+      "red": 0.34902,
+      "green": 0.34902,
+      "blue": 0.34902,
+      "alpha": 1
+    },
+    "switchShadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 2,
+      "blur": 2,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.2
+      }
+    },
+    "switchSize": 24,
+    "trackBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "trackBorderRadius": 12,
+    "trackBorderWidth": 3,
+    "trackHeight": 20,
+    "width": 40
+  }
+}

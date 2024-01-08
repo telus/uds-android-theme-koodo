@@ -1,0 +1,189 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs"]
+      },
+      "tokens": {
+        "calendarMonthCaptionFontName": "StagSans",
+        "calendarMonthCaptionFontSize": 14,
+        "calendarMonthCaptionFontWeight": 600,
+        "calendarMonthCaptionLineHeight": 1.72
+      }
+    }
+  ],
+  "tokens": {
+    "calendarBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverBackground": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "calendarDayBlockedCalendarHoverColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "calendarDayDefaultBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultBorder": 1,
+    "calendarDayDefaultBorderColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverBeforeBackground": {
+      "red": 0.47843,
+      "green": 0.23922,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "calendarDayDefaultCalendarDaySelectedHoverColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDayDefaultColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "calendarDayDefaultFontName": "StagSans",
+    "calendarDayDefaultFontSize": 14,
+    "calendarDayDefaultFontWeight": 400,
+    "calendarDaySelectedDisabledBackground": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedDisabledContentBackgroundColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "calendarDaySelectedFocusBeforeBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBeforeBorderColor": {
+      "red": 0.47843,
+      "green": 0.23922,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverBorderColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "calendarDaySelectedHoverColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "calendarMonthCaptionColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "calendarMonthCaptionFontName": "StagSans",
+    "calendarMonthCaptionFontSize": 20,
+    "calendarMonthCaptionFontWeight": 700,
+    "calendarMonthCaptionLineHeight": 1.2,
+    "calendarMonthCaptionPaddingBottom": 48,
+    "dateInputStrokeColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "dayPickerNavigationButtonPadding": 12,
+    "dayPickerWeekHeaderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "dayPickerWeekHeaderFontName": "StagSans",
+    "dayPickerWeekHeaderFontWeight": 700,
+    "dayPickerWeekHeaderLineHeight": 1.14285714286,
+    "dayPickerWeekHeaderSmall": 14,
+    "hiddenInputFieldContainerHeight": 0,
+    "hiddenInputFieldContainerWidth": 0,
+    "invalidInputMixin": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "nextIcon": "PaletteIconChevronRight",
+    "previousIcon": "PaletteIconChevronLeft",
+    "singleDatePickerBorderColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "singleDatePickerLeftRight": 16,
+    "singleDatePickerPaddingTopBottom": 8,
+    "singleDatePickerRadius": 4,
+    "validInputMixin": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    }
+  }
+}

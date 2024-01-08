@@ -1,0 +1,178 @@
+{
+  "appearances": {
+    "iconPosition": {
+      "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
+      "values": ["left", "right"],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    },
+    "width": {
+      "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+      "type": "variant",
+      "values": ["responsive"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "selected": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderWidth": 0,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "iconPosition": "right"
+      },
+      "tokens": {
+        "iconSpace": 1
+      }
+    },
+    {
+      "if": {
+        "width": "responsive"
+      },
+      "tokens": {
+        "width": "100%"
+      }
+    }
+  ],
+  "tokens": {
+    "alignSelf": "flex-start",
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "height": 48,
+    "iconSize": 20,
+    "iconSpace": 2,
+    "lineHeight": 1.5,
+    "minWidth": 0,
+    "opacity": 1,
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 3,
+    "outerBorderWidth": 1,
+    "paddingBottom": 8,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 8,
+    "shadow": null,
+    "textAlign": "center",
+    "width": null
+  }
+}

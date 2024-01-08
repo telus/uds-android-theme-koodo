@@ -1,0 +1,143 @@
+{
+  "appearances": {
+    "alternative": {
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "size": {
+      "description": "Sets the size of the text and icon; these variants are shared with ChevronLink",
+      "type": "variant",
+      "values": ["large", "small", "micro"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "alternative": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "alternative": true,
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "blockLineHeight": 1.4,
+        "fontSize": 20,
+        "iconSize": 20
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "blockLineHeight": 1.42857142857,
+        "fontSize": 14,
+        "iconSize": 16
+      }
+    },
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "blockLineHeight": 1.33333333333,
+        "fontSize": 12,
+        "iconSize": 16
+      }
+    }
+  ],
+  "tokens": {
+    "blockLineHeight": 1.5,
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontSize": 16,
+    "iconDisplace": 0,
+    "iconSize": 16,
+    "iconSpace": 1,
+    "leftIcon": "PaletteIconChevronLeft",
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "rightIcon": "PaletteIconChevronRight",
+    "textLine": "none"
+  }
+}

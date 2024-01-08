@@ -1,0 +1,609 @@
+{
+  "appearances": {
+    "danger": {
+      "description": "Indicates a user action that is destructive and will result in loss of information or cause significant monetary charges. Limit the use of the danger button whenever possible.",
+      "type": "variant",
+      "values": [true]
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "inverse": {
+      "description": "Use inverse buttons on darker backgrounds. High and low priority buttons, and danger buttons, are available in inverse.",
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "priority": {
+      "description": "Indicates the importance of the call-to-action. Limit the amount of high priority buttons on a page to prioritize meaningful user flows. Low priority styles are applied by default.",
+      "type": "variant",
+      "values": ["high", "low"]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["small"]
+    },
+    "text": {
+      "description": "Text variant visually deprioritize the button styles",
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    },
+    "width": {
+      "description": "Available in default, full-width or responsive. Default-width expands based on content. Full-width expands to width of the container. Responsive automatically applies full-width when is displayed on the XS viewport.",
+      "type": "variant",
+      "values": ["full", "responsive"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "priority": "high"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "danger": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderBottomWidth": 1,
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "outerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "priority": "low"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderBottomWidth": 1,
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "outerBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "danger": true,
+        "inverse": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderBottomWidth": 0,
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "borderTopWidth": 0,
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "width": "full"
+      },
+      "tokens": {
+        "width": "100%"
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xs"],
+        "width": "responsive"
+      },
+      "tokens": {
+        "width": "100%"
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "minWidth": 0,
+        "paddingBottom": 4,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 4
+      }
+    },
+    {
+      "if": {
+        "text": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 0,
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "minWidth": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "textLine": "underline"
+      }
+    },
+    {
+      "if": {
+        "danger": true,
+        "text": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "text": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "danger": true,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderGap": 0
+      }
+    },
+    {
+      "if": {
+        "danger": true,
+        "pressed": true,
+        "text": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "text": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true,
+        "text": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true,
+        "inverse": true,
+        "text": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "borderBottomWidth": 0,
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "description": "Buttons should not be disabled or set as inactive. Use inline (on blur) error messaging to provide feedback when the form is invalid. In exceptional instances where disabled buttons are needed, it must be clear to the user why the button is disabled and what they need to do to enable it.",
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderWidth": 0,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "priority": "low",
+        "text": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "priority": "low",
+        "text": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "inactive": true,
+        "text": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "color": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "textLine": "none"
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderBottomWidth": 0,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderLeftWidth": 1,
+    "borderRadius": 4,
+    "borderRightWidth": 1,
+    "borderTopWidth": 1,
+    "borderWidth": 1,
+    "color": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "height": null,
+    "icon": null,
+    "iconSize": 16,
+    "iconSpace": 2,
+    "lineHeight": 1.5,
+    "minWidth": 144,
+    "opacity": 1,
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": null,
+    "outerBorderWidth": 1,
+    "paddingBottom": 12,
+    "paddingLeft": 32,
+    "paddingRight": 32,
+    "paddingTop": 12,
+    "shadow": null,
+    "textAlign": "center",
+    "textLine": "none",
+    "textLineStyle": "solid",
+    "width": null
+  }
+}

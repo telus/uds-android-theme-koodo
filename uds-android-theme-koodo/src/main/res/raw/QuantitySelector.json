@@ -1,0 +1,104 @@
+{
+  "appearances": {
+    "alternative": {
+      "type": "variant",
+      "values": [true]
+    },
+    "disabled": {
+      "type": "variant",
+      "values": [true]
+    },
+    "focus": {
+      "type": "variant",
+      "values": [true]
+    },
+    "hover": {
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "alternative": true
+      },
+      "tokens": {
+        "paddingBottom": 8,
+        "paddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "hover": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "disabled": true
+      },
+      "tokens": {
+        "inputBackgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "textColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "focus": true
+      },
+      "tokens": {
+        "inputBorderWidth": 3
+      }
+    }
+  ],
+  "tokens": {
+    "fontSize": 16,
+    "inputBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "inputBorderColor": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "inputBorderWidth": 1,
+    "inputWidth": 64,
+    "lineHeight": 1.5,
+    "padding": 12,
+    "paddingBottom": 12,
+    "paddingLeft": 12,
+    "paddingRight": 12,
+    "paddingTop": 12,
+    "textColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

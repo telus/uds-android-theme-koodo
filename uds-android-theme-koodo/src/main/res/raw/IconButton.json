@@ -1,0 +1,469 @@
+{
+  "appearances": {
+    "action": {
+      "type": "variant",
+      "values": [
+        "add",
+        "close",
+        "expand",
+        "moveDown",
+        "moveLeft",
+        "moveRight",
+        "moveUp",
+        "play",
+        "subtract"
+      ]
+    },
+    "compact": {
+      "description": "Without the outer border gap",
+      "type": "variant",
+      "values": [true]
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "inverse": {
+      "description": "For use on dark backgrounds",
+      "type": "variant",
+      "values": [true]
+    },
+    "password": {
+      "description": "Password masked or not",
+      "type": "variant",
+      "values": [true]
+    },
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "raised": {
+      "description": "Uses shadow and background colour to appear raised above the page",
+      "type": "variant",
+      "values": [true]
+    },
+    "size": {
+      "type": "variant",
+      "values": ["small", "large"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "action": "add"
+      },
+      "tokens": {
+        "icon": "PaletteIconAdd"
+      }
+    },
+    {
+      "if": {
+        "action": "subtract"
+      },
+      "tokens": {
+        "icon": "PaletteIconSubtract"
+      }
+    },
+    {
+      "if": {
+        "action": "close"
+      },
+      "tokens": {
+        "icon": "PaletteIconClose"
+      }
+    },
+    {
+      "if": {
+        "action": "expand"
+      },
+      "tokens": {
+        "icon": "PaletteIconExpand"
+      }
+    },
+    {
+      "if": {
+        "action": "moveDown"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronDown"
+      }
+    },
+    {
+      "if": {
+        "action": "moveLeft"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronLeft"
+      }
+    },
+    {
+      "if": {
+        "action": "moveRight"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronRight"
+      }
+    },
+    {
+      "if": {
+        "action": "moveUp"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
+      }
+    },
+    {
+      "if": {
+        "action": "play"
+      },
+      "tokens": {
+        "icon": "PaletteIconPlayVideo"
+      }
+    },
+    {
+      "if": {
+        "action": "add"
+      },
+      "tokens": {
+        "icon": "PaletteIconAdd"
+      }
+    },
+    {
+      "if": {
+        "action": "subtract"
+      },
+      "tokens": {
+        "icon": "PaletteIconSubtract"
+      }
+    },
+    {
+      "if": {
+        "action": "close"
+      },
+      "tokens": {
+        "icon": "PaletteIconClose"
+      }
+    },
+    {
+      "if": {
+        "action": "expand"
+      },
+      "tokens": {
+        "icon": "PaletteIconExpand"
+      }
+    },
+    {
+      "if": {
+        "action": "moveDown"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronDown"
+      }
+    },
+    {
+      "if": {
+        "action": "moveLeft"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronLeft"
+      }
+    },
+    {
+      "if": {
+        "action": "moveRight"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronRight"
+      }
+    },
+    {
+      "if": {
+        "action": "moveUp"
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
+      }
+    },
+    {
+      "if": {
+        "action": "play"
+      },
+      "tokens": {
+        "icon": "PaletteIconPlayVideo"
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "password": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": null,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "outerBorderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "password": true,
+        "pressed": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "outerBorderGap": 0
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "iconSize": 24,
+        "padding": 12
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "iconSize": 16,
+        "padding": 4
+      }
+    },
+    {
+      "description": "Raised IconButtons follow different design patterns to other variants",
+      "if": {
+        "raised": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "shadow": {
+          "inset": false,
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 2,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.2
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "raised": true,
+        "size": "large"
+      },
+      "tokens": {
+        "iconSize": 24,
+        "padding": 12
+      }
+    },
+    {
+      "if": {
+        "raised": true,
+        "size": "small"
+      },
+      "tokens": {
+        "padding": 8
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "raised": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {
+        "outerBorderGap": 0
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "outerBorderWidth": 0
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderBottomLeftRadius": null,
+    "borderBottomRightRadius": null,
+    "borderBottomWidth": null,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderLeftWidth": null,
+    "borderRadius": 99999999999999,
+    "borderRightWidth": null,
+    "borderTopLeftRadius": null,
+    "borderTopRightRadius": null,
+    "borderTopWidth": null,
+    "borderWidth": 1,
+    "height": null,
+    "icon": "PaletteIconAdd",
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconScale": 1,
+    "iconSize": 16,
+    "iconTranslateX": 0,
+    "iconTranslateY": 0,
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderGap": 0,
+    "outerBorderWidth": 0,
+    "padding": 4,
+    "shadow": null,
+    "width": null
+  }
+}

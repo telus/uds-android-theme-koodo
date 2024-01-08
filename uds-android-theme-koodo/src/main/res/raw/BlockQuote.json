@@ -1,0 +1,72 @@
+{
+  "appearances": {
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm", "md"]
+      },
+      "tokens": {
+        "titleHeadingFontName": "StagSans",
+        "titleHeadingFontSize": 32,
+        "titleHeadingFontWeight": 700,
+        "titleHeadingLineHeight": 1.25
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundGradient": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        {
+          "stop": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          }
+        },
+        {
+          "stop": 1,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          }
+        }
+      ]
+    },
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "linkFontName": "StagSans",
+    "linkFontSize": 16,
+    "linkFontWeight": 600,
+    "linkLineHeight": 1.5,
+    "marginBottom": 16,
+    "paddingBottom": 16,
+    "paddingLeft": 32,
+    "paddingRight": 32,
+    "paddingTop": 16,
+    "titleFontName": "StagSans",
+    "titleFontSize": 20,
+    "titleFontWeight": 400,
+    "titleHeadingFontName": "StagSans",
+    "titleHeadingFontSize": 32,
+    "titleHeadingFontWeight": 700,
+    "titleHeadingLineHeight": 1.25,
+    "titleLineHeight": 1.4,
+    "width": 4
+  }
+}

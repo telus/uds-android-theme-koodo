@@ -1,0 +1,521 @@
+{
+  "appearances": {
+    "bold": {
+      "description": "Sets the font weight, to bold on some body text styles. Does not change accessibility properties.",
+      "type": "variant",
+      "values": [true]
+    },
+    "colour": {
+      "type": "variant",
+      "values": [
+        "default",
+        "brand",
+        "dark",
+        "light",
+        "positive",
+        "warning",
+        "danger",
+        "black",
+        "white",
+        "brand2",
+        "brand3",
+        "alternative1",
+        "alternative2",
+        "alternative3"
+      ]
+    },
+    "compact": {
+      "description": "Reduces line height on some body text styles. For data-rich content, not for flow content",
+      "type": "variant",
+      "values": [true]
+    },
+    "inverse": {
+      "description": "Styles the link white for use on dark backgrounds.",
+      "type": "variant",
+      "values": [true]
+    },
+    "size": {
+      "type": "variant",
+      "values": [
+        "micro",
+        "small",
+        "medium",
+        "large",
+        "eyebrow",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "display1",
+        "display2"
+      ]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    },
+    "weight": {
+      "description": "Sets the font weight, default is regular 400 weight. Does not change accessibility properties.",
+      "type": "variant",
+      "values": ["semibold", "bold"]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "weight": "semibold"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontWeight": 600
+      }
+    },
+    {
+      "if": {
+        "weight": "bold"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontWeight": 700
+      }
+    },
+    {
+      "description": "Please only bold single words while using with headings",
+      "if": {
+        "bold": true
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontWeight": 600
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.4
+      }
+    },
+    {
+      "if": {
+        "size": "eyebrow"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "lineHeight": 1.42857142857,
+        "textTransform": "uppercase"
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "large"
+      },
+      "tokens": {
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "medium"
+      },
+      "tokens": {
+        "fontSize": 16,
+        "lineHeight": 1.5
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "medium"
+      },
+      "tokens": {
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "lineHeight": 1.42857142857
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "small"
+      },
+      "tokens": {
+        "lineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "lineHeight": 1.33333333333
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "micro"
+      },
+      "tokens": {
+        "lineHeight": 1.33333333333
+      }
+    },
+    {
+      "if": {
+        "size": "display1"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 44,
+        "fontWeight": 700,
+        "lineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "size": "display1",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "fontSize": 70,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "display2"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 36,
+        "fontWeight": 700,
+        "lineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "size": "display2",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "fontSize": 54,
+        "lineHeight": 1.14285714286
+      }
+    },
+    {
+      "if": {
+        "size": "h1"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 34,
+        "fontWeight": 700,
+        "lineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "size": "h1",
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "fontSize": 44,
+        "lineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "size": "h2"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "fontName": "StagSans",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "size": "h3"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "lineHeight": 1.33333333333
+      }
+    },
+    {
+      "if": {
+        "size": "h4"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "h5"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "lineHeight": 1.22222222222
+      }
+    },
+    {
+      "if": {
+        "size": "h6"
+      },
+      "tokens": {
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "inverse": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "default"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "brand"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 0,
+          "blue": 0.46275,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "dark"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "light"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "positive"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "warning"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "black"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "white"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "brand2"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "brand3"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.35686,
+          "green": 0.16863,
+          "blue": 0.76078,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "alternative1"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.25098,
+          "green": 0.25098,
+          "blue": 0.25098,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "alternative2"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.86667,
+          "green": 0,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "colour": "alternative3"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "color": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontScaleCap": 64,
+    "fontSize": 16,
+    "fontWeight": 400,
+    "letterSpacing": 0,
+    "lineHeight": 1.5,
+    "superScriptFontSize": null,
+    "textTransform": "none"
+  }
+}

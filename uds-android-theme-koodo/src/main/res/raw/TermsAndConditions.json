@@ -1,0 +1,116 @@
+{
+  "appearances": {
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "expandContentPaddingRight": 24,
+        "listMarginLeft": 2,
+        "titlePaddingLeft": 2
+      }
+    },
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
+      }
+    }
+  ],
+  "tokens": {
+    "contentBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "contentMarginBottom": 0,
+    "contentPaddingBottom": 8,
+    "contentPaddingLeft": 16,
+    "dividerColor": {
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
+    },
+    "expandBaseBorderWidth": 0,
+    "expandContentPaddingBottom": 16,
+    "expandContentPaddingLeft": 16,
+    "expandContentPaddingRight": 16,
+    "expandContentPaddingTop": 16,
+    "expandIconContainerAlignItems": "center",
+    "expandIconContainerBorder": 0,
+    "expandIconContainerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandIconContainerHeight": 32,
+    "expandIconContainerJustifyContent": "center",
+    "expandIconContainerMarginX": 0,
+    "expandIconContainerMarginY": 12,
+    "expandIconContainerWidth": 32,
+    "expandTitleBorder": 0,
+    "expandTitleBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "expandTitleColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "expandTitleFontName": "StagSans",
+    "expandTitleFontSize": 16,
+    "expandTitleFontWeight": 600,
+    "expandTitleLineHeight": 1.5,
+    "expandTitleMarginX": 4,
+    "expandTitleMarginY": 0,
+    "expandTitlePaddingLeft": 0,
+    "expandTitleUnderline": "none",
+    "icon": "PaletteIconChevronDown",
+    "listColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "listFontName": "StagSans",
+    "listFontSize": 14,
+    "listFontWeight": 400,
+    "listLineHeight": 1.42857142857,
+    "listMarginBottom": 16,
+    "listMarginLeft": 32,
+    "mdContentPaddingBottom": 16,
+    "mdContentPaddingLeft": 48,
+    "orderedPadding": 0,
+    "titleColor": {
+      "red": 0.00392,
+      "green": 0.41961,
+      "blue": 0.41569,
+      "alpha": 1
+    },
+    "titleFontSize": 14,
+    "titleLineHeight": 1.42857142857,
+    "titlePaddingLeft": 32,
+    "unorderedPadding": 12
+  }
+}

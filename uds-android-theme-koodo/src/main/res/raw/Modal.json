@@ -1,0 +1,198 @@
+{
+  "appearances": {
+    "maxWidth": {
+      "description": "Whether a modal should expand responsively to the maximum of 8 layout columns width",
+      "values": [true],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    },
+    "width": {
+      "description": "The width of the modal",
+      "values": ["s", "m", "l", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["xs", "sm"]
+      },
+      "tokens": {
+        "direction": "column",
+        "height": "100%",
+        "paddingBottom": 24,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 24
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"]
+      },
+      "tokens": {
+        "containerPaddingBottom": 32,
+        "containerPaddingTop": 32,
+        "direction": "row",
+        "maxWidth": 576,
+        "paddingBottom": 32,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 32
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"],
+        "width": "s"
+      },
+      "tokens": {
+        "containerPaddingBottom": 32,
+        "containerPaddingTop": 32,
+        "maxWidth": 320
+      }
+    },
+    {
+      "if": {
+        "viewport": ["md", "lg", "xl"],
+        "width": "m"
+      },
+      "tokens": {
+        "containerPaddingBottom": 32,
+        "containerPaddingTop": 32,
+        "maxWidth": 480
+      }
+    },
+    {
+      "if": {
+        "viewport": ["lg", "xl"],
+        "width": "l"
+      },
+      "tokens": {
+        "containerPaddingBottom": 32,
+        "containerPaddingTop": 32,
+        "maxWidth": 630
+      }
+    },
+    {
+      "if": {
+        "viewport": "xl",
+        "width": "xl"
+      },
+      "tokens": {
+        "containerPaddingBottom": 32,
+        "containerPaddingTop": 32,
+        "maxWidth": 768
+      }
+    },
+    {
+      "if": {
+        "maxWidth": true,
+        "viewport": "md"
+      },
+      "tokens": {
+        "containerPaddingLeft": 16,
+        "containerPaddingRight": 16,
+        "maxWidth": 480
+      }
+    },
+    {
+      "if": {
+        "maxWidth": true,
+        "viewport": "lg"
+      },
+      "tokens": {
+        "containerPaddingLeft": 16,
+        "containerPaddingRight": 16,
+        "maxWidth": 630
+      }
+    },
+    {
+      "if": {
+        "maxWidth": true,
+        "viewport": "xl"
+      },
+      "tokens": {
+        "containerPaddingLeft": 16,
+        "containerPaddingRight": 16,
+        "maxWidth": 768
+      }
+    }
+  ],
+  "tokens": {
+    "backdropColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "backdropOpacity": 0.5,
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "cancelButtonColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "closeIcon": "PaletteIconTimes",
+    "closeIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "closeIconSize": 24,
+    "closePadding": 4,
+    "containerPaddingBottom": 0,
+    "containerPaddingLeft": 0,
+    "containerPaddingRight": 0,
+    "containerPaddingTop": 0,
+    "direction": "row",
+    "gap": 16,
+    "headingColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "headingPaddingRight": 24,
+    "height": null,
+    "marginLeft": 24,
+    "marginRight": 24,
+    "maxWidth": "100%",
+    "paddingBottom": 24,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 24,
+    "shadow": {
+      "inset": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "blur": 0,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0
+      }
+    },
+    "subHeadingMarginTop": 8
+  }
+}

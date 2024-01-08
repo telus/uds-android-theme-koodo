@@ -1,0 +1,172 @@
+{
+  "appearances": {
+    "focus": {
+      "description": "Focus states for some input elements are well supported across web, RN, ios and android",
+      "values": [true],
+      "type": "state"
+    },
+    "inactive": {
+      "description": "Prevents an interactive component from being interacted with and applies accessibility attributes to indicate to the user that this component cannot be used.",
+      "values": [true],
+      "type": "state"
+    },
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "focus": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "borderWidth": 3
+      }
+    },
+    {
+      "if": {
+        "validation": "success"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        },
+        "feedbackBackgroundColor": {
+          "red": 0.77255,
+          "green": 0.94902,
+          "blue": 0.8,
+          "alpha": 1
+        },
+        "validationIcon": "PaletteIconCheckCircleFilled",
+        "validationIconColor": {
+          "red": 0.1098,
+          "green": 0.48235,
+          "blue": 0.16863,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "feedbackBackgroundColor": {
+          "red": 0.98824,
+          "green": 0.82745,
+          "blue": 0.77647,
+          "alpha": 1
+        },
+        "validationIcon": "PaletteIconExclamationOctagon",
+        "validationIconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "inactive": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "icon": null
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "borderRadius": 4,
+    "borderWidth": 1,
+    "color": {
+      "red": 0.4,
+      "green": 0.4,
+      "blue": 0.4,
+      "alpha": 1
+    },
+    "feedbackBackgroundColor": {
+      "red": 0.87843,
+      "green": 0.84706,
+      "blue": 0.98824,
+      "alpha": 1
+    },
+    "fontName": "StagSans",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "height": 48,
+    "icon": "PaletteIconChevronDown",
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconSize": 24,
+    "outerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "outerBorderWidth": 2,
+    "paddingBottom": 12,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 12,
+    "validationIcon": null,
+    "validationIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "validationIconSize": 24
+  }
+}

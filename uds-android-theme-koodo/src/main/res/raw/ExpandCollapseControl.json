@@ -1,0 +1,101 @@
+{
+  "appearances": {
+    "compact": {
+      "type": "variant",
+      "values": [true]
+    },
+    "expanded": {
+      "description": "Applies when an ExpandCollapse panel is open and the content inside is visible",
+      "values": [true, false],
+      "type": "state"
+    },
+    "mini": {
+      "type": "variant",
+      "values": [true]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "compact": true
+      },
+      "tokens": {}
+    },
+    {
+      "if": {
+        "mini": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderWidth": 0,
+        "icon": "PaletteIconChevronDown",
+        "iconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconGap": 8,
+        "iconPaddingTop": 4,
+        "iconPosition": "left",
+        "iconSize": 16,
+        "justifyContent": "flex-start",
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "verticalAlign": "middle"
+      }
+    },
+    {
+      "if": {
+        "expanded": true
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
+      }
+    }
+  ],
+  "tokens": {
+    "backgroundColor": {
+      "red": 0.93725,
+      "green": 0.93725,
+      "blue": 0.93725,
+      "alpha": 1
+    },
+    "borderBottomLeftRadius": 0,
+    "borderBottomRightRadius": 0,
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderTopLeftRadius": 0,
+    "borderTopRightRadius": 0,
+    "borderWidth": 0,
+    "icon": "PaletteIconChevronDown",
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconGap": 8,
+    "iconPaddingTop": 4,
+    "iconPosition": "right",
+    "iconSize": 16,
+    "justifyContent": "space-between",
+    "paddingBottom": 16,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 16,
+    "textLine": "none",
+    "verticalAlign": "middle"
+  }
+}

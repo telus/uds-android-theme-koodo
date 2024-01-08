@@ -1,0 +1,67 @@
+{
+  "appearances": {
+    "horizontal": {
+      "description": "Use horizontal to display timeline horizontally.",
+      "type": "variant",
+      "values": [true]
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "horizontal": true,
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "connectorHeight": 1,
+        "connectorWidth": "100%",
+        "itemContentMarginBottom": 0,
+        "itemContentMarginRight": 32,
+        "lineItemContainerDirection": "column",
+        "lineItemDirection": "row",
+        "lineItemMarginBottom": 24,
+        "lineItemMarginRight": 0,
+        "timelineContainerDirection": "row"
+      }
+    }
+  ],
+  "tokens": {
+    "connectorHeight": "100%",
+    "connectorWidth": 1,
+    "dotBorderWidth": 2,
+    "dotColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "dotWidth": 12,
+    "itemContentFlexSize": 1,
+    "itemContentMarginBottom": 32,
+    "itemContentMarginRight": 0,
+    "lineContainerFlexSize": 1,
+    "lineItemAlign": "center",
+    "lineItemContainerDirection": "row",
+    "lineItemDirection": "column",
+    "lineItemMarginBottom": 0,
+    "lineItemMarginRight": 24,
+    "timelineColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "timelineConnectorColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "timelineContainerDirection": "column"
+  }
+}
