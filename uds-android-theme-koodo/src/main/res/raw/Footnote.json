@@ -98,7 +98,9 @@
       "blue": 0,
       "alpha": 1
     },
+    "listItemFontName": "StagSans",
     "listItemFontSize": 14,
+    "listItemFontWeight": 400,
     "listItemLineHeight": 1.42857142857,
     "listItemMarkerFontSize": 14,
     "listItemMarkerLineHeight": 1.45,

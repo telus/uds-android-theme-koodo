@@ -4192,7 +4192,9 @@
           "blue": 0,
           "alpha": 1
         },
+        "listItemFontName": "StagSans",
         "listItemFontSize": 14,
+        "listItemFontWeight": 400,
         "listItemLineHeight": 1.42857142857,
         "listItemMarkerFontSize": 14,
         "listItemMarkerLineHeight": 1.45,
@@ -4211,6 +4213,7 @@
           "alpha": 0
         },
         "fontName": "StagSans",
+        "fontSize": 16,
         "fontWeight": 600,
         "lineHeight": 1,
         "paddingLeft": 2,
@@ -11950,7 +11953,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.49.0",
+    "themeTokensVersion": "2.50.0",
     "name": "theme-koodo"
   }
 }
