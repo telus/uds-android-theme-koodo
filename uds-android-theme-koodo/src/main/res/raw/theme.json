@@ -4681,6 +4681,12 @@
             "inverse": true
           },
           "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
             "borderColor": {
               "red": 0,
               "green": 0,
@@ -4903,10 +4909,10 @@
       ],
       "tokens": {
         "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
         },
         "borderBottomLeftRadius": null,
         "borderBottomRightRadius": null,
@@ -9923,6 +9929,11 @@
           "values": [true, false],
           "type": "state"
         },
+        "pressed": {
+          "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+          "values": [true, false],
+          "type": "state"
+        },
         "viewport": {
           "description": "The size label for the current screen viewport based on the current screen width",
           "values": ["xs", "sm", "md", "lg", "xl"],
@@ -9946,6 +9957,26 @@
           },
           "tokens": {
             "icon": "PaletteIconChevronUp"
+          }
+        },
+        {
+          "if": {
+            "pressed": true
+          },
+          "tokens": {
+            "iconBackgroundColor": {
+              "red": 0.25098,
+              "green": 0.25098,
+              "blue": 0.25098,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "iconOuterBorderGap": 2
           }
         }
       ],
@@ -10005,6 +10036,32 @@
         "expandTitlePaddingLeft": 0,
         "expandTitleUnderline": "none",
         "icon": "PaletteIconChevronDown",
+        "iconBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "iconBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "iconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconOuterBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "iconOuterBorderGap": 0,
+        "iconOuterBorderWidth": 0,
         "listColor": {
           "red": 0,
           "green": 0,
@@ -11953,7 +12010,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.50.0",
+    "themeTokensVersion": "2.50.1",
     "name": "theme-koodo"
   }
 }
