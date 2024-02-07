@@ -114,8 +114,8 @@
         "blockFontName": "StagSans",
         "blockFontSize": 12,
         "blockFontWeight": 600,
-        "blockLineHeight": 1.6,
-        "iconSize": 16
+        "blockLineHeight": 1.33333333333,
+        "iconSize": 12
       }
     },
     {
@@ -125,7 +125,7 @@
       "tokens": {
         "blockFontSize": 14,
         "blockLineHeight": 1.42857142857,
-        "iconSize": 20
+        "iconSize": 14
       }
     },
     {
@@ -161,7 +161,7 @@
       "alpha": 1
     },
     "icon": null,
-    "iconSize": 24,
+    "iconSize": 16,
     "iconSpace": 1,
     "iconTranslateX": 0,
     "iconTranslateY": 0,
