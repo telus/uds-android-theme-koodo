@@ -11,6 +11,7 @@
       "blue": 0.78431,
       "alpha": 1
     },
+    "lineRadius": 4,
     "radius": 99999999999999,
     "secondColor": {
       "red": 0.93725,
