@@ -794,8 +794,10 @@
           "blue": 0,
           "alpha": 1
         },
+        "iconContainerSize": 20,
         "iconPadding": 4,
-        "iconSize": 20,
+        "iconSize": 16,
+        "lineHeight": 1.42857142857,
         "listItemPadding": 0
       }
     },
@@ -847,25 +849,6 @@
         }
       },
       "rules": [
-        {
-          "if": {
-            "priority": "high"
-          },
-          "tokens": {
-            "backgroundColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
-              "alpha": 1
-            },
-            "color": {
-              "red": 1,
-              "green": 1,
-              "blue": 1,
-              "alpha": 1
-            }
-          }
-        },
         {
           "if": {
             "danger": true
@@ -928,6 +911,25 @@
         },
         {
           "if": {
+            "priority": "high"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "priority": "low"
           },
           "tokens": {
@@ -955,6 +957,54 @@
               "green": 0,
               "blue": 0,
               "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "priority": "high"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "borderWidth": 1
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "priority": "low"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "borderColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "borderWidth": 1,
+            "color": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
             }
           }
         },
@@ -6068,7 +6118,11 @@
       "appearances": {
         "style": {
           "type": "variant",
-          "values": ["system", "subtle"]
+          "values": ["system", "success", "warning", "error", "subtle"]
+        },
+        "system": {
+          "values": [true],
+          "type": "state"
         },
         "validation": {
           "description": "Validation states for form inputs",
@@ -6088,6 +6142,22 @@
           },
           "tokens": {
             "justifyContent": "center"
+          }
+        },
+        {
+          "if": {
+            "system": true
+          },
+          "tokens": {
+            "borderLeftWidth": 0,
+            "borderRadius": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "iconGap": 8,
+            "paddingBottom": 12,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 12
           }
         },
         {
@@ -6125,6 +6195,38 @@
         },
         {
           "if": {
+            "style": "success"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.77255,
+              "green": 0.94902,
+              "blue": 0.8,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.1098,
+              "green": 0.48235,
+              "blue": 0.16863,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "icon": "PaletteIconCheckCircleFilled",
+            "iconColor": {
+              "red": 0.1098,
+              "green": 0.48235,
+              "blue": 0.16863,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "validation": "success"
           },
           "tokens": {
@@ -6157,6 +6259,39 @@
         },
         {
           "if": {
+            "style": "warning"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 0.96078,
+              "blue": 0.82353,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.97255,
+              "green": 0.75686,
+              "blue": 0,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "dismissIcon": null,
+            "icon": "PaletteIconExclamationTriangle",
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
             "validation": "warning"
           },
           "tokens": {
@@ -6180,6 +6315,39 @@
             },
             "dismissIcon": null,
             "icon": "PaletteIconExclamationTriangle",
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "style": "error"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.98824,
+              "green": 0.82745,
+              "blue": 0.77647,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "dismissIcon": null,
+            "icon": "PaletteIconCaution",
             "iconColor": {
               "red": 0.78824,
               "green": 0.21569,
@@ -12029,7 +12197,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.51.0",
+    "themeTokensVersion": "2.52.0",
     "name": "theme-koodo"
   }
 }

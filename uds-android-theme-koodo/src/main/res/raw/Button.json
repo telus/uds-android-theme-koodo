@@ -48,25 +48,6 @@
   "rules": [
     {
       "if": {
-        "priority": "high"
-      },
-      "tokens": {
-        "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 1
-        },
-        "color": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
-        }
-      }
-    },
-    {
-      "if": {
         "danger": true
       },
       "tokens": {
@@ -127,6 +108,25 @@
     },
     {
       "if": {
+        "priority": "high"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
         "priority": "low"
       },
       "tokens": {
@@ -154,6 +154,54 @@
           "green": 0,
           "blue": 0,
           "alpha": 0
+        }
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "priority": "high"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "borderWidth": 1
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "priority": "low"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderWidth": 1,
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
         }
       }
     },

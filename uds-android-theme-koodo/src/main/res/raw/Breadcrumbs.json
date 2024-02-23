@@ -55,8 +55,10 @@
       "blue": 0,
       "alpha": 1
     },
+    "iconContainerSize": 20,
     "iconPadding": 4,
-    "iconSize": 20,
+    "iconSize": 16,
+    "lineHeight": 1.42857142857,
     "listItemPadding": 0
   }
 }
