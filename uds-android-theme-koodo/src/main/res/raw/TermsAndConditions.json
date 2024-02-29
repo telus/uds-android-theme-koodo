@@ -111,6 +111,12 @@
     "expandTitleMarginY": 0,
     "expandTitlePaddingLeft": 0,
     "expandTitleUnderline": "none",
+    "headerBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
     "icon": "PaletteIconChevronDown",
     "iconBackgroundColor": {
       "red": 0,

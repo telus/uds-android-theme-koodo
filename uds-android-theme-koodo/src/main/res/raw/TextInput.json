@@ -74,9 +74,9 @@
       },
       "tokens": {
         "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
           "alpha": 1
         },
         "borderWidth": 3,
