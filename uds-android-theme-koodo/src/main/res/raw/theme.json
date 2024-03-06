@@ -9294,8 +9294,8 @@
           "blue": 0,
           "alpha": 1
         },
-        "knobCompletedPaddingLeft": 1,
-        "knobCompletedPaddingTop": 2,
+        "knobCompletedPaddingLeft": null,
+        "knobCompletedPaddingTop": null,
         "knobCurrentBackgroundColor": {
           "red": 0,
           "green": 0,
@@ -9316,8 +9316,8 @@
           "alpha": 0
         },
         "knobCurrentInnerSize": null,
-        "knobCurrentPaddingLeft": null,
-        "knobCurrentPaddingTop": null,
+        "knobCurrentPaddingLeft": 1,
+        "knobCurrentPaddingTop": 2,
         "knobSize": 15,
         "labelColor": {
           "red": 0,
@@ -11643,6 +11643,7 @@
         "fontScaleCap": 64,
         "fontSize": 16,
         "fontWeight": 400,
+        "gradient": null,
         "letterSpacing": 0,
         "lineHeight": 1.5,
         "superScriptFontSize": null,
@@ -12209,7 +12210,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.52.1",
+    "themeTokensVersion": "2.53.0",
     "name": "theme-koodo"
   }
 }
