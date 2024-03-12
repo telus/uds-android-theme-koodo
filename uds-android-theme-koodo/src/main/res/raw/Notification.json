@@ -67,7 +67,7 @@
       "tokens": {
         "borderBottomWidth": 0,
         "borderLeftWidth": 0,
-        "borderRadius": 0,
+        "borderRadius": 6,
         "borderRightWidth": 0,
         "borderTopWidth": 0,
         "iconGap": 8,

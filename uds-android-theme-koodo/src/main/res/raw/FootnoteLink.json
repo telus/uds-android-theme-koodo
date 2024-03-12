@@ -1,6 +1,133 @@
 {
-  "appearances": {},
-  "rules": [],
+  "appearances": {
+    "size": {
+      "type": "variant",
+      "values": [
+        "micro",
+        "small",
+        "medium",
+        "large",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "display1",
+        "display2"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "size": "display1"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "display2"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "h1"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "h2"
+      },
+      "tokens": {
+        "fontSize": 20,
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "size": "h3"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "h4"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "h5"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "h6"
+      },
+      "tokens": {
+        "fontSize": 14,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "medium"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "lineHeight": 1
+      }
+    },
+    {
+      "if": {
+        "size": "large"
+      },
+      "tokens": {
+        "fontSize": 12,
+        "lineHeight": 1
+      }
+    }
+  ],
   "tokens": {
     "color": {
       "red": 0,
