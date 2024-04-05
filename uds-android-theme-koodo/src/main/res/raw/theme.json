@@ -4495,6 +4495,10 @@
     },
     "Icon": {
       "appearances": {
+        "background": {
+          "type": "variant",
+          "values": [true]
+        },
         "color": {
           "type": "variant",
           "values": [
@@ -4507,6 +4511,10 @@
             "inverse"
           ]
         },
+        "padding": {
+          "type": "variant",
+          "values": ["micro", "small", "medium", "large", "extraLarge"]
+        },
         "size": {
           "type": "variant",
           "values": ["micro", "small", "large", "extraLarge"]
@@ -4518,6 +4526,136 @@
         }
       },
       "rules": [
+        {
+          "if": {
+            "padding": "micro"
+          },
+          "tokens": {
+            "padding": 4,
+            "width": 4
+          }
+        },
+        {
+          "if": {
+            "padding": "small"
+          },
+          "tokens": {
+            "padding": 4,
+            "width": 8
+          }
+        },
+        {
+          "if": {
+            "padding": "medium"
+          },
+          "tokens": {
+            "padding": 4,
+            "width": 16
+          }
+        },
+        {
+          "if": {
+            "padding": "large"
+          },
+          "tokens": {
+            "padding": 4,
+            "width": 24
+          }
+        },
+        {
+          "if": {
+            "padding": "extraLarge"
+          },
+          "tokens": {
+            "padding": 4,
+            "width": 32
+          }
+        },
+        {
+          "if": {
+            "background": true,
+            "padding": "micro"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderRadius": 45,
+            "padding": 4,
+            "width": 4
+          }
+        },
+        {
+          "if": {
+            "background": true,
+            "padding": "small"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderRadius": 45,
+            "padding": 4,
+            "width": 8
+          }
+        },
+        {
+          "if": {
+            "background": true,
+            "padding": "medium"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderRadius": 45,
+            "padding": 4,
+            "width": 16
+          }
+        },
+        {
+          "if": {
+            "background": true,
+            "padding": "large"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderRadius": 45,
+            "padding": 4,
+            "width": 24
+          }
+        },
+        {
+          "if": {
+            "background": true,
+            "padding": "extraLarge"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            },
+            "borderRadius": 45,
+            "padding": 4,
+            "width": 32
+          }
+        },
         {
           "if": {
             "size": "micro"
@@ -4669,16 +4807,25 @@
         }
       ],
       "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": 0,
         "color": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 1
         },
+        "padding": 0,
         "scale": 1,
         "size": 24,
         "translateX": 0,
-        "translateY": 0
+        "translateY": 0,
+        "width": 0
       }
     },
     "IconButton": {
@@ -7109,6 +7256,41 @@
         "topTextFontWeight": 700,
         "topTextLineHeight": 1.5,
         "topTextMarginBottom": 4
+      }
+    },
+    "ProductCard": {
+      "appearances": {
+        "viewport": {
+          "description": "The size label for the current screen viewport based on the current screen width",
+          "values": ["xs", "sm", "md", "lg", "xl"],
+          "type": "state"
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "viewport": ["xs", "sm", "md"]
+          },
+          "tokens": {
+            "borderWidth": 0,
+            "paddingHorizontal": 24,
+            "paddingVertical": 0
+          }
+        }
+      ],
+      "tokens": {
+        "borderColor": {
+          "red": 0.93725,
+          "green": 0.93725,
+          "blue": 0.93725,
+          "alpha": 1
+        },
+        "borderRadius": 6,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "paddingHorizontal": 24,
+        "paddingVertical": 24,
+        "selectedButtonIcon": "PaletteIconCheck"
       }
     },
     "Progress": {
@@ -12337,7 +12519,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.53.0",
+    "themeTokensVersion": "2.54.0",
     "name": "theme-koodo"
   }
 }
