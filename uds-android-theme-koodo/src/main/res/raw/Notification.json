@@ -231,7 +231,7 @@
           "alpha": 1
         },
         "dismissIcon": null,
-        "icon": "PaletteIconCaution",
+        "icon": "PaletteIconExclamationOctagon",
         "iconColor": {
           "red": 0.78824,
           "green": 0.21569,
@@ -264,7 +264,7 @@
           "alpha": 1
         },
         "dismissIcon": null,
-        "icon": "PaletteIconCaution",
+        "icon": "PaletteIconExclamationOctagon",
         "iconColor": {
           "red": 0.78824,
           "green": 0.21569,

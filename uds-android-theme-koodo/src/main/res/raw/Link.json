@@ -40,6 +40,14 @@
     },
     {
       "if": {
+        "iconPosition": "right"
+      },
+      "tokens": {
+        "iconSpace": 1
+      }
+    },
+    {
+      "if": {
         "pressed": true
       },
       "tokens": {
@@ -162,7 +170,7 @@
     },
     "icon": null,
     "iconSize": 16,
-    "iconSpace": 1,
+    "iconSpace": 0,
     "iconTranslateX": 0,
     "iconTranslateY": 0,
     "outerBorderColor": {

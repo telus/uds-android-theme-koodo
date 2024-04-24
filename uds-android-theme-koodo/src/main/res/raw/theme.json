@@ -4073,7 +4073,7 @@
               "blue": 0.77647,
               "alpha": 1
             },
-            "icon": "PaletteIconCaution",
+            "icon": "PaletteIconExclamationOctagon",
             "iconColor": {
               "red": 0.78824,
               "green": 0.21569,
@@ -5386,6 +5386,14 @@
         },
         {
           "if": {
+            "iconPosition": "right"
+          },
+          "tokens": {
+            "iconSpace": 1
+          }
+        },
+        {
+          "if": {
             "pressed": true
           },
           "tokens": {
@@ -5508,7 +5516,7 @@
         },
         "icon": null,
         "iconSize": 16,
-        "iconSpace": 1,
+        "iconSpace": 0,
         "iconTranslateX": 0,
         "iconTranslateY": 0,
         "outerBorderColor": {
@@ -6627,7 +6635,7 @@
               "alpha": 1
             },
             "dismissIcon": null,
-            "icon": "PaletteIconCaution",
+            "icon": "PaletteIconExclamationOctagon",
             "iconColor": {
               "red": 0.78824,
               "green": 0.21569,
@@ -6660,7 +6668,7 @@
               "alpha": 1
             },
             "dismissIcon": null,
-            "icon": "PaletteIconCaution",
+            "icon": "PaletteIconExclamationOctagon",
             "iconColor": {
               "red": 0.78824,
               "green": 0.21569,
