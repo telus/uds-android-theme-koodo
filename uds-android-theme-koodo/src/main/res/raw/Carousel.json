@@ -31,6 +31,8 @@
       "alpha": 1
     },
     "nextIcon": "PaletteIconChevronRight",
+    "pauseIcon": "PaletteIconPause",
+    "playIcon": "PaletteIconPlay",
     "previousIcon": "PaletteIconChevronLeft",
     "showPanelNavigation": true,
     "showPanelTabs": true,

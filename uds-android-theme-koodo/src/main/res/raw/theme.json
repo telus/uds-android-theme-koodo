@@ -2239,6 +2239,8 @@
           "alpha": 1
         },
         "nextIcon": "PaletteIconChevronRight",
+        "pauseIcon": "PaletteIconPause",
+        "playIcon": "PaletteIconPlay",
         "previousIcon": "PaletteIconChevronLeft",
         "showPanelNavigation": true,
         "showPanelTabs": true,
@@ -12527,7 +12529,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.54.0",
+    "themeTokensVersion": "2.55.0",
     "name": "theme-koodo"
   }
 }
