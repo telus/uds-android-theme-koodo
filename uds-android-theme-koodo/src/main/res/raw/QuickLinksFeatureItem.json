@@ -56,7 +56,7 @@
     "fontName": "StagSans",
     "fontSize": 16,
     "fontWeight": 600,
-    "gap": 32,
+    "gap": 5,
     "imageDimension": 128,
     "outerBorderColor": {
       "red": 0,

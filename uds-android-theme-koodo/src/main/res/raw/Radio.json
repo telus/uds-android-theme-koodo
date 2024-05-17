@@ -154,6 +154,19 @@
     "descriptionFontWeight": 400,
     "descriptionLineHeight": 1.4,
     "descriptionMarginLeft": null,
+    "icon": null,
+    "iconBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
     "inputBackgroundColor": {
       "red": 1,
       "green": 1,

@@ -1,0 +1,52 @@
+{
+  "appearances": {
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    },
+    "selected": {
+      "description": "Applies while an interactive component is the currently selected one in a set of states or components, for example a button in a `ButtonGroup`.",
+      "values": [true],
+      "type": "state"
+    },
+    "viewport": {
+      "description": "The size label for the current screen viewport based on the current screen width",
+      "values": ["xs", "sm", "md", "lg", "xl"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "viewport": ["lg", "xl"]
+      },
+      "tokens": {
+        "direction": "row",
+        "space": 5
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xs", "sm", "md"]
+      },
+      "tokens": {
+        "direction": "column",
+        "fieldSpace": 3,
+        "space": 3
+      }
+    }
+  ],
+  "tokens": {
+    "borderBottomLeftRadius": 1,
+    "borderBottomRightRadius": 1,
+    "borderTopLeftRadius": 1,
+    "borderTopRightRadius": 1,
+    "direction": "column",
+    "fieldSpace": 3,
+    "outlineOffset": 8,
+    "outlineWidth": 1,
+    "showIcon": true,
+    "space": 3
+  }
+}
