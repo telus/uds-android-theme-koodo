@@ -36,7 +36,10 @@
           "green": 0,
           "blue": 0,
           "alpha": 0
-        }
+        },
+        "contentPanelPaddingBottom": 0,
+        "contentPanelPaddingTop": 0,
+        "marginBottom": 0
       }
     }
   ],

@@ -121,15 +121,6 @@
     },
     {
       "if": {
-        "compact": true,
-        "size": "large"
-      },
-      "tokens": {
-        "lineHeight": 1.2
-      }
-    },
-    {
-      "if": {
         "size": "medium"
       },
       "tokens": {
@@ -139,11 +130,29 @@
     },
     {
       "if": {
-        "compact": true,
-        "size": "medium"
+        "compact": true
       },
       "tokens": {
         "lineHeight": 1.25
+      }
+    },
+    {
+      "if": {
+        "compact": true,
+        "size": "large"
+      },
+      "tokens": {
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "bold": true,
+        "compact": true,
+        "size": "large"
+      },
+      "tokens": {
+        "lineHeight": 1.2
       }
     },
     {
@@ -179,7 +188,17 @@
         "size": "micro"
       },
       "tokens": {
-        "lineHeight": 1.33333333333
+        "lineHeight": 1.2
+      }
+    },
+    {
+      "if": {
+        "bold": true,
+        "compact": true,
+        "size": "micro"
+      },
+      "tokens": {
+        "lineHeight": 1.2
       }
     },
     {

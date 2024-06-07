@@ -3899,7 +3899,7 @@
               "blue": 0,
               "alpha": 0
             },
-            "borderWidth": 0,
+            "borderWidth": null,
             "icon": "PaletteIconChevronDown",
             "iconColor": {
               "red": 0,
@@ -4160,7 +4160,10 @@
               "green": 0,
               "blue": 0,
               "alpha": 0
-            }
+            },
+            "contentPanelPaddingBottom": 0,
+            "contentPanelPaddingTop": 0,
+            "marginBottom": 0
           }
         }
       ],
@@ -5843,6 +5846,12 @@
         },
         "itemIconSize": 16,
         "itemLineHeight": 1.3,
+        "itemTextColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
         "listGutter": 10
       }
     },
@@ -11811,15 +11820,6 @@
         },
         {
           "if": {
-            "compact": true,
-            "size": "large"
-          },
-          "tokens": {
-            "lineHeight": 1.2
-          }
-        },
-        {
-          "if": {
             "size": "medium"
           },
           "tokens": {
@@ -11829,11 +11829,29 @@
         },
         {
           "if": {
-            "compact": true,
-            "size": "medium"
+            "compact": true
           },
           "tokens": {
             "lineHeight": 1.25
+          }
+        },
+        {
+          "if": {
+            "compact": true,
+            "size": "large"
+          },
+          "tokens": {
+            "lineHeight": 1.2
+          }
+        },
+        {
+          "if": {
+            "bold": true,
+            "compact": true,
+            "size": "large"
+          },
+          "tokens": {
+            "lineHeight": 1.2
           }
         },
         {
@@ -11869,7 +11887,17 @@
             "size": "micro"
           },
           "tokens": {
-            "lineHeight": 1.33333333333
+            "lineHeight": 1.2
+          }
+        },
+        {
+          "if": {
+            "bold": true,
+            "compact": true,
+            "size": "micro"
+          },
+          "tokens": {
+            "lineHeight": 1.2
           }
         },
         {
@@ -12770,7 +12798,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.56.0",
+    "themeTokensVersion": "2.57.0",
     "name": "theme-koodo"
   }
 }
