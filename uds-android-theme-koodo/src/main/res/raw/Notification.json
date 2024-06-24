@@ -22,9 +22,12 @@
   "rules": [
     {
       "if": {
+        "system": true,
         "viewport": ["xl"]
       },
       "tokens": {
+        "containerPaddingLeft": 16,
+        "containerPaddingRight": 16,
         "justifyContent": "center"
       }
     },
@@ -298,6 +301,8 @@
       "blue": 0,
       "alpha": 1
     },
+    "containerPaddingLeft": 16,
+    "containerPaddingRight": 16,
     "dismissButtonGap": 24,
     "dismissIcon": "PaletteIconClose",
     "dismissIconColor": {

@@ -1,0 +1,148 @@
+{
+  "appearances": {
+    "validation": {
+      "description": "Validation states for form inputs",
+      "values": ["error", "success", "warning"],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "validation": "warning"
+      },
+      "tokens": {
+        "actionIconMarginLeft": 8,
+        "backgroundColor": {
+          "red": 1,
+          "green": 0.96078,
+          "blue": 0.82353,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.97255,
+          "green": 0.75686,
+          "blue": 0,
+          "alpha": 1
+        },
+        "statusIcon": "PaletteIconExclamationTriangle",
+        "statusIconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "error"
+      },
+      "tokens": {
+        "actionIconMarginLeft": 8,
+        "backgroundColor": {
+          "red": 0.98824,
+          "green": 0.82745,
+          "blue": 0.77647,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "statusIcon": "PaletteIconExclamationOctagon",
+        "statusIconColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    }
+  ],
+  "tokens": {
+    "actionIcon": "PaletteIconArrowRight",
+    "actionIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "actionIconMarginBottom": 8,
+    "actionIconMarginLeft": 0,
+    "actionIconMarginRight": 0,
+    "actionIconMarginTop": 8,
+    "actionIconTranslate": 4,
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": null,
+    "borderWidth": null,
+    "contentFontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "contentFontName": "StagSans",
+    "contentFontSize": 16,
+    "contentFontWeight": 400,
+    "contentLineHeight": 1.25,
+    "contentMarginBottom": 8,
+    "contentMarginLeft": 0,
+    "contentMarginRight": 0,
+    "contentMarginTop": 0,
+    "iconBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0.05
+    },
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconMarginBottom": 0,
+    "iconMarginLeft": 0,
+    "iconMarginRight": 8,
+    "iconMarginTop": 0,
+    "paddingBottom": 16,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 16,
+    "statusIcon": null,
+    "statusIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "titleFontColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "titleFontName": "StagSans",
+    "titleFontSize": 16,
+    "titleFontWeight": 700,
+    "titleLineHeight": 1.5,
+    "titleMarginBottom": 8,
+    "titleMarginLeft": 0,
+    "titleMarginRight": 8,
+    "titleMarginTop": 8
+  }
+}
