@@ -1596,8 +1596,8 @@
         "outerBorderGap": null,
         "outerBorderWidth": 1,
         "paddingBottom": 12,
-        "paddingLeft": 32,
-        "paddingRight": 32,
+        "paddingLeft": 16,
+        "paddingRight": 16,
         "paddingTop": 12,
         "shadow": null,
         "textAlign": "center",
@@ -7170,8 +7170,9 @@
         "headerFontName": "StagSans",
         "headerFontWeight": 600,
         "interItemMargin": 8,
-        "itemBulletContainerWidth": 16,
+        "itemBulletContainerWidth": 20,
         "itemBulletHeight": 4,
+        "itemBulletTextAlign": "right",
         "itemBulletWidth": 4,
         "itemColor": {
           "red": 0,
@@ -12951,7 +12952,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.58.0",
+    "themeTokensVersion": "2.59.0",
     "name": "theme-koodo"
   }
 }
