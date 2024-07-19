@@ -357,9 +357,9 @@
       },
       "tokens": {
         "color": {
-          "red": 1,
+          "red": 0,
           "green": 0,
-          "blue": 0.46275,
+          "blue": 0,
           "alpha": 1
         }
       }
@@ -500,9 +500,9 @@
       },
       "tokens": {
         "color": {
-          "red": 0.86667,
+          "red": 1,
           "green": 0,
-          "blue": 0.4,
+          "blue": 0.46275,
           "alpha": 1
         }
       }
@@ -513,9 +513,9 @@
       },
       "tokens": {
         "color": {
-          "red": 0.1098,
-          "green": 0.48235,
-          "blue": 0.16863,
+          "red": 0.86667,
+          "green": 0,
+          "blue": 0.4,
           "alpha": 1
         }
       }

@@ -2,7 +2,7 @@
   "appearances": {
     "size": {
       "type": "variant",
-      "values": ["small", "medium", "large"]
+      "values": ["micro", "small", "medium", "large"]
     },
     "viewport": {
       "description": "The size label for the current screen viewport based on the current screen width",
@@ -13,6 +13,29 @@
   "rules": [
     {
       "if": {
+        "size": "micro"
+      },
+      "tokens": {
+        "amountFontSize": 24,
+        "bottomTextFontSize": 12,
+        "bottomTextLineHeight": 1.2,
+        "centsFontSize": 16,
+        "centsLineHeight": 1.72,
+        "currencySymbolFontSize": 16,
+        "currencySymbolLineHeight": 1.72,
+        "footnoteLinkFontSize": 12,
+        "footnoteLinkLineHeight": 1,
+        "footnoteMarginTop": 0,
+        "rateFontSize": 12,
+        "rateLineHeight": 2,
+        "strikeThroughHeight": 2,
+        "strikeThroughPosition": 18,
+        "topTextFontSize": 12,
+        "topTextLineHeight": 1.2
+      }
+    },
+    {
+      "if": {
         "size": "small"
       },
       "tokens": {
@@ -20,12 +43,13 @@
         "centsFontSize": 20,
         "centsLineHeight": 1.25,
         "currencySymbolFontSize": 20,
+        "footnoteLinkLineHeight": 1.14285714286,
         "rateFontSize": 16,
         "rateLineHeight": 1.5,
         "strikeThroughHeight": 2,
         "strikeThroughPosition": 18,
         "topTextFontSize": 14,
-        "topTextLineHeight": 1.42857142857
+        "topTextLineHeight": 1.14285714286
       }
     },
     {
@@ -38,13 +62,14 @@
         "centsFontSize": 24,
         "centsFontWeight": 600,
         "currencySymbolFontSize": 32,
+        "footnoteLinkLineHeight": 1.2,
         "rateFontName": "StagSans",
         "rateFontSize": 16,
         "rateFontWeight": 600,
         "rateLineHeight": 1.5,
         "strikeThroughPosition": 27,
         "topTextFontSize": 20,
-        "topTextLineHeight": 1.4
+        "topTextLineHeight": 1.2
       }
     },
     {
@@ -67,7 +92,7 @@
     "amountLineHeight": 1,
     "bottomLinksMarginLeft": 4,
     "bottomTextFontSize": 14,
-    "bottomTextLineHeight": 1.42857142857,
+    "bottomTextLineHeight": 1.14285714286,
     "bottomTextMarginTop": 0,
     "centsFontName": "StagSans",
     "centsFontSize": 24,
@@ -101,7 +126,7 @@
     "footnoteLinkFontName": "StagSans",
     "footnoteLinkFontSize": 14,
     "footnoteLinkFontWeight": 600,
-    "footnoteLinkLineHeight": 1.42857142857,
+    "footnoteLinkLineHeight": 1.25,
     "footnoteMarginTop": 4,
     "priceMarginBottom": 0,
     "rateFontName": "StagSans",
@@ -119,7 +144,7 @@
     "topTextFontName": "StagSans",
     "topTextFontSize": 16,
     "topTextFontWeight": 700,
-    "topTextLineHeight": 1.5,
+    "topTextLineHeight": 1.25,
     "topTextMarginBottom": 4
   }
 }

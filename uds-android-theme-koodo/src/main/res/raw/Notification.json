@@ -301,8 +301,8 @@
       "blue": 0,
       "alpha": 1
     },
-    "containerPaddingLeft": 16,
-    "containerPaddingRight": 16,
+    "containerPaddingLeft": 0,
+    "containerPaddingRight": 0,
     "dismissButtonGap": 24,
     "dismissIcon": "PaletteIconClose",
     "dismissIconColor": {
