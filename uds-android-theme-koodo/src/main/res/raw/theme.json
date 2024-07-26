@@ -9880,6 +9880,464 @@
         "width": null
       }
     },
+    "Status": {
+      "appearances": {
+        "inverse": {
+          "description": "Inverts the status colors",
+          "type": "variant",
+          "values": [true]
+        },
+        "priority": {
+          "type": "variant",
+          "values": ["default", "low", "high"]
+        },
+        "purpose": {
+          "type": "variant",
+          "values": [
+            "default",
+            "brand",
+            "subtle",
+            "success",
+            "warning",
+            "error",
+            "offer"
+          ]
+        }
+      },
+      "rules": [
+        {
+          "if": {
+            "purpose": "brand"
+          },
+          "tokens": {
+            "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "subtle"
+          },
+          "tokens": {
+            "icon": "PaletteIconTooltip"
+          }
+        },
+        {
+          "if": {
+            "purpose": "success"
+          },
+          "tokens": {
+            "icon": "PaletteIconCheckCircledFilled",
+            "iconColor": {
+              "red": 0.1098,
+              "green": 0.48235,
+              "blue": 0.16863,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "warning"
+          },
+          "tokens": {
+            "icon": "PaletteIconExclamationTriangle",
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "error"
+          },
+          "tokens": {
+            "icon": "PaletteIconExclamationOctagon",
+            "iconColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "purpose": "offer"
+          },
+          "tokens": {
+            "icon": "PaletteIconTagFilled",
+            "iconColor": {
+              "red": 0.47843,
+              "green": 0.23922,
+              "blue": 0.98824,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low"
+          },
+          "tokens": {
+            "borderRadius": 99,
+            "paddingBottom": 4,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 4
+          }
+        },
+        {
+          "if": {
+            "priority": "high"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "borderRadius": 99,
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "paddingBottom": 4,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 4,
+            "textColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "default"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "default"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "brand"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "brand"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "subtle"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.93725,
+              "green": 0.93725,
+              "blue": 0.93725,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "subtle"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "textColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "success"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.77255,
+              "green": 0.94902,
+              "blue": 0.8,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "success"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.1098,
+              "green": 0.48235,
+              "blue": 0.16863,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "warning"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 0.96078,
+              "blue": 0.82353,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "warning"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "error"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.98824,
+              "green": 0.82745,
+              "blue": 0.77647,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "error"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.78824,
+              "green": 0.21569,
+              "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "low",
+            "purpose": "offer"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.87843,
+              "green": 0.84706,
+              "blue": 0.98824,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "priority": "high",
+            "purpose": "offer"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.47843,
+              "green": 0.23922,
+              "blue": 0.98824,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            },
+            "iconColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "textColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "priority": "low"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 0
+            }
+          }
+        },
+        {
+          "if": {
+            "inverse": true,
+            "priority": "high"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
+            "iconColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "textColor": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            }
+          }
+        }
+      ],
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "backgroundGradient": null,
+        "borderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "borderRadius": null,
+        "borderWidth": null,
+        "fontName": "StagSans",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "icon": "PaletteIconToolTipFilled",
+        "iconColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "iconGradient": null,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "textColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "textLineHeight": 1.14285714286
+      }
+    },
     "StepTracker": {
       "appearances": {
         "inverse": {
@@ -12977,7 +13435,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.59.0",
+    "themeTokensVersion": "2.60.0",
     "name": "theme-koodo"
   }
 }
