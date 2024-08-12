@@ -69,7 +69,7 @@
       "red": 0,
       "green": 0,
       "blue": 0,
-      "alpha": 1
+      "alpha": 0
     },
     "itemFontName": "StagSans",
     "itemFontSize": 16,
@@ -77,6 +77,12 @@
     "itemLineHeight": 1.5,
     "itemMarginTop": 0,
     "itemPaddingTop": 0,
+    "itemTextColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
     "listGutter": 8
   }
 }
