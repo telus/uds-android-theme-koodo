@@ -2101,7 +2101,7 @@
         "background": {
           "description": "Defines background related attributes of Card",
           "type": "variant",
-          "values": ["alternative", "subtle", "grid", "feature"]
+          "values": ["alternative", "subtle", "grid", "feature", "plain"]
         },
         "borderRadius": {
           "type": "variant",
@@ -2286,6 +2286,20 @@
               "alpha": 1
             },
             "borderRadius": 8,
+            "borderWidth": 0
+          }
+        },
+        {
+          "if": {
+            "background": "plain"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 1,
+              "green": 1,
+              "blue": 1,
+              "alpha": 1
+            },
             "borderWidth": 0
           }
         },
@@ -5673,7 +5687,7 @@
       "appearances": {},
       "rules": [],
       "tokens": {
-        "borderRadius": 4
+        "borderRadius": null
       }
     },
     "InputLabel": {
@@ -9330,6 +9344,10 @@
     },
     "Select": {
       "appearances": {
+        "active": {
+          "values": [true],
+          "type": "state"
+        },
         "focus": {
           "description": "Focus states for some input elements are well supported across web, RN, ios and android",
           "values": [true],
@@ -9431,6 +9449,14 @@
               "alpha": 1
             },
             "icon": null
+          }
+        },
+        {
+          "if": {
+            "active": true
+          },
+          "tokens": {
+            "icon": "PaletteIconChevronUp"
           }
         }
       ],
@@ -12191,16 +12217,16 @@
         "arrowOffset": 4,
         "arrowWidth": 8,
         "backgroundColor": {
-          "red": 0.87843,
-          "green": 0.84706,
-          "blue": 0.98824,
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
           "alpha": 1
         },
         "borderRadius": 4,
         "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         },
         "fontName": "StagSans",
@@ -13441,7 +13467,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.61.0",
+    "themeTokensVersion": "2.62.0",
     "name": "theme-koodo"
   }
 }

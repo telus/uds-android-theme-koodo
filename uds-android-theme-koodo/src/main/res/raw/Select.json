@@ -1,5 +1,9 @@
 {
   "appearances": {
+    "active": {
+      "values": [true],
+      "type": "state"
+    },
     "focus": {
       "description": "Focus states for some input elements are well supported across web, RN, ios and android",
       "values": [true],
@@ -101,6 +105,14 @@
           "alpha": 1
         },
         "icon": null
+      }
+    },
+    {
+      "if": {
+        "active": true
+      },
+      "tokens": {
+        "icon": "PaletteIconChevronUp"
       }
     }
   ],

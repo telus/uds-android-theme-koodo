@@ -3,7 +3,7 @@
     "background": {
       "description": "Defines background related attributes of Card",
       "type": "variant",
-      "values": ["alternative", "subtle", "grid", "feature"]
+      "values": ["alternative", "subtle", "grid", "feature", "plain"]
     },
     "borderRadius": {
       "type": "variant",
@@ -188,6 +188,20 @@
           "alpha": 1
         },
         "borderRadius": 8,
+        "borderWidth": 0
+      }
+    },
+    {
+      "if": {
+        "background": "plain"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
         "borderWidth": 0
       }
     },

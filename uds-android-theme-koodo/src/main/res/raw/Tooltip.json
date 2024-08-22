@@ -31,16 +31,16 @@
     "arrowOffset": 4,
     "arrowWidth": 8,
     "backgroundColor": {
-      "red": 0.87843,
-      "green": 0.84706,
-      "blue": 0.98824,
+      "red": 0.34902,
+      "green": 0.34902,
+      "blue": 0.34902,
       "alpha": 1
     },
     "borderRadius": 4,
     "color": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
+      "red": 1,
+      "green": 1,
+      "blue": 1,
       "alpha": 1
     },
     "fontName": "StagSans",
