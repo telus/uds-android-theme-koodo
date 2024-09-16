@@ -147,9 +147,9 @@
       "alpha": 1
     },
     "dividerColor": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
       "alpha": 1
     },
     "fontName": "StagSans",

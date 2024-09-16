@@ -1,5 +1,10 @@
 {
   "appearances": {
+    "style": {
+      "description": "Configure `style` variant for `ButtonGroup`",
+      "type": "variant",
+      "values": ["contained"]
+    },
     "viewport": {
       "description": "The size label for the current screen viewport based on the current screen width",
       "values": ["xs", "sm", "md", "lg", "xl"],
@@ -17,6 +22,7 @@
         "viewport": ["xs", "sm"]
       },
       "tokens": {
+        "gap": 3,
         "space": 2
       }
     },
@@ -37,15 +43,40 @@
         "alignItems": "stretch",
         "direction": "column"
       }
+    },
+    {
+      "if": {
+        "style": "contained"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.1
+        },
+        "borderRadius": 8,
+        "padding": 8,
+        "space": 2
+      }
     }
   ],
   "tokens": {
     "alignItems": "center",
+    "backgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderRadius": 0,
     "direction": "row",
     "fieldSpace": 2,
     "flexGrow": 0,
     "flexShrink": 0,
+    "gap": 2,
     "justifyContent": "flex-start",
+    "padding": 0,
     "space": 2
   }
 }

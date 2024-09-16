@@ -1,0 +1,65 @@
+{
+  "appearances": {},
+  "rules": [],
+  "tokens": {
+    "buttonBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "buttonBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "buttonBorderRadius": null,
+    "buttonBorderWidth": null,
+    "buttonHeight": null,
+    "buttonMinWidth": null,
+    "buttonTextColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "buttonWidth": null,
+    "notificationBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "notificationBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "notificationBorderRadius": null,
+    "notificationDismissButtonGap": null,
+    "notificationDismissIcon": null,
+    "notificationDismissIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "notificationIcon": null,
+    "notificationIconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "notificationIconGap": null,
+    "notificationIconSize": null,
+    "notificationTextColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    }
+  }
+}

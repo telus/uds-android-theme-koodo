@@ -443,6 +443,7 @@
       "alpha": 1
     },
     "iconGradient": null,
+    "marginLeft": 8,
     "paddingBottom": 0,
     "paddingLeft": 0,
     "paddingRight": 0,
