@@ -94,9 +94,9 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "opacity": 0.5,
@@ -121,9 +121,9 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "icon": "PaletteIconCheck",

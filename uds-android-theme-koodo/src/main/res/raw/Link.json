@@ -6,7 +6,7 @@
     },
     "iconPosition": {
       "description": "Theme styles to be applied to icon links depending on where the icon is in relation to the link text",
-      "values": ["left", "right"],
+      "values": ["left", "right", "inline"],
       "type": "state"
     },
     "inverse": {

@@ -46,6 +46,10 @@
     "fieldSpace": 3,
     "outlineOffset": 8,
     "outlineWidth": 1,
+    "paddingBottom": 24,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "paddingTop": 24,
     "showIcon": true,
     "space": 3
   }

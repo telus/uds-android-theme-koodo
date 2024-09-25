@@ -1,0 +1,41 @@
+{
+  "appearances": {
+    "pressed": {
+      "description": "Applies while an interactive component is being physically pressed. Most visible on touchscreen taps; in React Native Web, this is visible on web mouse clicks only if the pressable is held down.",
+      "values": [true, false],
+      "type": "state"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "pressed": true
+      },
+      "tokens": {
+        "borderColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "borderRadius": 4
+      }
+    }
+  ],
+  "tokens": {
+    "androidENIcon": "PaletteIconAndroidEN",
+    "androidFRIcon": "PaletteIconAndroidFR",
+    "borderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "borderGap": 2,
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "iosENIcon": "PaletteIconIOSEN",
+    "iosFRIcon": "PaletteIconIOSFR",
+    "padding": 1
+  }
+}
