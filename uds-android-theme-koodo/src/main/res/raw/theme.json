@@ -169,9 +169,9 @@
       ],
       "tokens": {
         "color": {
-          "red": 0.47843,
-          "green": 0.23922,
-          "blue": 0.98824,
+          "red": 1,
+          "green": 0,
+          "blue": 0.46275,
           "alpha": 1
         },
         "size": 24,
@@ -2562,6 +2562,7 @@
           "blue": 1,
           "alpha": 1
         },
+        "backgroundGradient": null,
         "borderColor": {
           "red": 0.78824,
           "green": 0.78431,
@@ -6000,9 +6001,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.47843,
-              "green": 0.23922,
-              "blue": 0.98824,
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
               "alpha": 1
             }
           }
@@ -6014,9 +6015,9 @@
           },
           "tokens": {
             "color": {
-              "red": 0.4,
-              "green": 0.4,
-              "blue": 0.4,
+              "red": 0.25098,
+              "green": 0.25098,
+              "blue": 0.25098,
               "alpha": 1
             }
           }
@@ -6209,12 +6210,12 @@
         "itemFontSize": 16,
         "itemFontWeight": 400,
         "itemIconColor": {
-          "red": 1,
+          "red": 0,
           "green": 0,
-          "blue": 0.46275,
+          "blue": 0,
           "alpha": 1
         },
-        "itemIconSize": 16,
+        "itemIconSize": 24,
         "itemLineHeight": 1.3,
         "itemTextColor": {
           "red": 0,
@@ -7840,6 +7841,7 @@
         }
       ],
       "tokens": {
+        "alignItemsText": "flex-start",
         "amountFontName": "StagSans",
         "amountFontSize": 44,
         "amountFontWeight": 700,
@@ -7970,7 +7972,20 @@
         },
         "borderRadius": 12,
         "borderWidth": 1,
-        "height": 16
+        "height": 16,
+        "shadow": {
+          "inset": true,
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 2,
+          "spread": 0,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0.1
+          }
+        }
       }
     },
     "ProgressBar": {
@@ -8040,7 +8055,8 @@
           "blue": 0.34902,
           "alpha": 1
         },
-        "outlineWidth": 1
+        "outlineWidth": 1,
+        "shadow": null
       }
     },
     "QuantitySelector": {
@@ -13841,7 +13857,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.64.0",
+    "themeTokensVersion": "2.65.0",
     "name": "theme-koodo"
   }
 }

@@ -87,12 +87,12 @@
     "itemFontSize": 16,
     "itemFontWeight": 400,
     "itemIconColor": {
-      "red": 1,
+      "red": 0,
       "green": 0,
-      "blue": 0.46275,
+      "blue": 0,
       "alpha": 1
     },
-    "itemIconSize": 16,
+    "itemIconSize": 24,
     "itemLineHeight": 1.3,
     "itemTextColor": {
       "red": 0,

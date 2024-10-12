@@ -19,9 +19,9 @@
   ],
   "tokens": {
     "color": {
-      "red": 0.47843,
-      "green": 0.23922,
-      "blue": 0.98824,
+      "red": 1,
+      "green": 0,
+      "blue": 0.46275,
       "alpha": 1
     },
     "size": 24,

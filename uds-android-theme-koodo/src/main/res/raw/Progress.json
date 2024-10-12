@@ -30,6 +30,19 @@
     },
     "borderRadius": 12,
     "borderWidth": 1,
-    "height": 16
+    "height": 16,
+    "shadow": {
+      "inset": true,
+      "offsetX": 0,
+      "offsetY": 2,
+      "blur": 2,
+      "spread": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0.1
+      }
+    }
   }
 }

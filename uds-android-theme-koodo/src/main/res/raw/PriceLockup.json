@@ -85,6 +85,7 @@
     }
   ],
   "tokens": {
+    "alignItemsText": "flex-start",
     "amountFontName": "StagSans",
     "amountFontSize": 44,
     "amountFontWeight": 700,
