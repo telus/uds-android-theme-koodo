@@ -6568,6 +6568,8 @@
           "tokens": {
             "direction": "column",
             "height": "100%",
+            "marginLeft": 24,
+            "marginRight": 24,
             "paddingBottom": 24,
             "paddingLeft": 24,
             "paddingRight": 24,
@@ -6708,6 +6710,7 @@
         "containerPaddingRight": 0,
         "containerPaddingTop": 0,
         "direction": "row",
+        "footerTopWidth": 0,
         "gap": 16,
         "headingColor": {
           "red": 0,
@@ -6717,8 +6720,8 @@
         },
         "headingPaddingRight": 24,
         "height": null,
-        "marginLeft": 24,
-        "marginRight": 24,
+        "marginLeft": 32,
+        "marginRight": 32,
         "maxWidth": "100%",
         "paddingBottom": 24,
         "paddingLeft": 24,
@@ -6727,14 +6730,14 @@
         "shadow": {
           "inset": false,
           "offsetX": 0,
-          "offsetY": 0,
-          "blur": 0,
+          "offsetY": 4,
+          "blur": 8,
           "spread": 0,
           "color": {
             "red": 0,
             "green": 0,
             "blue": 0,
-            "alpha": 0
+            "alpha": 0.1
           }
         },
         "subHeadingMarginTop": 8
@@ -6846,29 +6849,29 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "borderColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             },
             "color": {
-              "red": 1,
-              "green": 1,
-              "blue": 1,
+              "red": 0,
+              "green": 0,
+              "blue": 0,
               "alpha": 1
             },
             "fontName": "StagSans",
             "fontWeight": 600,
             "outerBorderColor": {
-              "red": 0,
-              "green": 0,
-              "blue": 0,
+              "red": 0.78824,
+              "green": 0.78431,
+              "blue": 0.78431,
               "alpha": 1
             }
           }
@@ -6896,6 +6899,12 @@
               "green": 0.78431,
               "blue": 0.78431,
               "alpha": 1
+            },
+            "outerBorderColor": {
+              "red": 0.34902,
+              "green": 0.34902,
+              "blue": 0.34902,
+              "alpha": 1
             }
           }
         },
@@ -6906,6 +6915,14 @@
           "tokens": {
             "textAlign": "space-between",
             "width": 288
+          }
+        },
+        {
+          "if": {
+            "viewport": ["xl"]
+          },
+          "tokens": {
+            "borderRadius": 32
           }
         },
         {
@@ -6960,13 +6977,13 @@
           "alpha": 1
         },
         "borderColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "borderRadius": 4,
-        "borderWidth": 4,
+        "borderWidth": 0,
         "color": {
           "red": 0,
           "green": 0,
@@ -6987,13 +7004,13 @@
           "alpha": 0
         },
         "outerBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
         },
         "outerBorderGap": 0,
-        "outerBorderWidth": 0,
+        "outerBorderWidth": 1,
         "paddingBottom": 6,
         "paddingLeft": 16,
         "paddingRight": 16,
@@ -13857,7 +13874,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "2.65.0",
+    "themeTokensVersion": "2.66.0",
     "name": "theme-koodo"
   }
 }

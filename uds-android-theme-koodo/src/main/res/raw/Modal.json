@@ -24,6 +24,8 @@
       "tokens": {
         "direction": "column",
         "height": "100%",
+        "marginLeft": 24,
+        "marginRight": 24,
         "paddingBottom": 24,
         "paddingLeft": 24,
         "paddingRight": 24,
@@ -164,6 +166,7 @@
     "containerPaddingRight": 0,
     "containerPaddingTop": 0,
     "direction": "row",
+    "footerTopWidth": 0,
     "gap": 16,
     "headingColor": {
       "red": 0,
@@ -173,8 +176,8 @@
     },
     "headingPaddingRight": 24,
     "height": null,
-    "marginLeft": 24,
-    "marginRight": 24,
+    "marginLeft": 32,
+    "marginRight": 32,
     "maxWidth": "100%",
     "paddingBottom": 24,
     "paddingLeft": 24,
@@ -183,14 +186,14 @@
     "shadow": {
       "inset": false,
       "offsetX": 0,
-      "offsetY": 0,
-      "blur": 0,
+      "offsetY": 4,
+      "blur": 8,
       "spread": 0,
       "color": {
         "red": 0,
         "green": 0,
         "blue": 0,
-        "alpha": 0
+        "alpha": 0.1
       }
     },
     "subHeadingMarginTop": 8

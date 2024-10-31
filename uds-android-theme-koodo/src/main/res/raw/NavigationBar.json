@@ -28,29 +28,29 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "borderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "color": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "fontName": "StagSans",
         "fontWeight": 600,
         "outerBorderColor": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         }
       }
@@ -78,6 +78,12 @@
           "green": 0.78431,
           "blue": 0.78431,
           "alpha": 1
+        },
+        "outerBorderColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
         }
       }
     },
@@ -88,6 +94,14 @@
       "tokens": {
         "textAlign": "space-between",
         "width": 288
+      }
+    },
+    {
+      "if": {
+        "viewport": ["xl"]
+      },
+      "tokens": {
+        "borderRadius": 32
       }
     },
     {
@@ -142,13 +156,13 @@
       "alpha": 1
     },
     "borderColor": {
-      "red": 1,
-      "green": 1,
-      "blue": 1,
-      "alpha": 1
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
     },
     "borderRadius": 4,
-    "borderWidth": 4,
+    "borderWidth": 0,
     "color": {
       "red": 0,
       "green": 0,
@@ -169,13 +183,13 @@
       "alpha": 0
     },
     "outerBorderColor": {
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "alpha": 0
+      "red": 0.78824,
+      "green": 0.78431,
+      "blue": 0.78431,
+      "alpha": 1
     },
     "outerBorderGap": 0,
-    "outerBorderWidth": 0,
+    "outerBorderWidth": 1,
     "paddingBottom": 6,
     "paddingLeft": 16,
     "paddingRight": 16,
