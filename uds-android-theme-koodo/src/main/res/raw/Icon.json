@@ -326,6 +326,7 @@
       "alpha": 1
     },
     "padding": 0,
+    "paddingTop": 0,
     "scale": 1,
     "size": 24,
     "translateX": 0,

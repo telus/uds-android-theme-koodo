@@ -8,6 +8,11 @@
     "negative": {
       "type": "variant",
       "values": [true]
+    },
+    "style": {
+      "description": "Configure `style` variant for `ProgressBar`",
+      "type": "variant",
+      "values": ["subtle", "inverse", "inactive", "negative"]
     }
   },
   "rules": [
@@ -33,6 +38,84 @@
     {
       "if": {
         "negative": true
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "outlineColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "subtle"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "inverse"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "gradient": null,
+        "outlineColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "inactive"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
+        "outlineColor": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "style": "negative"
       },
       "tokens": {
         "backgroundColor": {

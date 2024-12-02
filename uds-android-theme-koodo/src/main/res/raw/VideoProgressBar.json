@@ -8,6 +8,8 @@
       "blue": 0,
       "alpha": 0
     },
+    "remainingTimestampMarginLeft": 8,
+    "remainingTimestampMarginRight": 0,
     "thumbBackground": {
       "red": 1,
       "green": 1,
@@ -16,7 +18,7 @@
     },
     "thumbHeight": 8,
     "thumbWidth": 8,
-    "timestampMarginLeft": 8,
+    "timestampMarginLeft": 0,
     "timestampMarginRight": 8,
     "trackGradientEnd": {
       "red": 0.47843,

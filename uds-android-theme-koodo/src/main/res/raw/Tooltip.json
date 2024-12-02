@@ -47,6 +47,8 @@
     "fontSize": 14,
     "fontWeight": 400,
     "lineHeight": 1.4,
+    "maxWidth": 288,
+    "minWidth": 0,
     "paddingBottom": 8,
     "paddingLeft": 16,
     "paddingRight": 16,
