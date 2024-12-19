@@ -178,6 +178,20 @@
         "thickness": 2
       }
     },
+    "Autocomplete": {
+      "appearances": {},
+      "rules": [],
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "maxHeight": "100%",
+        "overflowY": "visible"
+      }
+    },
     "Badge": {
       "appearances": {
         "alternative": {
@@ -2620,7 +2634,9 @@
           }
         },
         "inputWidth": 32,
+        "maxHeight": "100%",
         "minWidth": null,
+        "overflowY": "visible",
         "paddingBottom": 32,
         "paddingLeft": 24,
         "paddingRight": 24,
@@ -6156,6 +6172,7 @@
             "iconMarginTop": 2,
             "itemFontSize": 14,
             "itemIconSize": 14,
+            "itemLineHeight": 1.42857142857,
             "listGutter": 10
           }
         },
@@ -6165,7 +6182,7 @@
           },
           "tokens": {
             "iconMarginTop": 1,
-            "itemLineHeight": 1.2
+            "itemLineHeight": 1.25
           }
         },
         {
@@ -6174,7 +6191,7 @@
             "size": "small"
           },
           "tokens": {
-            "itemLineHeight": 1.1
+            "itemLineHeight": 1.14285714286
           }
         },
         {
@@ -6196,7 +6213,7 @@
           "alpha": 1
         },
         "dividerSize": 1,
-        "iconMarginTop": 2,
+        "iconMarginTop": 0,
         "interItemMargin": 8,
         "interItemMarginWithDivider": 16,
         "itemBulletColor": {
@@ -6217,14 +6234,14 @@
           "alpha": 1
         },
         "itemIconSize": 24,
-        "itemLineHeight": 1.3,
+        "itemLineHeight": 1.5,
         "itemTextColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
           "alpha": 1
         },
-        "listGutter": 10
+        "listGutter": 8
       }
     },
     "Listbox": {
@@ -14012,7 +14029,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "3.1.0",
+    "themeTokensVersion": "3.2.0",
     "name": "theme-koodo"
   }
 }
