@@ -140,6 +140,8 @@
       "blue": 0,
       "alpha": 0
     },
+    "iconLeftGap": 5,
+    "iconLeftPaddingBottom": 5,
     "iconSize": 24,
     "leftIconPaddingBottom": 5,
     "lineHeight": 1.5,

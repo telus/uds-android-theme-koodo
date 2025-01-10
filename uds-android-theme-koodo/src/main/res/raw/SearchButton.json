@@ -120,6 +120,12 @@
       "alpha": 1
     },
     "iconSize": 20,
+    "mobileBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
     "opacity": 1,
     "paddingBottom": 8,
     "paddingLeft": 8,

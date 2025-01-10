@@ -85,7 +85,15 @@
     "fontName": "StagSans",
     "fontSize": 16,
     "fontWeight": 400,
+    "iconLeftColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconLeftSize": 20,
     "lineHeight": 1.5,
+    "mobileBorderWidth": 1,
     "outerBackgroundColor": {
       "red": 0.25098,
       "green": 0.25098,
