@@ -209,6 +209,10 @@
         "purpose": {
           "type": "variant",
           "values": ["offer", "editorial", "subtle"]
+        },
+        "size": {
+          "type": "variant",
+          "values": ["compact"]
         }
       },
       "rules": [
@@ -332,9 +336,9 @@
           },
           "tokens": {
             "backgroundColor": {
-              "red": 0.63137,
-              "green": 0.92941,
-              "blue": 0,
+              "red": 0.87843,
+              "green": 0.84706,
+              "blue": 0.98824,
               "alpha": 1
             },
             "borderColor": {
@@ -364,9 +368,9 @@
               "alpha": 0
             },
             "borderColor": {
-              "red": 0.63137,
-              "green": 0.92941,
-              "blue": 0,
+              "red": 0.87843,
+              "green": 0.84706,
+              "blue": 0.98824,
               "alpha": 1
             }
           }
@@ -421,6 +425,18 @@
               "blue": 0,
               "alpha": 1
             }
+          }
+        },
+        {
+          "if": {
+            "size": "compact"
+          },
+          "tokens": {
+            "fontSize": 14,
+            "paddingBottom": 0,
+            "paddingLeft": 3,
+            "paddingRight": 3,
+            "paddingTop": 0
           }
         }
       ],
