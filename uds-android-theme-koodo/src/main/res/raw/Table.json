@@ -1,5 +1,9 @@
 {
   "appearances": {
+    "highlight": {
+      "type": "variant",
+      "values": ["row"]
+    },
     "spacing": {
       "description": "Adjusts the height of the table cell",
       "type": "variant",
@@ -15,6 +19,25 @@
     }
   },
   "rules": [
+    {
+      "if": {
+        "highlight": "row"
+      },
+      "tokens": {
+        "cellBackground": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "rowHoverBackgroundColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.05
+        }
+      }
+    },
     {
       "if": {
         "spacing": "compact"
@@ -201,6 +224,14 @@
       "blue": 1,
       "alpha": 1
     },
+    "cellBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "cellBorderTopWidth": 0,
+    "cellBorderWidth": 0,
     "cellBoxShadowColor": {
       "red": 0.93725,
       "green": 0.93725,
@@ -236,6 +267,20 @@
     "fontSize": 16,
     "fontWeight": 400,
     "lineHeight": 1.5,
+    "rowBorderColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "rowBorderTopWidth": 0,
+    "rowBorderWidth": 0,
+    "rowHoverBackgroundColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
     "stickyBackgroundColor": {
       "red": 1,
       "green": 1,

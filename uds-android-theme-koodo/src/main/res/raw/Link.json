@@ -27,6 +27,10 @@
       "description": "Text sizes for block links; similar but not always identical to Typography sizes.",
       "type": "variant",
       "values": ["micro", "small", "large"]
+    },
+    "style": {
+      "type": "variant",
+      "values": ["inline", "subtle", "feature", "danger", "inverse"]
     }
   },
   "rules": [
@@ -152,6 +156,311 @@
       },
       "tokens": {
         "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "underline"
+      }
+    },
+    {
+      "if": {
+        "style": "inline"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "inline"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "style": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "style": "feature"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "feature"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "style": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "style": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "style": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "quiet": true,
+        "style": "inline"
+      },
+      "tokens": {
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true,
+        "style": "inline"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "quiet": true,
+        "style": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true,
+        "style": "subtle"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "quiet": true,
+        "style": "feature"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true,
+        "style": "feature"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "quiet": true,
+        "style": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.78824,
+          "green": 0.21569,
+          "blue": 0.04314,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true,
+        "style": "danger"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.34902,
+          "green": 0.34902,
+          "blue": 0.34902,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "quiet": true,
+        "style": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "pressed": true,
+        "quiet": true,
+        "style": "inverse"
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        }
       }
     }
   ],

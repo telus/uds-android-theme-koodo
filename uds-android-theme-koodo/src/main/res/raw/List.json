@@ -17,11 +17,10 @@
         "size": "large"
       },
       "tokens": {
-        "iconMarginTop": 2,
+        "iconMarginTop": 4,
         "itemFontSize": 20,
         "itemIconSize": 20,
-        "itemLineHeight": 1.4,
-        "listGutter": 16
+        "itemLineHeight": 1.4
       }
     },
     {
@@ -29,11 +28,10 @@
         "size": "small"
       },
       "tokens": {
-        "iconMarginTop": 2,
+        "iconMarginTop": 0,
         "itemFontSize": 14,
-        "itemIconSize": 14,
-        "itemLineHeight": 1.42857142857,
-        "listGutter": 10
+        "itemIconSize": 20,
+        "itemLineHeight": 1.42857142857
       }
     },
     {
@@ -65,7 +63,7 @@
     }
   ],
   "tokens": {
-    "bulletIcon": "PaletteIconBulletFill",
+    "bulletIcon": "PaletteIconBullet",
     "dividerColor": {
       "red": 0.78824,
       "green": 0.78431,
@@ -73,7 +71,7 @@
       "alpha": 1
     },
     "dividerSize": 1,
-    "iconMarginTop": 0,
+    "iconMarginTop": 2,
     "interItemMargin": 8,
     "interItemMarginWithDivider": 16,
     "itemBulletColor": {
@@ -83,7 +81,8 @@
       "alpha": 1
     },
     "itemBulletContainerAlign": "center",
-    "itemBulletContainerWidth": 16,
+    "itemBulletContainerHeight": 20,
+    "itemBulletContainerWidth": 24,
     "itemFontName": "StagSans",
     "itemFontSize": 16,
     "itemFontWeight": 400,
@@ -93,7 +92,7 @@
       "blue": 0,
       "alpha": 1
     },
-    "itemIconSize": 24,
+    "itemIconSize": 20,
     "itemLineHeight": 1.5,
     "itemTextColor": {
       "red": 0,

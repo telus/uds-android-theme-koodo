@@ -15,6 +15,11 @@
       "type": "variant",
       "values": [true]
     },
+    "quiet": {
+      "description": "When it is true, it does not show the decoration",
+      "type": "state",
+      "values": [true, false]
+    },
     "size": {
       "type": "variant",
       "values": ["micro", "small", "large"]
@@ -88,6 +93,50 @@
       "tokens": {
         "fontSize": 20,
         "lineHeight": 1.4
+      }
+    },
+    {
+      "if": {
+        "quiet": true
+      },
+      "tokens": {
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "alternative": true,
+        "quiet": true
+      },
+      "tokens": {
+        "color": {
+          "red": 0.4,
+          "green": 0.4,
+          "blue": 0.4,
+          "alpha": 1
+        },
+        "textLine": "none"
+      }
+    },
+    {
+      "if": {
+        "inverse": true,
+        "quiet": true
+      },
+      "tokens": {
+        "color": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "iconColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "textLine": "none"
       }
     }
   ],

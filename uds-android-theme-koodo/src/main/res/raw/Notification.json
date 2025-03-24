@@ -26,9 +26,8 @@
         "viewport": ["xl"]
       },
       "tokens": {
-        "containerPaddingLeft": 16,
-        "containerPaddingRight": 16,
-        "justifyContent": "center"
+        "containerPaddingLeft": 0,
+        "containerPaddingRight": 0
       }
     },
     {

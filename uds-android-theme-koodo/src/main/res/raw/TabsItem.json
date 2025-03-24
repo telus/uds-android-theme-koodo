@@ -27,11 +27,12 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 1,
-          "green": 1,
-          "blue": 1,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.1
         },
+        "borderRadius": 99,
         "color": {
           "red": 0,
           "green": 0,
@@ -54,11 +55,12 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.2
         },
+        "borderRadius": 99,
         "highlightBarBorderWidth": 0
       }
     },
@@ -87,18 +89,25 @@
         "selected": true
       },
       "tokens": {
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 1
+        },
+        "borderRadius": 99,
         "color": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
+          "red": 0,
+          "green": 0,
+          "blue": 0,
           "alpha": 1
         },
         "highlightBarBorderWidth": 1,
         "highlightBarHeight": 1,
         "highlightColor": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
+          "red": 1,
+          "green": 1,
+          "blue": 1,
           "alpha": 1
         }
       }
@@ -109,12 +118,13 @@
         "pressed": true
       },
       "tokens": {
-        "color": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
-          "alpha": 1
+        "backgroundColor": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.4
         },
+        "borderRadius": 99,
         "highlightBarBorderWidth": 0
       }
     },
@@ -129,10 +139,10 @@
   ],
   "tokens": {
     "backgroundColor": {
-      "red": 1,
-      "green": 1,
-      "blue": 1,
-      "alpha": 1
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
     },
     "borderColor": {
       "red": 0,
@@ -143,9 +153,9 @@
     "borderRadius": 0,
     "borderWidth": 0,
     "color": {
-      "red": 0.4,
-      "green": 0.4,
-      "blue": 0.4,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
       "alpha": 1
     },
     "fontName": "StagSans",
@@ -164,10 +174,12 @@
     "highlightTriangleSize": 0,
     "letterSpacing": 0,
     "lineHeight": 1.5,
+    "marginHorizontal": 4,
+    "marginVertical": 0,
     "maxWidth": null,
     "paddingHorizontal": 24,
     "paddingVertical": 4,
-    "space": 0,
+    "space": 1,
     "textAlign": "center",
     "textTransform": "none"
   }
