@@ -22,16 +22,6 @@
   "rules": [
     {
       "if": {
-        "system": true,
-        "viewport": ["xl"]
-      },
-      "tokens": {
-        "containerPaddingLeft": 0,
-        "containerPaddingRight": 0
-      }
-    },
-    {
-      "if": {
         "system": true
       },
       "tokens": {
@@ -39,11 +29,7 @@
         "borderRadius": 0,
         "borderRightWidth": 0,
         "borderTopWidth": 0,
-        "iconGap": 8,
-        "paddingBottom": 12,
-        "paddingLeft": 12,
-        "paddingRight": 12,
-        "paddingTop": 12
+        "iconGap": 8
       }
     },
     {
@@ -55,11 +41,7 @@
         "borderRadius": 0,
         "borderRightWidth": 0,
         "borderTopWidth": 0,
-        "iconGap": 8,
-        "paddingBottom": 12,
-        "paddingLeft": 12,
-        "paddingRight": 12,
-        "paddingTop": 12
+        "iconGap": 8
       }
     },
     {
@@ -72,11 +54,7 @@
         "borderRadius": 6,
         "borderRightWidth": 0,
         "borderTopWidth": 0,
-        "iconGap": 8,
-        "paddingBottom": 12,
-        "paddingLeft": 12,
-        "paddingRight": 12,
-        "paddingTop": 12
+        "iconGap": 8
       }
     },
     {
@@ -320,13 +298,13 @@
       "blue": 0,
       "alpha": 0
     },
-    "iconGap": 24,
+    "iconGap": 8,
     "iconSize": 24,
     "justifyContent": "flex-start",
     "lineHeight": 1.5,
     "paddingBottom": 12,
-    "paddingLeft": 12,
-    "paddingRight": 12,
+    "paddingLeft": 16,
+    "paddingRight": 16,
     "paddingTop": 12
   }
 }
