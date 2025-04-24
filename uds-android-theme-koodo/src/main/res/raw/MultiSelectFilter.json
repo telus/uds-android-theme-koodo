@@ -70,6 +70,18 @@
     }
   ],
   "tokens": {
+    "buttonBackgroundColor": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
+    "buttonBackgroundColorSelected": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
     "buttonBorderColor": {
       "red": 0,
       "green": 0,
@@ -101,6 +113,18 @@
     "headerFontSize": 14,
     "headerFontWeight": 700,
     "headerLineHeight": 1.33333333333,
+    "iconColor": {
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 1
+    },
+    "iconColorSelected": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 1
+    },
     "labelColor": {
       "red": 0,
       "green": 0,
