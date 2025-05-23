@@ -10,7 +10,7 @@
     },
     "validation": {
       "description": "Validation states for form inputs",
-      "values": ["error", "success", "warning"],
+      "values": ["error", "success", "warning", "feature"],
       "type": "state"
     },
     "viewport": {
@@ -249,6 +249,39 @@
           "red": 0.78824,
           "green": 0.21569,
           "blue": 0.04314,
+          "alpha": 1
+        }
+      }
+    },
+    {
+      "if": {
+        "validation": "feature"
+      },
+      "tokens": {
+        "backgroundColor": {
+          "red": 0.87843,
+          "green": 0.84706,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "borderColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
+          "alpha": 1
+        },
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "dismissIcon": null,
+        "icon": "PaletteIconTagFilled",
+        "iconColor": {
+          "red": 0.47843,
+          "green": 0.23922,
+          "blue": 0.98824,
           "alpha": 1
         }
       }

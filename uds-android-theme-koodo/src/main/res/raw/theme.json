@@ -4,7 +4,7 @@
       "appearances": {
         "validation": {
           "description": "Validation states for form inputs",
-          "values": ["error", "success", "warning"],
+          "values": ["error", "success", "warning", "feature"],
           "type": "state"
         }
       },
@@ -157,7 +157,11 @@
         "size": {
           "description": "used for full-screen spinners",
           "type": "variant",
-          "values": ["large"]
+          "values": ["large", "small"]
+        },
+        "style": {
+          "type": "variant",
+          "values": ["dots"]
         }
       },
       "rules": [
@@ -166,8 +170,19 @@
             "size": "large"
           },
           "tokens": {
+            "dotSize": 12,
             "size": 48,
             "thickness": 4
+          }
+        },
+        {
+          "if": {
+            "size": "small"
+          },
+          "tokens": {
+            "dotSize": 6,
+            "size": 24,
+            "thickness": 3
           }
         }
       ],
@@ -178,15 +193,21 @@
           "blue": 0.46275,
           "alpha": 1
         },
-        "dotSize": 6,
+        "dotSize": 12,
+        "fullScreenOverlayBackground": {
+          "red": 1,
+          "green": 1,
+          "blue": 1,
+          "alpha": 0.8
+        },
         "indicatorBackgroundColor": {
           "red": 1,
           "green": 0.81961,
           "blue": 0.90196,
           "alpha": 1
         },
-        "size": 24,
-        "thickness": 3
+        "size": 48,
+        "thickness": 4
       }
     },
     "Autocomplete": {
@@ -5238,7 +5259,7 @@
         },
         "validation": {
           "description": "Validation states for form inputs",
-          "values": ["error", "success", "warning"],
+          "values": ["error", "success", "warning", "feature"],
           "type": "state"
         }
       },
@@ -8128,7 +8149,7 @@
         },
         "validation": {
           "description": "Validation states for form inputs",
-          "values": ["error", "success", "warning"],
+          "values": ["error", "success", "warning", "feature"],
           "type": "state"
         },
         "viewport": {
@@ -8367,6 +8388,39 @@
               "red": 0.78824,
               "green": 0.21569,
               "blue": 0.04314,
+              "alpha": 1
+            }
+          }
+        },
+        {
+          "if": {
+            "validation": "feature"
+          },
+          "tokens": {
+            "backgroundColor": {
+              "red": 0.87843,
+              "green": 0.84706,
+              "blue": 0.98824,
+              "alpha": 1
+            },
+            "borderColor": {
+              "red": 0.47843,
+              "green": 0.23922,
+              "blue": 0.98824,
+              "alpha": 1
+            },
+            "color": {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 1
+            },
+            "dismissIcon": null,
+            "icon": "PaletteIconTagFilled",
+            "iconColor": {
+              "red": 0.47843,
+              "green": 0.23922,
+              "blue": 0.98824,
               "alpha": 1
             }
           }
@@ -10824,7 +10878,7 @@
         },
         "validation": {
           "description": "Validation states for form inputs",
-          "values": ["error", "success", "warning"],
+          "values": ["error", "success", "warning", "feature"],
           "type": "state"
         }
       },
@@ -13306,7 +13360,7 @@
         },
         "validation": {
           "description": "Validation states for form inputs",
-          "values": ["error", "success", "warning"],
+          "values": ["error", "success", "warning", "feature"],
           "type": "state"
         }
       },
@@ -15156,7 +15210,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.5.0",
+    "themeTokensVersion": "4.6.0",
     "name": "theme-koodo"
   }
 }

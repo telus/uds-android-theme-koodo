@@ -2,7 +2,7 @@
   "appearances": {
     "validation": {
       "description": "Validation states for form inputs",
-      "values": ["error", "success", "warning"],
+      "values": ["error", "success", "warning", "feature"],
       "type": "state"
     }
   },

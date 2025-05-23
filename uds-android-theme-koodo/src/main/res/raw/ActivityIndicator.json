@@ -7,7 +7,11 @@
     "size": {
       "description": "used for full-screen spinners",
       "type": "variant",
-      "values": ["large"]
+      "values": ["large", "small"]
+    },
+    "style": {
+      "type": "variant",
+      "values": ["dots"]
     }
   },
   "rules": [
@@ -16,8 +20,19 @@
         "size": "large"
       },
       "tokens": {
+        "dotSize": 12,
         "size": 48,
         "thickness": 4
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "dotSize": 6,
+        "size": 24,
+        "thickness": 3
       }
     }
   ],
@@ -28,14 +43,20 @@
       "blue": 0.46275,
       "alpha": 1
     },
-    "dotSize": 6,
+    "dotSize": 12,
+    "fullScreenOverlayBackground": {
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0.8
+    },
     "indicatorBackgroundColor": {
       "red": 1,
       "green": 0.81961,
       "blue": 0.90196,
       "alpha": 1
     },
-    "size": 24,
-    "thickness": 3
+    "size": 48,
+    "thickness": 4
   }
 }
