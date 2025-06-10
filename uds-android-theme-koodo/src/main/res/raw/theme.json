@@ -7884,12 +7884,24 @@
         },
         "buttonIconPadding": 4,
         "buttonIconSize": 20,
+        "containerBorderColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
         "contentMarginBottom": 32,
         "contentMarginLeft": 16,
         "contentMarginRight": 16,
         "contentMarginTop": 24,
         "contentPaddingLeft": 16,
         "contentPaddingRight": 16,
+        "dividerColor": {
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
+          "alpha": 1
+        },
         "headerFontColor": {
           "red": 0,
           "green": 0,
@@ -13833,6 +13845,10 @@
         "labelFontWeight": 600,
         "labelLineHeight": 1.5,
         "labelMarginLeft": 0,
+        "mobileSwitchSize": 24,
+        "mobileTrackBorderWidth": 4,
+        "mobileTrackHeight": 32,
+        "mobileWidth": 48,
         "opacity": 1,
         "outerBackgroundColor": {
           "red": 0,
@@ -15210,7 +15226,7 @@
     }
   },
   "metadata": {
-    "themeTokensVersion": "4.6.0",
+    "themeTokensVersion": "4.7.0",
     "name": "theme-koodo"
   }
 }
