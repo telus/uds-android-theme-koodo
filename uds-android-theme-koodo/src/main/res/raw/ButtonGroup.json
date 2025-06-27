@@ -11,9 +11,9 @@
       "type": "state"
     },
     "width": {
-      "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+      "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
       "type": "variant",
-      "values": ["responsive"]
+      "values": ["responsive", "equal"]
     }
   },
   "rules": [
@@ -22,7 +22,7 @@
         "viewport": ["xs", "sm"]
       },
       "tokens": {
-        "gap": 3,
+        "gap": 2,
         "space": 2
       }
     },
@@ -31,6 +31,7 @@
         "viewport": ["md", "lg", "xl"]
       },
       "tokens": {
+        "gap": 3,
         "space": 3
       }
     },

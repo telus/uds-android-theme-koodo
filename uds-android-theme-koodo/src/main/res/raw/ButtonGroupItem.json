@@ -20,18 +20,40 @@
       "values": [true],
       "type": "state"
     },
+    "size": {
+      "type": "variant",
+      "values": ["small"]
+    },
     "style": {
       "description": "Configure `style` variant for `ButtonGroupItem`",
       "type": "variant",
       "values": ["contained"]
     },
     "width": {
-      "description": "Available in default, or responsive. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport.",
+      "description": "Available in default, responsive or equal. Default-width expands based on content. Responsive automatically applies full-width when is displayed on the XS viewport, equal divide the available width equally among `ButtonGroup`",
       "type": "variant",
-      "values": ["responsive"]
+      "values": ["responsive", "equal"]
     }
   },
   "rules": [
+    {
+      "if": {
+        "width": "equal"
+      },
+      "tokens": {
+        "width": "100%"
+      }
+    },
+    {
+      "if": {
+        "size": "small"
+      },
+      "tokens": {
+        "height": 32,
+        "paddingBottom": 4,
+        "paddingTop": 4
+      }
+    },
     {
       "if": {
         "selected": true
@@ -144,7 +166,20 @@
           "alpha": 0
         },
         "borderWidth": 0,
-        "height": 40
+        "height": 40,
+        "paddingBottom": 8,
+        "paddingTop": 8
+      }
+    },
+    {
+      "if": {
+        "size": "small",
+        "style": "contained"
+      },
+      "tokens": {
+        "height": 32,
+        "paddingBottom": 6,
+        "paddingTop": 6
       }
     },
     {
@@ -234,10 +269,10 @@
     },
     "outerBorderGap": 3,
     "outerBorderWidth": 1,
-    "paddingBottom": 8,
+    "paddingBottom": 12,
     "paddingLeft": 24,
     "paddingRight": 24,
-    "paddingTop": 8,
+    "paddingTop": 12,
     "shadow": null,
     "textAlign": "center",
     "width": null
