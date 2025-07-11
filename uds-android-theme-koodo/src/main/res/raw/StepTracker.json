@@ -160,8 +160,8 @@
       "blue": 0,
       "alpha": 1
     },
-    "knobCompletedPaddingLeft": null,
-    "knobCompletedPaddingTop": null,
+    "knobCompletedPaddingLeft": 0,
+    "knobCompletedPaddingTop": 0,
     "knobCurrentBackgroundColor": {
       "red": 0,
       "green": 0,
@@ -182,8 +182,8 @@
       "alpha": 0
     },
     "knobCurrentInnerSize": null,
-    "knobCurrentPaddingLeft": 1,
-    "knobCurrentPaddingTop": 2,
+    "knobCurrentPaddingLeft": 0,
+    "knobCurrentPaddingTop": 0,
     "knobSize": 15,
     "labelColor": {
       "red": 0,
