@@ -72,32 +72,33 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.1
         },
         "borderColor": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
+          "red": 0.78824,
+          "green": 0.78431,
+          "blue": 0.78431,
           "alpha": 1
         },
         "checkboxOuterBorderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
-        "checkboxOuterBorderGap": 2,
+        "checkboxOuterBorderGap": 0,
+        "checkboxOuterBorderWidth": 0,
         "outerBorderColor": {
-          "red": 0.78824,
-          "green": 0.78431,
-          "blue": 0.78431,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "outerBorderGap": 0,
-        "outerBorderWidth": 1
+        "outerBorderWidth": 0
       }
     },
     {

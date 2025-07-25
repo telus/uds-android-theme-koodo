@@ -72,32 +72,32 @@
       },
       "tokens": {
         "backgroundColor": {
-          "red": 0.93725,
-          "green": 0.93725,
-          "blue": 0.93725,
-          "alpha": 1
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0.1
         },
         "borderColor": {
-          "red": 0.4,
-          "green": 0.4,
-          "blue": 0.4,
-          "alpha": 1
-        },
-        "outerBorderColor": {
           "red": 0.78824,
           "green": 0.78431,
           "blue": 0.78431,
           "alpha": 1
         },
+        "outerBorderColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
         "outerBorderGap": 0,
-        "outerBorderWidth": 1,
+        "outerBorderWidth": 0,
         "radioOuterBorderColor": {
           "red": 0,
           "green": 0,
           "blue": 0,
-          "alpha": 1
+          "alpha": 0
         },
-        "radioOuterBorderGap": 2
+        "radioOuterBorderGap": 0
       }
     },
     {
